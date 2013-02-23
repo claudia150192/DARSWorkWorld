@@ -2,7 +2,9 @@
 <p class='info'>Thanks for choosing to register with ESI.  Please note that you can change your information at any time.</p>
 <p class='info'>We care about your privacy!  Your information will not be shared with any third party except as aggregated usage data.  Your name will not be attributed to any activity or behavior on the site.</p>
 <%= form_for @user do |f| %>
-  <%= f.error_messages %>
+  <% @user.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
   <%= render :partial => "form", :object => f %>
   <%= f.submit "Register", :class => "button" %> <%= link_to 'Cancel', :back %>
 <% end %>
