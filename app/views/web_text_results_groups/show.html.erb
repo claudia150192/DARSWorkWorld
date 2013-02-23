@@ -1,0 +1,15 @@
+<% title h(@web_text_results_group.name) %>
+
+<p>
+  <b>Name:</b>
+  <%= @web_text_results_group.name %>
+</p>
+
+<p>
+  <b>Order:</b>
+  <%= @web_text_results_group.order %>
+</p>
+
+
+<%= link_to 'Edit', edit_web_text_results_group_path(@web_text_results_group) %> |
+<%= link_to 'Back to Web Text Results Group', web_text_results_groups_path %>

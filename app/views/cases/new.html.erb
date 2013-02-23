@@ -1,0 +1,14 @@
+<h1>New case</h1>
+
+<%= form_for(@case) do |f| %>
+  <%= f.error_messages %>
+
+  <%= render :partial => "form", :object => f %>
+  <p>
+    <%= f.submit 'Save', :class => "button" %> <%= cancel_link %>
+  </p>
+<% end %>
+
+<% if can? :manage, @question %>
+	<%= link_to 'Back to cases', cases_path %>
+<% end %>

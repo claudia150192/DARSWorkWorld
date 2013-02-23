@@ -1,0 +1,74 @@
+<% title "Listing federal rates" %>
+
+<table>
+  <tr>
+    <th>Start date</th>
+    <th>End date</th>
+    <th>Fbr amount</th>
+    <th>Fbr couple amount</th>
+    <th>Pmv amount</th>
+    <th>Pmv couple amount</th>
+    <th>Two thirds fbr amount</th>
+    <th>Two thirds fbr couple amount</th>
+    <th>Services amount</th>
+    <th>Sga disabled amount</th>
+    <th>Sga blind amount</th>
+    <th>Gen exclude amount</th>
+    <th>Earned inc disregard amount</th>
+    <th>Seie max monthly</th>
+    <th>Seie max year</th>
+    <th>Care B Premium</th>
+    <th>Ssi Resource Limit</th>
+    <th>Couple Ssi Resource Limit</th>
+    <th>Caid Most Groups Resource Limit</th>
+	<th>Couple Caid Most Groups Resource Limit</th>
+	<th>Qwdi Resource Limit</th>
+	<th>Couple Qwdi Resource Limit</th>
+	<th>Qmb Slmb Qi Resource Limit</th>
+	<th>Couple Qmb Slmb Qi Resource Limit</th>
+	<th>Ltc Caid Spousal Resource Standard</th>
+	<th>Ltc Caid Spousal Max Resource Standard</th>
+	<th>Infreq Or Irreg Unearn Per Quarter</th>
+	<th>Infreq Or Irreg Earn Per Quarter </th>
+  </tr>
+
+<% @federal_rates.each do |federal_rate| %>
+  <tr>
+    <td><%=h federal_rate.start_date %></td>
+    <td><%=h federal_rate.end_date %></td>
+    <td><%=h federal_rate.fbr_amount %></td>
+    <td><%=h federal_rate.fbr_couple_amount %></td>
+    <td><%=h federal_rate.pmv_amount %></td>
+    <td><%=h federal_rate.pmv_couple_amount %></td>
+    <td><%=h federal_rate.two_thirds_fbr_amount %></td>
+    <td><%=h federal_rate.two_thirds_fbr_couple_amount %></td>
+    <td><%=h federal_rate.services_amount %></td>
+    <td><%=h federal_rate.sga_disabled_amount %></td>
+    <td><%=h federal_rate.sga_blind_amount %></td>
+    <td><%=h federal_rate.gen_exclude_amount %></td>
+    <td><%=h federal_rate.earned_inc_disregard_amount %></td>
+    <td><%=h federal_rate.seie_max_monthly %></td>
+    <td><%=h federal_rate.seie_max_year %></td>
+    <td><%=h federal_rate.RateCareBPremium %></td>
+    <td><%=h federal_rate.RateSsiResourceLimit %></td>
+    <td><%=h federal_rate.RateCoupleSsiResourceLimit %></td>
+	<td><%=h federal_rate.RateCaidMostGroupsResourceLimit %></td>
+	<td><%=h federal_rate.RateCoupleCaidMostGroupsResourceLimit %></td>
+	<td><%=h federal_rate.RateQwdiResouceLimit %></td>
+	<td><%=h federal_rate.RateCoupleQwdiResouceLimit %></td>
+	<td><%=h federal_rate.RateQmbSlmbQiResouceLimit %></td>
+	<td><%=h federal_rate.RateCoupleQmbSlmbQiResouceLimit %></td>
+	<td><%=h federal_rate.RateLtcCaidSpousalResourceStandard %></td>
+	<td><%=h federal_rate.RateLtcCaidSpousalMaxResourceStandard %></td>
+	<td><%=h federal_rate.RateInfreqOrIrregUnearnPerQuarterAmt %></td>
+	<td><%=h federal_rate.RateInfreqOrIrregEarnPerQuarterAmt %></td>
+    <td><%= link_to 'Show', federal_rate %></td>
+    <td><%= link_to 'Edit', edit_federal_rate_path(federal_rate) %></td>
+    <td><%= link_to 'Delete', federal_rate, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New federal rate', new_federal_rate_path %>

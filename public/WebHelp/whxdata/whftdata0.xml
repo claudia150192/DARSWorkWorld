@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ftstdata>
+<topic name="Welcome" url="workworld/welcome.htm" />
+<topic name="Question - Birthdate" url="workworld/questions/question_birthdate.htm" />
+<topic name="Question - Situation Date" url="workworld/questions/question_situation_date.htm" />
+<topic name="Question - State" url="workworld/questions/question_state.htm" />
+<topic name="Question - Blind" url="workworld/questions/question_blind.htm" />
+<topic name="Question - Benefits Planning Query [BPQY]" url="workworld/questions/question_benefits_planning_query_bpqy_.htm" />
+<topic name="Question - Situation Name" url="workworld/questions/question_situation_name.htm" />
+<topic name="Question - Locality" url="workworld/questions/question_locality.htm" />
+<topic name="Question - Married" url="workworld/questions/question_married.htm" />
+<topic name="Question - Living with Spouse" url="workworld/questions/question_living_with_spouse.htm" />
+<topic name="Question - Spouse Birthdate" url="workworld/questions/question_spouse_birthdate.htm" />
+<topic name="Question - Spouse Blind" url="workworld/questions/question_spouse_blind.htm" />
+<topic name="Question - Disability" url="workworld/questions/question_disability.htm" />
+<topic name="Question - Spouse Disability" url="workworld/questions/question_spouse_disability.htm" />
+<topic name="Question - Living with Spouse and Own Parents" url="workworld/questions/question_living_with_spouse_and_own_parents.htm" />
+<topic name="Question - Living with Spouse and Parents of Spouse" url="workworld/questions/question_living_with_spouse_and_parents_of_spouse.htm" />
+<topic name="Question - Living with Spouse and Other Adults" url="workworld/questions/question_living_with_spouse_and_other_adults.htm" />
+<topic name="Question - Living with Spouse in Facility" url="workworld/questions/question_living_with_spouse_in_facility.htm" />
+<topic name="Question - Spouse Living in Facility" url="workworld/questions/question_spouse_living_in_facility.htm" />
+<topic name="Question - Living Alone" url="workworld/questions/question_living_alone.htm" />
+<topic name="Question - Living with Parents" url="workworld/questions/question_living_with_parents.htm" />
+<topic name="Question - Living with Other Adults" url="workworld/questions/question_living_with_other_adults.htm" />
+<topic name="Question - Living in Facility" url="workworld/questions/question_living_in_facility.htm" />
+<topic name="Question - Receive Supplemental Security Income [SSI]" url="workworld/questions/question_receive_supplemental_security_income_ssi_.htm" />
+<topic name="Question - Final Determination Letter" url="workworld/questions/question_final_determination_letter.htm" />
+<topic name="Question - 12 Months Since Onset for SSI" url="workworld/questions/question_12_months_since_onset_for_ssi.htm" />
+<topic name="Question - Living in Facility Supported by Auxiliary Grant" url="workworld/questions/question_living_in_facility_supported_by_auxiliary_grant.htm" />
+<topic name="Question - Living with Spouse in Facility Supported by Aux Grant" url="workworld/questions/question_living_with_spouse_in_facility_supported_by_aux_grant.htm" />
+<topic name="Question - Actual Monthly SSI Payment" url="workworld/questions/question_actual_monthly_ssi_payment.htm" />
+<topic name="Question - Medicaid Coverage" url="workworld/questions/question_medicaid_coverage.htm" />
+<topic name="Question - Medicaid Covered Group" url="workworld/questions/question_medicaid_covered_group.htm" />
+<topic name="Question - Receive Institutional Care Medicaid Services" url="workworld/questions/question_receive_institutional_care_medicaid_services.htm" />
+<topic name="Question - Receive Home and Community Based Care [HBC]" url="workworld/questions/question_receive_home_and_community_based_care_hbc_.htm" />
+<topic name="Question - Applying for Medicaid" url="workworld/questions/question_applying_for_medicaid.htm" />
+<topic name="Question - Applying for Medicaid Covered Group" url="workworld/questions/question_applying_for_medicaid_covered_group.htm" />
+<topic name="Question - Applying for MEDICAID WORKS" url="workworld/questions/question_applying_for_medicaid_works.htm" />
+<topic name="Question - Applying for Institutional Care Medicaid Services" url="workworld/questions/question_applying_for_institutional_care_medicaid_services.htm" />
+<topic name="Question - Applying for Home and Community Based Care [HBC]" url="workworld/questions/question_applying_for_home_and_community_based_care_hbc_.htm" />
+<topic name="Question - Spouse Considered to be Community Spouse" url="workworld/questions/question_spouse_considered_to_be_community_spouse.htm" />
+<topic name="Question - Medicaid as Protected Adult Disabled Child" url="workworld/questions/question_medicaid_as_protected_adult_disabled_child.htm" />
+<topic name="Question - Receive Social Security Disability Insurance [SSDI]" url="workworld/questions/question_receive_social_security_disability_insurance_ssdi_.htm" />
+<topic name="Question - 12 Months Since Onset for SSDI" url="workworld/questions/question_12_months_since_onset_for_ssdi.htm" />
+<topic name="Question - SSDI Benefits Based on Own Earnings Record" url="workworld/questions/question_ssdi_benefits_based_on_own_earnings_record.htm" />
+<topic name="Question - Dependent SSDI Benefits Based on Your Record" url="workworld/questions/question_dependent_ssdi_benefits_based_on_your_record.htm" />
+<topic name="Question - Disabled Adult Child" url="workworld/questions/question_disabled_adult_child.htm" />
+<topic name="Question - Onset Date of Blindness" url="workworld/questions/question_onset_date_of_blindness.htm" />
+<topic name="Question - Skills and Abilities Different Than Before Age 55" url="workworld/questions/question_skills_and_abilities_different_than_before_age_55.htm" />
+<topic name="Question - Skills and Abilities Different Than Before Onset" url="workworld/questions/question_skills_and_abilities_different_than_before_onset_.htm" />
+<topic name="Question - Actual Monthly SSDI Payment" url="workworld/questions/question_actual_monthly_ssdi_payment.htm" />
+<topic name="Question - Medicare Part A" url="workworld/questions/question_medicare_part_a.htm" />
+<topic name="Question - Medicare Part B" url="workworld/questions/question_medicare_part_b.htm" />
+<topic name="Question - Medicare Part B Premium Deduction" url="workworld/questions/question_medicare_part_b_premium_deduction.htm" />
+<topic name="Question - Medicare Part B Premium Paid Out-Of-Pocket" url="workworld/questions/question_medicare_part_b_premium_paid_out_of_pocket.htm" />
+<topic name="Question - Medicare Part B Premium" url="workworld/questions/question_medicare_part_b_premium.htm" />
+<topic name="Question - Spouse Receives SSI" url="workworld/questions/question_spouse_receives_ssi.htm" />
+<topic name="Question - Spouse Living in Facility Supported by Auxiliary Grant" url="workworld/questions/question_spouse_living_in_facility_supported_by_auxiliary_grant.htm" />
+<topic name="Question - Spouse Actual Monthly SSI Payment" url="workworld/questions/question_spouse_actual_monthly_ssi_payment.htm" />
+<topic name="Question - Medicaid Coverage of Spouse" url="workworld/questions/question_medicaid_coverage_of_spouse.htm" />
+<topic name="Question - Medicaid Covered Group of Spouse" url="workworld/questions/question_medicaid_covered_group_of_spouse.htm" />
+<topic name="Question - Spouse Receives Institutional Care Medicaid Services" url="workworld/questions/question_spouse_receives_institutional_care_medicaid_services.htm" />
+<topic name="Question - Spouse Receives Home and Community Based Care [HBC]" url="workworld/questions/question_spouse_receives_home_and_community_based_care_hbc_.htm" />
+<topic name="Question - Spouse Applying for Medicaid" url="workworld/questions/question_spouse_applying_for_medicaid.htm" />
+<topic name="Question - Spouse Applying for Medicaid Covered Group" url="workworld/questions/question_spouse_applying_for_medicaid_covered_group.htm" />
+<topic name="Question - Spouse Applying for MEDICAID WORKS" url="workworld/questions/question_spouse_applying_for_medicaid_works.htm" />
+<topic name="Question - Spouse Applying for Institutional Care Medicaid Services" url="workworld/questions/question_spouse_applying_for_institutional_care_medicaid_services.htm" />
+<topic name="Question - Spouse Applying for Home and Community Based Care [HBC]" url="workworld/questions/question_spouse_applying_for_home_and_community_based_care_hbc_.htm" />
+<topic name="Question - Considered to be Community Spouse" url="workworld/questions/question_considered_to_be_community_spouse.htm" />
+<topic name="Question - Spouse Medicaid as Protected Adult Disabled Child" url="workworld/questions/question_spouse_medicaid_as_protected_adult_disabled_child.htm" />
+<topic name="Question - Spouse Receives SSDI" url="workworld/questions/question_spouse_receives_ssdi.htm" />
+<topic name="Question - Spouse SSDI Benefits Based on Own Earnings Record" url="workworld/questions/question_spouse_ssdi_benefits_based_on_own_earnings_record.htm" />
+<topic name="Question - Dependent SSDI Benefits Based on Spouse Record" url="workworld/questions/question_dependent_ssdi_benefits_based_on_spouse_record.htm" />
+<topic name="Question - Spouse is Disabled Adult Child" url="workworld/questions/question_spouse_is_disabled_adult_child.htm" />
+<topic name="Question - Spouse Onset Date of Blindness" url="workworld/questions/question_spouse_onset_date_of_blindness.htm" />
+<topic name="Question - Spouse Skills and Abilities Different Than Before Onset" url="workworld/questions/question_spouse_skills_and_abilities_different_than_before_onset.htm" />
+
+</ftstdata>  

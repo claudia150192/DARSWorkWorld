@@ -1,0 +1,19 @@
+<% title "Listing Help Topics" %>
+
+<table>
+  <tr>
+		<th>Topic</th>
+  </tr>
+
+<% @topics.each do |topic| %>
+  <tr>
+		<td><%= topic.topic %></td>
+    <td><%= link_to 'Show', help_path(topic.id) %></td>
+    <td><%= link_to 'Edit', edit_help_path(topic) %></td>
+    <td><%= link_to 'Delete', topic, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+
+<%= link_to 'New Help Topic', new_help_path %>

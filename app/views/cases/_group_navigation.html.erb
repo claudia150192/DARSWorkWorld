@@ -1,0 +1,10 @@
+<div id="group_navigation">
+  <ul class='menu'>
+		<% parents.each do |parent| %>
+      <%= display_allinput_group parent %>
+		<% end %>
+      <li class="group-nav parent show <%= (params[:action] == 'numeric_results') ? 'current' : '' %>"><%= link_to "Numerical Results", {:controller => "situations", :action => "numeric_results", :case_id=>@case.id} %></li>
+      <li class="group-nav parent show <%= (params[:action] == 'text_results') ? 'current' : ''%>"><%= link_to "Text Results", {:controller => "situations", :action => "text_results", :case_id=>@case.id} %></li>
+      <li class="group-nav parent show <%= (params[:action] == 'graphic_results') ? 'current' : ''%>"><%= link_to "Graphical Results", {:controller => "situations", :action => "graphic_results", :case_id=>@case.id} %></li>	
+  </ul>
+</div>

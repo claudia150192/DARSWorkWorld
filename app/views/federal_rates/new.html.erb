@@ -1,0 +1,7 @@
+<% title "New federal rate" %>
+
+<% form_for(@federal_rate) do |f| %>
+  <%= f.error_messages %>
+	<%= render :partial => "form", :object => f %>
+  <%= f.submit "Create", :class => "button" %> <%= link_to 'Cancel', :back %>
+<% end %>

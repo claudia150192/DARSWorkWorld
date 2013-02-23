@@ -1,0 +1,42 @@
+	<% title "Insert Number " + @question_validation_insert.insert_number.to_s + " for " + Question.find(:first, :conditions => ['id = ?',  @question_validation_insert.question_id]).name + " Validation" %> 
+<p>
+  <b>Question Name:</b>
+
+<%= Question.find(:first, :conditions => ['id = ?',  @question_validation_insert.question_id]).name  %>
+</p>
+
+<p>
+  <b>Question text:</b>
+  <%= Question.find(:first, :conditions => ['id = ?',  @question_validation_insert.question_id]).text  %>
+</p>
+<p>
+
+<p>
+  <b>Question Validation Message with insert marker[s]:</b>
+  <%= Question.find(:first, :conditions => ['id = ?',  @question_validation_insert.question_id]).validation_message  %>
+</p>
+<p>	
+	
+  <b>Insert Number:</b>
+  <%= @question_validation_insert.insert_number %>
+</p>
+
+<p>
+  <b>WebCalc to Insert:</b>
+  <%= WebCalc.find(:first, :conditions => ['id = ?',  @question_validation_insert.webcalc_id_to_insert]).name  %>
+</p>
+
+<p>
+  <b>Insert Type:</b>
+  <%= @question_validation_insert.insert_type %>
+</p>
+
+<p>
+  <b>Insert Marker:</b>
+  <%= @question_validation_insert.insert_marker %>
+</p>
+
+<% if can? :manage, @question_validation_insert %>
+	<%= link_to 'Edit', edit_question_insert_path(@question_validation_insert) %> |
+	<%= link_to 'Back to Question Validation Insertion', question_validation_inserts_path %>
+<% end %>

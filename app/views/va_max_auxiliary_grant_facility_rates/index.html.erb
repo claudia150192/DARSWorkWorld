@@ -1,0 +1,30 @@
+<% title "Listing va max auxiliary grant facility rates" %>
+
+<table>
+  <tr>
+    <th>Start date</th>
+    <th>Personal Allowance</th>
+    <th>Individual Max State Payment - PD 8</th>
+    <th>Couple Max State Payment - PD 8</th>
+    <th>Individual Max State Payment - Elsewhere</th>
+    <th>Couple Max State Payment - Elsewhere</th>
+  </tr>
+
+<% @va_max_auxiliary_grant_facility_rates.each do |va_max_auxiliary_grant_facility_rate| %>
+  <tr>
+    <td><%=h va_max_auxiliary_grant_facility_rate.start_date %></td>
+    <td><%=h va_max_auxiliary_grant_facility_rate.ag_personal_allowance %></td>
+    <td><%=h va_max_auxiliary_grant_facility_rate.ag_max_payment_pd8 %></td>
+    <td><%=h va_max_auxiliary_grant_facility_rate.ag_couple_max_payment_pd8 %></td>
+    <td><%=h va_max_auxiliary_grant_facility_rate.ag_max_payment_elsewhere %></td>
+    <td><%=h va_max_auxiliary_grant_facility_rate.ag_couple_max_payment_elsewhere %></td>
+    <td><%= link_to 'Show', va_max_auxiliary_grant_facility_rate %></td>
+    <td><%= link_to 'Edit', edit_va_max_auxiliary_grant_facility_rate_path(va_max_auxiliary_grant_facility_rate) %></td>
+    <td><%= link_to 'Delete', va_max_auxiliary_grant_facility_rate, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New va max auxiliary grant facility rate', new_va_max_auxiliary_grant_facility_rate_path %>

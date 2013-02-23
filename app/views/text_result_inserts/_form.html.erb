@@ -1,0 +1,21 @@
+<p>
+  <%= form.label :web_text_result_id %><br />
+  <%= form.select :web_text_result_id, WebTextResult.all.collect {|p| [ p.name, p.id ] }, {:prompt => 'Select Text Result'}, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :insert_number %><br />
+  <%= form.select :insert_number, (1..10).collect { |number| number }, {:prompt => 'Select Insertion Counter'}, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :webcalc_id_to_insert %><br />
+   <%= form.select :webcalc_id_to_insert, WebCalc.all.collect {|p| [ p.name, p.id ] }, {:prompt => 'Select Web Calc to insert'}, :class => "textfield" %>
+</p>
+
+<p>
+  <%= form.label :insert_type %><br />
+  <%= form.select :insert_type, %w[currency_detail string_detail], {:prompt => 'Select Type'}, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :insert_marker %><br />
+  <%= form.text_field :insert_marker, :class => "textfield" %>
+</p>

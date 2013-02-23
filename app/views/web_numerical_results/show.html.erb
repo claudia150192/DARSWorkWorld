@@ -1,0 +1,39 @@
+<% title h(@web_numerical_result.name) %>
+
+<p>
+  <b>Name:</b>
+  <%= @web_numerical_result.name %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%= @web_numerical_result.text %>
+</p>
+
+<p>
+  <b>Display rules:</b>
+  <%= @web_numerical_result.display_rules %>
+</p>
+
+<p>
+  <b>Order:</b>
+  <%= @web_numerical_result.order %>
+</p>
+
+<p>
+  <b>Result Type:</b>
+  <%= @web_numerical_result.result_type %>
+</p>
+<p>
+  <b>Web calc:</b>
+  <%= @web_numerical_result.web_calc.name unless @web_numerical_result.web_calc.blank? %>
+</p>
+
+<p>
+  <b>Group:</b>
+  <%= @web_numerical_result.group.name unless @web_numerical_result.group.blank? %>
+</p>
+
+
+<%= link_to 'Edit', edit_web_numerical_result_path(@web_numerical_result) %> |
+<%= link_to 'Back to web numerical results', web_numerical_results_path %>

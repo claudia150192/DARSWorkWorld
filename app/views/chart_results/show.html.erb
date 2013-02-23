@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @chart_result.name %>
+</p>
+
+<p>
+  <b>WebCalc:</b>
+  <%= @chart_result.web_calc.name %>
+</p>
+
+<p>
+  <b>Chart:</b>
+  <%= @chart_result.chart %>
+</p>
+
+
+<%= link_to 'Edit', edit_chart_result_path(@chart_result) %> |
+<%= link_to 'Back', chart_results_path %>

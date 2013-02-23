@@ -1,0 +1,28 @@
+<% title "Listing Web Tip Inserts" %>
+
+<table>	
+  	<tr>
+  		<th>Web Tip</th>
+  		<th>Insert Number</th>
+  		<th>WebCalc to Insert</th>
+  		<th>Insert Type</th>
+  		<th>Insert Marker</th>
+   </tr>
+
+<% @web_tip_inserts.each do |web_tip_insert| %>
+  <tr>
+	<td><%=h WebTip.find(:first, :conditions => ['id = ?',  web_tip_insert.web_tip_id]).identifier %> </td>
+	<td><%=h web_tip_insert.insert_number %></td>
+	<td><%=h WebCalc.find(:first, :conditions => ['id = ?', web_tip_insert.webcalc_id_to_insert]).name  %> </td>
+    <td><%=h web_tip_insert.insert_type %></td>
+	<td><%=h web_tip_insert.insert_marker %></td>
+    <td><%= link_to 'Show', web_tip_insert %></td>
+    <td><%= link_to 'Edit', edit_web_tip_insert_path(web_tip_insert) %></td>
+    <td><%= link_to 'Delete', web_tip_insert, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New web_tip_insert', new_web_tip_insert_path %>

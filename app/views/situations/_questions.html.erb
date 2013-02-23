@@ -1,0 +1,14 @@
+<div id="questions">
+  <% group.displayable_questions(@situation).each do |question| %>
+    <% if @manager.question_has_been_shown?(question.name) %>
+      <%= form_tag(accept_question_path(:case_id=>@case_id, :id=>@situation.id), :method => "put", :class => "answer-form") do %>
+        <%= hidden_field_tag "group_id", @group.id %>
+        <% accepted_class = @situation.has_answered?(question) ? 'accepted' : 'new' %> 
+        <div id="<%= question.idify %>_div" class="question <%= accepted_class %>">
+        <%= label_tag "#{question.idify}", calculate(question.appropriate_text_for(@situation), session[:situation])  %><br />
+			  <%= display_question question, @situation %>
+      </div>
+    <% end %>
+		<% end %>
+	<% end %>
+</div>

@@ -1,0 +1,9 @@
+<% title "Create new question" %>
+
+<%= form_for(@question) do |f| %>
+  <%= f.error_messages %>
+	<%= render :partial => "form", :object => f %>
+  <p>
+    <%= f.submit 'Create', :class => "button" %> <%= link_to 'Cancel', :back %>
+  </p>
+<% end %>

@@ -1,0 +1,93 @@
+<% if admin? %>
+	<div id="admin_nav">
+		Administer: <br /> 
+	    <%= link_to  "Users", users_path %> |
+		<%= link_to "Questions", questions_path %> | 
+		<%= link_to "Question Groups", question_groups_path %> |
+		<%= link_to "Web Tips", web_tips_path %> |
+		<%= link_to "Web Calcs", web_calcs_path %> <br />
+		<%= link_to " Web Numerical Results Groups", web_numerical_results_groups_path %> | 
+		<%= link_to "Web Numerical Results", web_numerical_results_path %> | 
+		<%= link_to "Web Text Results Groups", web_text_results_groups_path %> |
+		<%= link_to "Web Text Results", web_text_results_path %> |
+    <%= link_to "Chart Results", chart_results_path %> |
+    <%= link_to "Charts", charts_path %> | <br/>
+    <%= link_to " Counties or Cities & Medically Needy Group", county_or_cities_path %> |
+		<%= link_to "Federal Poverty Levels", federal_poverty_levels_path %> | 
+		<%= link_to "Federal Rates", federal_rates_path %> | 
+		<%= link_to "Medicaid Annual Blind Thresholds", medicaid_annual_blind_thresholds_path %> | 
+    <%= link_to "Medicaid Annual Thresholds", medicaid_annual_thresholds_path %> | 
+    <%= link_to "Medicaid FPL-Based Income Limits", medicaid_fpl_based_income_limits_path %> | <br/>
+    <%= link_to " VA Max Auxiliary Grant Facility Rates", va_max_auxiliary_grant_facility_rates_path %> |
+		<%= link_to "VA Medicaid Rates", va_medicaid_rates_path %> |
+    <%= link_to "VA Medically Needy Income Limits", va_medically_needy_monthly_income_limits_path %> |
+    <%= link_to "Help Topics", helps_path %>
+	</div>
+	<hr />
+	<% end %>
+<% if logged_in? %>
+  <div id="user_nav">
+    <a href="#content" title="Link to main content" class="accessibility">Jump to Main Content</a>
+		<ul id="main_menu" class="menu">
+      <li>
+        <a href='#' data-accesskey="C">Case</a>
+        <ul class="subnav">
+          <li><%= link_to("New", {:controller => "cases", :action => "new"}, "data-accesskey"=>"N", :class=>'dialog') %></li>
+          <li><%= link_to 'Open a Case', cases_path, "data-accesskey"=>"O" %></li>
+          <% if @case.nil? || @case.id.nil?%>
+            <li>Notes</li>
+          <% else %>
+            <li><%= link_to('Notes', edit_case_path(@case), "data-accesskey"=>"t", :class=>'dialog') %></li>
+          <% end %>
+          <% if @case.nil? || @case.id.nil?%>
+            <li>Save As</li>
+          <%else%>
+            <li><%= link_to('Save As', case_saveas_path(@case.id), 'data-accesskey'=>'A')%></li>
+          <%end%>  
+          <li><%= link_to_if(@current_user.allow_fileshare?, 'Share', cases_share_path, 'data-accesskey'=>'r')%></li>
+          <% if @case.nil? || @case.id.nil? %>
+            <li>Delete</li>
+            <li>Print</li>
+          <% else %>
+            <li><%= link_to("Delete", delete_case_path(@case), "data-accesskey"=>"D") %></li>
+            <li><%= link_to("Print", cases_print_path(@case), "data-accesskey"=>"P", :class=>'dialog') %></li>
+          <% end %>  
+          <li><%= link_to("Close", {:controller=>"cases", :action=>"new"}, "data-accesskey"=>"C")%></li>
+          <li><%= link_to("Exit", logout_path, "data-accesskey"=>"E")%></li>
+        </ul>
+      </li>
+      <li><a href='#' data-accesskey="S">Situation</a>
+        <ul class="subnav">
+          <li><%= new_situation_link(@case)%></li>
+          <li><%= delete_situation_link(@situation) %></li>
+        </ul>
+      </li>
+      <li><a href="#" data-accesskey="D">Display</a>
+        <ul class="subnav">
+          <li><%= link_to("Personal Profile", account_path(@current_user), "data-accesskey"=>"P")%></li>
+          <li><%= current_situation_link(@current_user, @case) %></li>
+          <% (1..4).each do |i| %>
+            <li><%= what_if_link(@case, i)%></li>
+          <%end%>
+          <% if @case.nil? || @case.id.nil?%>
+            <li>All Inputs</li>
+            <li>Text Results</li>
+            <li>Numeric Results</li>
+            <li>Graphic Results</li>
+          <%else %>
+            <li><%= link_to("All Inputs", cases_all_inputs_path(@case), "data-accesskey"=>"I")%></li>
+            <li><%= link_to("Text Results", {:controller=>"situations", :action=>"text_results", :case_id=>@case.id}, "data-accesskey"=>"T")%></li>
+            <li><%= link_to("Numeric Results", numeric_results_path(@case.id), "data-accesskey"=>"R")%></li>
+            <li><%= link_to("Graphic Results", graphic_results_path(@case.id), "data-accesskey"=>"G")%></li>
+          <%end%>
+        </ul>
+      </li>
+      <li><a href='#' data-accesskey='I'>Info &amp; Help</a>
+        <ul class='subnav'>
+          <li><%= link_to("Welcome to WW-Web", "javascript:RH_ShowHelp(0, '/WebHelp/helpfile.htm', HH_HELP_CONTEXT, #{1} )", "data-accesskey"=>"W")%></li>
+          <li><%= link_to("About WW-Web", "javascript:RH_ShowHelp(0, '/WebHelp/helpfile.htm', HH_HELP_CONTEXT, #{20} )", "data-accesskey"=>"A")%></li>
+        </ul>
+      </li>
+		</ul>
+	</div>
+<% end %>

@@ -1,0 +1,70 @@
+<% title h(@question.name) %>
+<p>
+  <b>Name:</b>
+  <%= @question.name %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%= @question.text %>
+</p>
+
+<p>
+  <b>Display Rules:</b>
+  <%= @question.display_rules %>
+</p>
+
+<p>
+  <b>Default Answer:</b>
+  <%= @question.default_answer %>
+</p>
+
+<p>
+  <b>Reference:</b>
+  <%= @question.reference_id %>
+</p>
+
+<p>
+  <b>Group:</b>
+  <%= @question.group.name %>
+</p>
+
+<p>
+  <b>Question Type:</b>
+  <%= @question.question_type %>
+</p>
+
+<p>
+  <b>Answer Choices:</b>
+  <%= @question.answer_choices %>
+</p>
+
+<p>
+  <b>Order:</b>
+  <%= @question.question_order %>
+</p>
+
+<p>
+  <b>Validation Rules:</b>
+  <%= @question.validation_rules %>
+</p>
+
+<p>
+  <b>Validation Message:</b>
+  <%= @question.validation_message %>
+</p>
+
+<p>
+  <b>Help ID:</b>
+  <%= @question.help_id %>
+</p>
+
+<p>
+  <b>Workbook Order:</b>
+  <%= @question.workbook_order %>
+</p>
+
+<% if can? :manage, @question %>
+	<%= link_to 'Edit', edit_question_path(@question) %> |
+	<%= link_to 'Back to questions', questions_path %>
+<% end %>

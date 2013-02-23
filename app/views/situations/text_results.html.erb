@@ -1,0 +1,6 @@
+<% title "Text Results"  %>
+
+<h3> <%= "Case : #{@case.name}"%> </h3>
+<% @case.situations.each do |situation| %>
+	<%= raw(display_text_results_for(situation, @groups)) %>
+<% end unless @case.blank? || @groups.blank? %>

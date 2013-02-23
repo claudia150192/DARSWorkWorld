@@ -1,0 +1,10 @@
+<% title("New Situation") %>
+
+<div id="selector">
+  <%= form_tag(case_situations_path(:case_id=>@case.id)) do %>
+    <%= label_tag("parent_id", "Select which situation you want your what-if based on")%>
+    <%= select_tag("parent_id", options_from_collection_for_select(@case.situations.where(:completed=>true).sort_by{|s| s.created_at}, "id", "name")) %>
+    <%= submit_tag "Go", :class=>"button" %><%= cancel_link %>
+  <%end%>
+</div>
+

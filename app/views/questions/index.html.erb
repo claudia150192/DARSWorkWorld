@@ -1,0 +1,44 @@
+<% title "Listing questions" %>
+
+<table class='arrows'>	
+  <tr>
+    <th><%= sortable "name","Name" %></th>
+    <th><%= sortable "text","Text" %></th>
+    <th><%= sortable "display_rules","Display Rules" %></th>
+    <th><%= sortable "reference_id","Reference" %></th>
+    <th><%= sortable "group_id","Group" %></th>
+    <th><%= sortable "question_type","Question Type" %></th>
+    <th><%= sortable "answer_choices","Answer Choices" %></th>
+    <th><%= sortable "default_answer","Default Answer" %></th>
+    <th><%= sortable "question_order","Order" %></th>
+    <th><%= sortable "validation_rules","Validation Rules" %></th>
+    <th><%= sortable "validation_message","Validation Message" %></th>
+    <th><%= sortable "help_id","Help ID" %></th>
+    <th><%= sortable "workbook_order","Workbook Order" %></th>
+  </tr>
+
+<% @questions.each do |question| %>
+  <tr>
+    <td><%=h question.name %></td>
+    <td><%=h question.text %></td>
+    <td><%=h question.display_rules %></td>
+    <td><%=h question.reference_id %></td>
+    <td><%=h question.group.name %></td>
+    <td><%=h question.question_type %></td>
+    <td><%=h question.answer_choices %></td>
+    <td><%=h question.default_answer %></td>
+    <td><%=h question.question_order %></td>
+    <td><%=h question.validation_rules %></td>
+    <td><%=h question.validation_message %></td>
+    <td><%=h question.help_id %></td>
+    <td><%=h question.workbook_order %></td>
+    <td><%= link_to 'Show', question %></td>
+    <td><%= link_to 'Edit', edit_question_path(question) %></td>
+    <td><%= link_to 'Delete', question, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New question', new_question_path %>

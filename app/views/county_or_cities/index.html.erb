@@ -1,0 +1,22 @@
+<% title "Listing county or cities" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+	<th>Medically Needy Group</th>
+  </tr>
+
+<% @county_or_cities.each do |county_or_city| %>
+  <tr>
+    <td><%=h county_or_city.name %></td>
+	<td><%=h county_or_city.medically_needy_group %></td>
+    <td><%= link_to 'Show', county_or_city %></td>
+    <td><%= link_to 'Edit', edit_county_or_city_path(county_or_city) %></td>
+    <td><%= link_to 'Delete', county_or_city, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New county or city', new_county_or_city_path %>

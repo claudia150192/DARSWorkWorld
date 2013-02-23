@@ -1,0 +1,32 @@
+<% title "Listing web numerical results" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+	  <th>Text</th>
+    <th>Display rules</th>
+    <th>Order</th>
+    <th>Result Type</th>
+    <th>Web calc</th>
+    <th>Group</th>
+  </tr>
+
+<% @web_numerical_results.each do |web_numerical_result| %>
+  <tr>
+    <td><%=h web_numerical_result.name %></td>
+	<td><%=h web_numerical_result.text %></td>
+    <td><%=h web_numerical_result.display_rules %></td>
+    <td><%=h web_numerical_result.order %></td>
+    <td><%=h web_numerical_result.result_type %></td>
+    <td><%=h web_numerical_result.web_calc.name unless web_numerical_result.web_calc.blank? %></td>
+    <td><%=h web_numerical_result.group.name unless web_numerical_result.group.blank? %></td>
+    <td><%= link_to 'Edit', edit_web_numerical_result_path(web_numerical_result) %></td>
+    <td><%= link_to 'Show', web_numerical_result %></td>
+    <td><%= link_to 'Delete', web_numerical_result, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New web numerical result', new_web_numerical_result_path %>

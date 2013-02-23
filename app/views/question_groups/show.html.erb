@@ -1,0 +1,30 @@
+<% title h(@question_group.name) %>
+<p>
+  <b>Name:</b>
+  <%= @question_group.name %>
+</p>
+
+<p>
+  <b>Parent:</b>
+  <%= @question_group.parent.name unless @question_group.parent.blank? %>
+</p>
+
+<p>
+  <b>Next Group:</b>
+  <%= @question_group.next_group.name unless @question_group.next_group.blank? %>
+</p>
+
+<p>
+  <b>Previous Group:</b>
+  <%= @question_group.previous_group.name unless @question_group.previous_group.blank? %>
+</p>
+
+<p>
+  <b>Workbook Order:</b>
+  <%= @question_group.workbook_order unless @question_group.workbook_order.blank? %>
+</p>
+
+<% if can? :manage, @question_group %>
+	<%= link_to 'Edit', edit_question_group_path(@question_group) %> |
+	<%= link_to 'Back to question groups', question_groups_path %>
+<% end %>

@@ -1,0 +1,33 @@
+<p>
+  <b>Start date:</b>
+  <%= @va_max_auxiliary_grant_facility_rate.start_date %>
+</p>
+
+<p>
+  <b>Personal Allowance:</b>
+  <%= @va_max_auxiliary_grant_facility_rate.ag_personal_allowance %>
+</p>
+
+<p>
+  <b>Individual Max State Payment - PD 8:</b>
+  <%= @va_max_auxiliary_grant_facility_rate.ag_max_payment_pd8 %>
+</p>
+
+<p>
+  <b>Couple Max State Payment - PD 8:</b>
+  <%= @va_max_auxiliary_grant_facility_rate.ag_couple_max_payment_pd8 %>
+</p>
+
+<p>
+  <b>Individual Max State Payment - Elsewhere:</b>
+  <%= @va_max_auxiliary_grant_facility_rate.ag_max_payment_elsewhere %>
+</p>
+
+<p>
+  <b>Couple Max State Payment - Elsewhere:</b>
+  <%= @va_max_auxiliary_grant_facility_rate.ag_couple_max_payment_elsewhere %>
+</p>
+
+
+<%= link_to 'Edit', edit_va_max_auxiliary_grant_facility_rate_path(@va_max_auxiliary_grant_facility_rate) %> |
+<%= link_to 'Back to va max auxiliary grant facility rates', va_max_auxiliary_grant_facility_rates_path %>

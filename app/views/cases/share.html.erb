@@ -1,0 +1,27 @@
+<h1>Listing cases</h1>
+
+<%= form_tag(cases_commit_share_path) do%>
+<table>
+  <tr>
+    <th></th>
+    <th>User</th>
+    <th>Name</th>
+    <th>Last Saved</th>
+  </tr>
+  <% @cases.each do |kase| %>
+    <tr>
+      <td><%= check_box_tag "share[]", kase.id, false, :name=>'share[]', :id=>"share_#{kase.id}" %></td>
+      <td><%=h kase.user.login unless kase.user.blank? %></td>
+      <td><%=h kase.name %></td>
+      <td><%=h kase.updated_at %></td>
+      <td><%= link_to_unless kase.is_a?(SharedCase), 'Show', kase %></td>
+		  <td><%= link_to 'Open Case', open_case_url(kase) %></td>
+      <td><%= link_to 'Rename', edit_case_path(kase) %></td>
+      <td><%= link_to_unless kase.is_a?(SharedCase), 'Delete', kase, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+<div><p><%= label "people", "Select people to share your cases with" %></p><p><%= select_tag "people", options_from_collection_for_select(@users, "id", "login"), :multiple=>true %></p></div>
+<%= submit_tag "Share",:class=>"button" %><%= link_to "Cancel", cases_path %>
+<% end %>
+<br />

@@ -1,0 +1,9 @@
+
+<p>
+  <%= form.label :name %><br />
+  <%= form.text_field :name, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :order %><br />
+  <%= form.select :order, (1..100).collect { |number| number }, {:prompt => 'Select Order'}, :class => "textfield" %>
+</p>

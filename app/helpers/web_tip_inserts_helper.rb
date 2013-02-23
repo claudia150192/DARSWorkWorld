@@ -1,0 +1,2 @@
+module WebTipInsertsHelper
+end

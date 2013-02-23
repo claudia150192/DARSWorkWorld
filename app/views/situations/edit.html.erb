@@ -1,0 +1,9 @@
+<% title display_situation_name @situation %>
+<div id="group">
+  <%= render :partial => "group", :locals => { :group => @group } %>
+      <%= form_tag(case_situation_path(:case_id=>@case_id, :id=>@situation.id), :method => "put", :class => "answer-form") do %>
+      <%= hidden_field_tag "group_id", @group.id %>
+      <%end%>
+</div>
+
+

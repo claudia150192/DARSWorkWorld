@@ -1,0 +1,18 @@
+<% title "Numerical Results: " + @case.name %>
+
+
+  <table>
+  <tbody>
+<% @groups.each do |group| %>
+		<%= raw(display_numerical_group(group, @case)) %>
+	<% end unless @case.blank? || @groups.blank? %>
+  </tbody>
+  <thead>
+	<tr>
+    <th>Numerical Results</th>
+    <% @case.situations.each do |situation| %>
+    <th><%= display_situation_title situation %></th>
+  <% end %>
+  </tr>
+  <thead>
+  </table>

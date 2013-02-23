@@ -1,0 +1,11 @@
+<%= form_tag(continue_situation_path(:case_id=>@case_id, :id=>@situation.id), :method => "put", :class => "answer-form") do %>
+  <%= hidden_field_tag "group_id", @group.id %>
+  <% @group.displayable_questions(@situation).each do |question| %>
+    <%= hidden_for question, @situation %>
+  <%end%>
+  <% if @continue %>
+    <%= submit_tag "Continue", :class=>"button", :id=>'continue_button' %>
+  <%else%>
+    <%= submit_tag "Continue", :disabled=> true, :class=>"button" %>
+  <%end%>
+<%end%>

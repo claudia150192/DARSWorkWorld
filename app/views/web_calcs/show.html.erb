@@ -1,0 +1,15 @@
+<% title @web_calc.name %>
+
+<p>
+  <b>Name:</b>
+  <%= @web_calc.name %>
+</p>
+
+<p>
+  <b>Operation:</b>
+  <%= @web_calc.operation %>
+</p>
+
+
+<%= link_to 'Edit', edit_web_calc_path(@web_calc) %> |
+<%= link_to 'Back to Web Calcs', web_calcs_path %>

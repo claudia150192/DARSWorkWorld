@@ -1,0 +1,2 @@
+module VaMaxAuxiliaryGrantFacilityRatesHelper
+end

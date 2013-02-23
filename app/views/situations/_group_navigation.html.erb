@@ -1,0 +1,17 @@
+<div id="group_navigation">
+  <ul class='menu'>
+		<% nav_parents.each do |parent| %>
+      <%=  nav_display_group parent, situation, group %>
+      <% end %>
+      <%# if QuestionGroup.more_questions_to_display?(session[:situation]) || QuestionGroup.invalid_groups?(session[:situation]) %>
+      <% unless situation.completed? %>
+      <li class="group-nav parent no-show <%= (params[:action] == 'numeric_results') ? 'current' : ''%>">Numerical Results</li>
+      <li class="group-nav parent no-show <%= (params[:action] == 'text_results') ? 'current' : ''%>">Text Results</li>
+      <li class="group-nav parent no-show <%= (params[:action] == 'graphic_results') ? 'current' : ''%>">Graphical Results</li>
+		<% else %>
+      <li class="group-nav parent show <%= (params[:action] == 'numeric_results') ? 'current' : '' %>"><%= link_to "Numerical Results", {:controller => "situations", :action => "numeric_results", :case_id=>@case.id} %></li>
+      <li class="group-nav parent show <%= (params[:action] == 'text_results') ? 'current' : ''%>"><%= link_to "Text Results", {:controller => "situations", :action => "text_results", :case_id=>@case.id} %></li>
+      <li class="group-nav parent show <%= (params[:action] == 'graphic_results') ? 'current' : ''%>"><%= link_to "Graphical Results", {:controller => "situations", :action => "graphic_results", :case_id=>@case.id} %></li>	
+		<% end %>
+  </ul>
+</div>

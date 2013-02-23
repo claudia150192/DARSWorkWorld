@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  recipient_id: 1
+  insert_number: 1
+  webcalc_id_to_insert: 1
+
+two:
+  recipient_id: 1
+  insert_number: 1
+  webcalc_id_to_insert: 1

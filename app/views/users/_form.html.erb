@@ -1,0 +1,52 @@
+<p>Fields marked with a <%= mark_mandatory %> are mandatory</p>
+<p>
+	<%= form.label :login %><br />
+  <%= form.text_field :login, :class => "textfield" %><%= mark_mandatory %>
+</p>
+<p>
+	<%= form.label :email %><br />
+	<%= form.text_field :email, :class => "textfield" %><%= mark_mandatory %>
+
+  </p>
+  <p>
+  <%= form.label :counselor_name %> <br/>
+  <%= form.text_field :counselor_name, :class=> "textfield" %>
+  </p>
+<p>
+	<%= form.label :password, form.object.new_record? ? nil : "Change password" %><br />
+	<%= form.password_field :password, :class => "textfield" %><%= mark_mandatory %>
+
+</p>
+<p>
+	<%= form.label :password_confirmation %><br />
+	<%= form.password_field :password_confirmation, :class => "textfield" %><%= mark_mandatory %>
+  </p>
+  <fieldset>
+   <legend> File Sharing <%= display_help_for_fileshare %></legend>
+
+  <p> <%= form.label:allow_fileshare %> 	
+  <%= form.check_box :allow_fileshare, :class=>"checkbox" %>
+  </p>
+
+  <p> <%= form.label :receive_fileshare %> 
+  <%= form.check_box :receive_fileshare, :class=>"checkbox" %>
+  </p>
+
+  <p> <%= form.label :receive_share_email %>  
+  <%= form.check_box :receive_share_email, :class=>"checkbox" %>
+  </p>
+</fieldset>
+<% if @current_user && @current_user.admin? %>
+<p>
+	<%= form.label :admin %><br />
+	<%= form.check_box :admin %>
+  </p>
+
+  
+<% end %>
+
+<div id='fileshare_help' class='popup hidden'>
+    <a href="#" class='close'>X</a>
+  <blockquote>
+    </blockquote>
+</div>

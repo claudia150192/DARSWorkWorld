@@ -1,0 +1,7 @@
+<% title "Editing va_medically_needy_monthly_income_limits" %>
+
+<% form_for(@va_medically_needy_monthly_income_limit) do |f| %>
+  <%= f.error_messages %>
+	<%= render :partial => "form", :object => f %>
+  <%= f.submit "Update", :class => "button" %> <%= link_to 'Cancel', :back %>
+<% end %>

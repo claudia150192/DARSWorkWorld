@@ -1,0 +1,1273 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<indexdata>
+<key name="12 Months Since Onset for SSDI - Question" >
+  <topic name="Question - 12 Months Since Onset for SSDI" url="workworld/questions/question_12_months_since_onset_for_ssdi.htm" />
+</key>
+<key name="12 Months Since Onset for SSI - Question" >
+  <topic name="Question - 12 Months Since Onset for SSI" url="workworld/questions/question_12_months_since_onset_for_ssi.htm" />
+</key>
+<key name="About WorkWORLD on the Web" >
+  <topic name="About WorkWORLD on the Web" url="workworld/about_workworld_on_the_web.htm" />
+</key>
+<key name="Actual Monthly SSDI Payment - Question" >
+  <topic name="Question - Actual Monthly SSDI Payment" url="workworld/questions/question_actual_monthly_ssdi_payment.htm" />
+</key>
+<key name="Actual Monthly SSI Payment - Question" >
+  <topic name="Question - Actual Monthly SSI Payment" url="workworld/questions/question_actual_monthly_ssi_payment.htm" />
+</key>
+<key name="Additional Supervision or Special Conditions Subsidy - Question" >
+  <topic name="Question - Additional Supervision or Special Conditions Subsidy" url="workworld/questions/question_additional_supervision_or_special_conditions_subsidy.htm" />
+</key>
+<key name="Applying for Home and Community Based Care [HBC] - Question" >
+  <topic name="Question - Applying for Home and Community Based Care [HBC]" url="workworld/questions/question_applying_for_home_and_community_based_care_hbc_.htm" />
+</key>
+<key name="Applying for Institutional Care Medicaid Services - Question" >
+  <topic name="Question - Applying for Institutional Care Medicaid Services" url="workworld/questions/question_applying_for_institutional_care_medicaid_services.htm" />
+</key>
+<key name="Applying for Medicaid - Question" >
+  <topic name="Question - Applying for Medicaid" url="workworld/questions/question_applying_for_medicaid.htm" />
+</key>
+<key name="Applying for Medicaid Covered Group - Question" >
+  <topic name="Question - Applying for Medicaid Covered Group" url="workworld/questions/question_applying_for_medicaid_covered_group.htm" />
+</key>
+<key name="Applying for MEDICAID WORKS - Question" >
+  <topic name="Question - Applying for MEDICAID WORKS" url="workworld/questions/question_applying_for_medicaid_works.htm" />
+</key>
+<key name="Assistance Based On Need [ABON] - Question" >
+  <topic name="Question - Assistance Based On Need (ABON)" url="workworld/questions/question_assistance_based_on_need_abon_.htm" />
+</key>
+<key name="Benefits Planning Query [BPQY] - Question" >
+  <topic name="Question - Benefits Planning Query [BPQY]" url="workworld/questions/question_benefits_planning_query_bpqy_.htm" />
+</key>
+<key name="Birthdate - Question" >
+  <topic name="Question - Birthdate" url="workworld/questions/question_birthdate.htm" />
+</key>
+<key name="Blind - Question" >
+  <topic name="Question - Blind" url="workworld/questions/question_blind.htm" />
+</key>
+<key name="Blind Work Expenses [BWE] - Question" >
+  <topic name="Question - Blind Work Expenses (BWE)" url="workworld/questions/question_blind_work_expenses_bwe_.htm" />
+</key>
+<key name="Competitively Employed - Question" >
+  <topic name="Question - Competitively Employed" url="workworld/questions/question_competitively_employed.htm" />
+</key>
+<key name="Considered to be Community Spouse - Question" >
+  <topic name="Question - Considered to be Community Spouse" url="workworld/questions/question_considered_to_be_community_spouse.htm" />
+</key>
+<key name="Countable Resources Exceed Couple Medicaid Limit - Question" >
+  <topic name="Question - Countable Resources Exceed Couple Medicaid Limit" url="workworld/questions/question_countable_resources_exceed_couple_medicaid_limit.htm" />
+</key>
+<key name="Countable Resources Exceed Couple Medicaid Limit for 80% FPL - Question" >
+  <topic name="Question - Countable Resources Exceed Couple Medicaid Limit for 80% FPL" url="workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_80_fpl.htm" />
+</key>
+<key name="Countable Resources Exceed Couple Medicaid Limit for QDWI - Question" >
+  <topic name="Question - Countable Resources Exceed Couple Medicaid Limit for QDWI" url="workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_qdwi.htm" />
+</key>
+<key name="Countable Resources Exceed Couple Medicaid Limit for QMB SLMB or QI - Question" >
+  <topic name="Question - Countable Resources Exceed Couple Medicaid Limit for QMB, SLMB, or QI" url="workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_qmb_slmb_or_qi.htm" />
+</key>
+<key name="Countable Resources Exceed Couple SSI Limit - Question" >
+  <topic name="Question - Countable Resources Exceed Couple SSI Limit" url="workworld/questions/question_countable_resources_exceed_couple_ssi_limit.htm" />
+</key>
+<key name="Countable Resources Exceed Individual Medicaid Limit - Question" >
+  <topic name="Question - Countable Resources Exceed Individual Medicaid Limit" url="workworld/questions/question_countable_resources_exceed_individual_medicaid_limit.htm" />
+</key>
+<key name="Countable Resources Exceed Individual Medicaid Limit for 80% FPL - Question" >
+  <topic name="Question - Countable Resources Exceed Individual Medicaid Limit for 80% FPL" url="workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_80_fpl.htm" />
+</key>
+<key name="Countable Resources Exceed Individual Medicaid Limit for QDWI - Question" >
+  <topic name="Question - Countable Resources Exceed Individual Medicaid Limit for QDWI" url="workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_qdwi.htm" />
+</key>
+<key name="Countable Resources Exceed Individual Medicaid Limit for QMB SLMB or QI - Question" >
+  <topic name="Question - Countable Resources Exceed Individual Medicaid Limit for QMB, SLMB, or QI" url="workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_qmb_slmb_or_qi.htm" />
+</key>
+<key name="Countable Resources Exceed Individual SSI Limit - Question" >
+  <topic name="Question - Countable Resources Exceed Individual SSI Limit" url="workworld/questions/question_countable_resources_exceed_individual_ssi_limit.htm" />
+</key>
+<key name="Countable Resources Exceed Medicaid Limit for 300% SSI - Question" >
+  <topic name="Question - Countable Resources Exceed Medicaid Limit for 300% SSI" url="workworld/questions/question_countable_resources_exceed_medicaid_limit_for_300_ssi.htm" />
+</key>
+<key name="Countable Resources in WIN Account Exceed MEDICAID WORKS Limit - Question" >
+  <topic name="Question - Countable Resources in WIN Account Exceed MEDICAID WORKS Limit" url="workworld/questions/question_countable_resources_in_win_account_exceed_medicaid_works_limit.htm" />
+</key>
+<key name="Countable Resources Not in WIN Account Exceed MEDICAID WORKS Limit - Question" >
+  <topic name="Question - Countable Resources Not in WIN Account Exceed MEDICAID WORKS Limit" url="workworld/questions/question_countable_resources_not_in_win_account_exceed_medicaid_works_limit.htm" />
+</key>
+<key name="Couple Facility Charges for Room Board and Services - Question" >
+  <topic name="Question - Couple Facility Charges for Room, Board, and Services" url="workworld/questions/question_couple_facility_charges_for_room_board_and_services.htm" />
+</key>
+<key name="Couple SSI Adjustment Due to Previous Overpayment - Question" >
+  <topic name="Question – Couple SSI Adjustment Due to Previous Overpayment" url="workworld/questions/question_couple_ssi_adjustment_due_to_previous_overpayment.htm" />
+</key>
+<key name="Couple SSI Adjustment Due to Previous Underpayment - Question" >
+  <topic name="Question – Couple SSI Adjustment Due to Previous Underpayment" url="workworld/questions/question_couple_ssi_adjustment_due_to_previous_underpayment.htm" />
+</key>
+<key name="Couple Student Earned Income Exclusion [SEIE] Less Than Earnings - Question" >
+  <topic name="Question - Couple Student Earned Income Exclusion (SEIE) Less Than Earnings" url="workworld/questions/question_couple_student_earned_income_exclusion_seie_less_than_earnings.htm" />
+</key>
+<key name="Couple Student Earned Income Exclusion [SEIE] Less Than Monthly Maximum - Question" >
+  <topic name="Question - Couple Student Earned Income Exclusion (SEIE) Less Than Monthly Maximum" url="workworld/questions/question_couple_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm" />
+</key>
+<key name="Couple Student Earned Income Exclusion [SEIE] Not Excluded - Question" >
+  <topic name="Question - Couple Student Earned Income Exclusion (SEIE) Not Excluded" url="workworld/questions/question_couple_student_earned_income_exclusion_seie_not_excluded.htm" />
+</key>
+<key name="Dependent SSDI Benefits Based on Spouse Record - Question" >
+  <topic name="Question - Dependent SSDI Benefits Based on Spouse Record" url="workworld/questions/question_dependent_ssdi_benefits_based_on_spouse_record.htm" />
+</key>
+<key name="Dependent SSDI Benefits Based on Your Record - Question" >
+  <topic name="Question - Dependent SSDI Benefits Based on Your Record" url="workworld/questions/question_dependent_ssdi_benefits_based_on_your_record.htm" />
+</key>
+<key name="Disability - Question" >
+  <topic name="Question - Disability" url="workworld/questions/question_disability.htm" />
+</key>
+<key name="Disability-Related Work Expenses - Question" >
+  <topic name="Question - Disability-Related Work Expenses" url="workworld/questions/question_disability_related_work_expenses.htm" />
+</key>
+<key name="Disabled Adult Child - Question" >
+  <topic name="Question - Disabled Adult Child" url="workworld/questions/question_disabled_adult_child.htm" />
+</key>
+<key name="Employability Investments - Question" >
+  <topic name="Question - Employability Investments" url="workworld/questions/question_employability_investments.htm" />
+</key>
+<key name="Established Work Incentive Account for MEDICAID WORKS - Question" >
+  <topic name="Question - Established Work Incentive Account for MEDICAID WORKS" url="workworld/questions/question_established_work_incentive_account_for_medicaid_works.htm" />
+</key>
+<key name="Estimated Medical Expenses with Medicaid - Question" >
+  <topic name="Question - Estimated Medical Expenses with Medicaid" url="workworld/questions/question_estimated_medical_expenses_with_medicaid.htm" />
+</key>
+<key name="Estimated Medical Expenses without Medicaid - Question" >
+  <topic name="Question - Estimated Medical Expenses without Medicaid" url="workworld/questions/question_estimated_medical_expenses_without_medicaid.htm" />
+</key>
+<key name="Estimated Other Expenses - Question" >
+  <topic name="Question - Estimated Other Expenses" url="workworld/questions/question_estimated_other_expenses.htm" />
+</key>
+<key name="Estimated Taxes on Earnings - Question" >
+  <topic name="Question - Estimated Taxes on Earnings" url="workworld/questions/question_estimated_taxes_on_earnings.htm" />
+</key>
+<key name="Excess Resources Plus Spouse Resources Exceed Medicaid Limit - Question" >
+  <topic name="Question - Excess Resources Plus Spouse Resources Exceed Medicaid Limit" url="workworld/questions/question_excess_resources_plus_spouse_resources_exceed_medicaid_limit.htm" />
+</key>
+<key name="Facility Charges for Room Board and Services - Question" >
+  <topic name="Question - Facility Charges for Room, Board, and Services" url="workworld/questions/question_facility_charges_for_room_board_and_services.htm" />
+</key>
+<key name="File Sharing" >
+  <topic name="File Sharing" url="workworld/file_sharing.htm" />
+</key>
+<key name="Final Determination Letter - Question" >
+  <topic name="Question - Final Determination Letter" url="workworld/questions/question_final_determination_letter.htm" />
+</key>
+<key name="Home Equity Value Exceeds LTC Limit - Question" >
+  <topic name="Question - Home Equity Value Exceeds LTC Limit" url="workworld/questions/question_home_equity_value_exceeds_ltc_limit.htm" />
+</key>
+<key name="Home Occupied by Spouse Child Under 21 or Disabled Child - Question" >
+  <topic name="Question - Home Occupied by Spouse, Child Under 21, or Disabled Child" url="workworld/questions/question_home_occupied_by_spouse_child_under_21_or_disabled_child.htm" />
+</key>
+<key name="In-Kind Support With Presumed Maximum Value [PMV] - Question" >
+  <topic name="Question - In-Kind Support With Presumed Maximum Value (PMV)" url="workworld/questions/question_in_kind_support_with_presumed_maximum_value_pmv_.htm" />
+</key>
+<key name="In-Kind Support With Value of One-Third Reduction [VTR] - Question" >
+  <topic name="Question - In-Kind Support With Value of One-Third Reduction (VTR)" url="workworld/questions/question_in_kind_support_with_value_of_one_third_reduction_vtr_.htm" />
+</key>
+<key name="Income Based On Need [IBON] - Question" >
+  <topic name="Question - Income Based On Need (IBON)" url="workworld/questions/question_income_based_on_need_ibon_.htm" />
+</key>
+<key name="Individualized Earnings Threshold - Question" >
+  <topic name="Question - Individualized Earnings Threshold" url="workworld/questions/question_individualized_earnings_threshold.htm" />
+</key>
+<key name="Individualized Earnings Threshold Amount - Question" >
+  <topic name="Question - Individualized Earnings Threshold Amount" url="workworld/questions/question_individualized_earnings_threshold_amount.htm" />
+</key>
+<key name="Infrequent or Irregular Unearned Income Amount - Question" >
+  <topic name="Question - Infrequent or Irregular Unearned Income Amount" url="workworld/questions/question_infrequent_or_irregular_unearned_income_amount.htm" />
+</key>
+<key name="Infrequent or Irregular Wages Salary Self-Employment Received Amount - Question" >
+  <topic name="Question - Infrequent or Irregular Wages, Salary, Self-Employment Received Amount" url="workworld/questions/question_infrequent_or_irregular_wages_salary_self_employment_received_amount.htm" />
+</key>
+<key name="IRWE for SSI Benefit Amount or Medicaid Eligibility Question" >
+  <topic name="Question - IRWE for SSI Benefit Amount or Medicaid Eligibility" url="workworld/questions/question_irwe_for_ssi_benefit_amount_or_medicaid_eligibility.htm" />
+</key>
+<key name="IRWE to Determine Substantial Gainful Activity [SGA] - Question" >
+  <topic name="Question - IRWE to Determine Substantial Gainful Activity (SGA)" url="workworld/questions/question_irwe_to_determine_substantial_gainful_activity_sga_.htm" />
+</key>
+<key name="Living Alone - Question" >
+  <topic name="Question - Living Alone" url="workworld/questions/question_living_alone.htm" />
+</key>
+<key name="Living in Facility - Question" >
+  <topic name="Question - Living in Facility" url="workworld/questions/question_living_in_facility.htm" />
+</key>
+<key name="Living in Facility Supported by Auxiliary Grant - Question" >
+  <topic name="Question - Living in Facility Supported by Auxiliary Grant" url="workworld/questions/question_living_in_facility_supported_by_auxiliary_grant.htm" />
+</key>
+<key name="Living with Other Adults - Question" >
+  <topic name="Question - Living with Other Adults" url="workworld/questions/question_living_with_other_adults.htm" />
+</key>
+<key name="Living with Parents - Question" >
+  <topic name="Question - Living with Parents" url="workworld/questions/question_living_with_parents.htm" />
+</key>
+<key name="Living with Spouse - Question" >
+  <topic name="Question - Living with Spouse" url="workworld/questions/question_living_with_spouse.htm" />
+</key>
+<key name="Living with Spouse and Other Adult - Question" >
+  <topic name="Question - Living with Spouse and Other Adults" url="workworld/questions/question_living_with_spouse_and_other_adults.htm" />
+</key>
+<key name="Living with Spouse and Own Parents - Question" >
+  <topic name="Question - Living with Spouse and Own Parents" url="workworld/questions/question_living_with_spouse_and_own_parents.htm" />
+</key>
+<key name="Living with Spouse and Parents of Spouse - Question" >
+  <topic name="Question - Living with Spouse and Parents of Spouse" url="workworld/questions/question_living_with_spouse_and_parents_of_spouse.htm" />
+</key>
+<key name="Living with Spouse in Facility - Question" >
+  <topic name="Question - Living with Spouse in Facility" url="workworld/questions/question_living_with_spouse_in_facility.htm" />
+</key>
+<key name="Living with Spouse in Facility Supported by Aux Grant - Question" >
+  <topic name="Question - Living with Spouse in Facility Supported by Aux Grant" url="workworld/questions/question_living_with_spouse_in_facility_supported_by_aux_grant.htm" />
+</key>
+<key name="Locality - Question" >
+  <topic name="Question - Locality" url="workworld/questions/question_locality.htm" />
+</key>
+<key name="Lost Competitive Job in Last 6 Month - Question" >
+  <topic name="Question - Lost Competitive Job in Last 6 Months" url="workworld/questions/question_lost_competitive_job_in_last_6_months.htm" />
+</key>
+<key name="Married - Question" >
+  <topic name="Question - Married" url="workworld/questions/question_married.htm" />
+</key>
+<key name="Medicaid as Protected Adult Disabled Child - Question" >
+  <topic name="Question - Medicaid as Protected Adult Disabled Child" url="workworld/questions/question_medicaid_as_protected_adult_disabled_child.htm" />
+</key>
+<key name="Medicaid Coverage - Question" >
+  <topic name="Question - Medicaid Coverage" url="workworld/questions/question_medicaid_coverage.htm" />
+</key>
+<key name="Medicaid Coverage of Spouse - Question" >
+  <topic name="Question - Medicaid Coverage of Spouse" url="workworld/questions/question_medicaid_coverage_of_spouse.htm" />
+</key>
+<key name="Medicaid Covered Group - Question" >
+  <topic name="Question - Medicaid Covered Group" url="workworld/questions/question_medicaid_covered_group.htm" />
+</key>
+<key name="Medicaid Covered Group of Spouse - Question" >
+  <topic name="Question - Medicaid Covered Group of Spouse" url="workworld/questions/question_medicaid_covered_group_of_spouse.htm" />
+</key>
+<key name="MEDICAID WORKS Premium Amount - Question" >
+  <topic name="Question - MEDICAID WORKS Premium Amount" url="workworld/questions/question_medicaid_works_premium_amount.htm" />
+</key>
+<key name="Medicare Part A - Question" >
+  <topic name="Question - Medicare Part A" url="workworld/questions/question_medicare_part_a.htm" />
+</key>
+<key name="Medicare Part B - Question" >
+  <topic name="Question - Medicare Part B" url="workworld/questions/question_medicare_part_b.htm" />
+</key>
+<key name="Medicare Part B Premium - Question" >
+  <topic name="Question - Medicare Part B Premium" url="workworld/questions/question_medicare_part_b_premium.htm" />
+</key>
+<key name="Medicare Part B Premium Deduction - Question" >
+  <topic name="Question - Medicare Part B Premium Deduction" url="workworld/questions/question_medicare_part_b_premium_deduction.htm" />
+</key>
+<key name="Medicare Part B Premium Paid Out-Of-Pocket - Question" >
+  <topic name="Question - Medicare Part B Premium Paid Out-Of-Pocket" url="workworld/questions/question_medicare_part_b_premium_paid_out_of_pocket.htm" />
+</key>
+<key name="Onset Date of Blindness - Question" >
+  <topic name="Question - Onset Date of Blindness" url="workworld/questions/question_onset_date_of_blindness.htm" />
+</key>
+<key name="Other Unearned Income Amount - Question" >
+  <topic name="Question - Other Unearned Income Amount" url="workworld/questions/question_other_unearned_income_amount.htm" />
+</key>
+<key name="Other Work Expenses - Question" >
+  <topic name="Question - Other Work Expenses" url="workworld/questions/question_other_work_expenses.htm" />
+</key>
+<key name="Parental Income Deemed to You and Spouse for Medicaid Purposes - Question" >
+  <topic name="Question - Parental Income Deemed to You and Spouse for Medicaid Purposes" url="workworld/questions/question_parental_income_deemed_to_you_and_spouse_for_medicaid_purposes.htm" />
+</key>
+<key name="Parental Income Deemed to You for Medicaid Purposes - Question" >
+  <topic name="Question - Parental Income Deemed to You for Medicaid Purposes" url="workworld/questions/question_parental_income_deemed_to_you_for_medicaid_purposes.htm" />
+</key>
+<key name="Parental Income Deemed to You for SSI Purposes - Question" >
+  <topic name="Question - Parental Income Deemed to You for SSI Purposes" url="workworld/questions/question_parental_income_deemed_to_you_for_ssi_purposes.htm" />
+</key>
+<key name="Plan for Achieving Self-Support [PASS] Amount - Question" >
+  <topic name="Question - Plan for Achieving Self-Support (PASS) Amount" url="workworld/questions/question_plan_for_achieving_self_support_pass_amount.htm" />
+</key>
+<key name="Question - 12 Months Since Onset for SSDI" >
+  <topic name="Question - 12 Months Since Onset for SSDI" url="workworld/questions/question_12_months_since_onset_for_ssdi.htm" />
+</key>
+<key name="Question - 12 Months Since Onset for SSI" >
+  <topic name="Question - 12 Months Since Onset for SSI" url="workworld/questions/question_12_months_since_onset_for_ssi.htm" />
+</key>
+<key name="Question - Actual Monthly SSDI Payment" >
+  <topic name="Question - Actual Monthly SSDI Payment" url="workworld/questions/question_actual_monthly_ssdi_payment.htm" />
+</key>
+<key name="Question - Actual Monthly SSI Payment" >
+  <topic name="Question - Actual Monthly SSI Payment" url="workworld/questions/question_actual_monthly_ssi_payment.htm" />
+</key>
+<key name="Question - Additional Supervision or Special Conditions Subsidy" >
+  <topic name="Question - Additional Supervision or Special Conditions Subsidy" url="workworld/questions/question_additional_supervision_or_special_conditions_subsidy.htm" />
+</key>
+<key name="Question - Applying for Home and Community Based Care [HBC]" >
+  <topic name="Question - Applying for Home and Community Based Care [HBC]" url="workworld/questions/question_applying_for_home_and_community_based_care_hbc_.htm" />
+</key>
+<key name="Question - Applying for Institutional Care Medicaid Services" >
+  <topic name="Question - Applying for Institutional Care Medicaid Services" url="workworld/questions/question_applying_for_institutional_care_medicaid_services.htm" />
+</key>
+<key name="Question - Applying for Medicaid" >
+  <topic name="Question - Applying for Medicaid" url="workworld/questions/question_applying_for_medicaid.htm" />
+</key>
+<key name="Question - Applying for Medicaid Covered Group" >
+  <topic name="Question - Applying for Medicaid Covered Group" url="workworld/questions/question_applying_for_medicaid_covered_group.htm" />
+</key>
+<key name="Question - Applying for MEDICAID WORKS" >
+  <topic name="Question - Applying for MEDICAID WORKS" url="workworld/questions/question_applying_for_medicaid_works.htm" />
+</key>
+<key name="Question - Assistance Based On Need [ABON]" >
+  <topic name="Question - Assistance Based On Need (ABON)" url="workworld/questions/question_assistance_based_on_need_abon_.htm" />
+</key>
+<key name="Question - Benefits Planning Query [BPQY]" >
+  <topic name="Question - Benefits Planning Query [BPQY]" url="workworld/questions/question_benefits_planning_query_bpqy_.htm" />
+</key>
+<key name="Question - Birthdate" >
+  <topic name="Question - Birthdate" url="workworld/questions/question_birthdate.htm" />
+</key>
+<key name="Question - Blind" >
+  <topic name="Question - Blind" url="workworld/questions/question_blind.htm" />
+</key>
+<key name="Question - Blind Work Expenses [BWE]" >
+  <topic name="Question - Blind Work Expenses (BWE)" url="workworld/questions/question_blind_work_expenses_bwe_.htm" />
+</key>
+<key name="Question - Competitively Employed" >
+  <topic name="Question - Competitively Employed" url="workworld/questions/question_competitively_employed.htm" />
+</key>
+<key name="Question - Considered to be Community Spouse" >
+  <topic name="Question - Considered to be Community Spouse" url="workworld/questions/question_considered_to_be_community_spouse.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Couple Medicaid Limit" >
+  <topic name="Question - Countable Resources Exceed Couple Medicaid Limit" url="workworld/questions/question_countable_resources_exceed_couple_medicaid_limit.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Couple Medicaid Limit for 80% FPL" >
+  <topic name="Question - Countable Resources Exceed Couple Medicaid Limit for 80% FPL" url="workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_80_fpl.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Couple Medicaid Limit for QDWI" >
+  <topic name="Question - Countable Resources Exceed Couple Medicaid Limit for QDWI" url="workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_qdwi.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Couple Medicaid Limit for QMB SLMB or QI" >
+  <topic name="Question - Countable Resources Exceed Couple Medicaid Limit for QMB, SLMB, or QI" url="workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_qmb_slmb_or_qi.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Couple SSI Limit" >
+  <topic name="Question - Countable Resources Exceed Couple SSI Limit" url="workworld/questions/question_countable_resources_exceed_couple_ssi_limit.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Individual Medicaid Limit" >
+  <topic name="Question - Countable Resources Exceed Individual Medicaid Limit" url="workworld/questions/question_countable_resources_exceed_individual_medicaid_limit.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Individual Medicaid Limit for 80% FPL" >
+  <topic name="Question - Countable Resources Exceed Individual Medicaid Limit for 80% FPL" url="workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_80_fpl.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Individual Medicaid Limit for QDWI" >
+  <topic name="Question - Countable Resources Exceed Individual Medicaid Limit for QDWI" url="workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_qdwi.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Individual Medicaid Limit for QMB SLMB or QI" >
+  <topic name="Question - Countable Resources Exceed Individual Medicaid Limit for QMB, SLMB, or QI" url="workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_qmb_slmb_or_qi.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Individual SSI Limit" >
+  <topic name="Question - Countable Resources Exceed Individual SSI Limit" url="workworld/questions/question_countable_resources_exceed_individual_ssi_limit.htm" />
+</key>
+<key name="Question - Countable Resources Exceed Medicaid Limit for 300% SSI" >
+  <topic name="Question - Countable Resources Exceed Medicaid Limit for 300% SSI" url="workworld/questions/question_countable_resources_exceed_medicaid_limit_for_300_ssi.htm" />
+</key>
+<key name="Question - Countable Resources in WIN Account Exceed MEDICAID WORKS Limit" >
+  <topic name="Question - Countable Resources in WIN Account Exceed MEDICAID WORKS Limit" url="workworld/questions/question_countable_resources_in_win_account_exceed_medicaid_works_limit.htm" />
+</key>
+<key name="Question - Countable Resources Not in WIN Account Exceed MEDICAID WORKS Limit" >
+  <topic name="Question - Countable Resources Not in WIN Account Exceed MEDICAID WORKS Limit" url="workworld/questions/question_countable_resources_not_in_win_account_exceed_medicaid_works_limit.htm" />
+</key>
+<key name="Question - Couple Facility Charges for Room Board and Services" >
+  <topic name="Question - Couple Facility Charges for Room, Board, and Services" url="workworld/questions/question_couple_facility_charges_for_room_board_and_services.htm" />
+</key>
+<key name="Question - Couple Student Earned Income Exclusion [SEIE] Less Than Earnings" >
+  <topic name="Question - Couple Student Earned Income Exclusion (SEIE) Less Than Earnings" url="workworld/questions/question_couple_student_earned_income_exclusion_seie_less_than_earnings.htm" />
+</key>
+<key name="Question - Couple Student Earned Income Exclusion [SEIE] Less Than Monthly Maximum" >
+  <topic name="Question - Couple Student Earned Income Exclusion (SEIE) Less Than Monthly Maximum" url="workworld/questions/question_couple_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm" />
+</key>
+<key name="Question - Couple Student Earned Income Exclusion [SEIE] Not Excluded" >
+  <topic name="Question - Couple Student Earned Income Exclusion (SEIE) Not Excluded" url="workworld/questions/question_couple_student_earned_income_exclusion_seie_not_excluded.htm" />
+</key>
+<key name="Question - Dependent SSDI Benefits Based on Spouse Record" >
+  <topic name="Question - Dependent SSDI Benefits Based on Spouse Record" url="workworld/questions/question_dependent_ssdi_benefits_based_on_spouse_record.htm" />
+</key>
+<key name="Question - Dependent SSDI Benefits Based on Your Record" >
+  <topic name="Question - Dependent SSDI Benefits Based on Your Record" url="workworld/questions/question_dependent_ssdi_benefits_based_on_your_record.htm" />
+</key>
+<key name="Question - Disability" >
+  <topic name="Question - Disability" url="workworld/questions/question_disability.htm" />
+</key>
+<key name="Question - Disability-Related Work Expenses" >
+  <topic name="Question - Disability-Related Work Expenses" url="workworld/questions/question_disability_related_work_expenses.htm" />
+</key>
+<key name="Question - Disabled Adult Child" >
+  <topic name="Question - Disabled Adult Child" url="workworld/questions/question_disabled_adult_child.htm" />
+</key>
+<key name="Question - Employability Investments" >
+  <topic name="Question - Employability Investments" url="workworld/questions/question_employability_investments.htm" />
+</key>
+<key name="Question - Established Work Incentive Account for MEDICAID WORKS" >
+  <topic name="Question - Established Work Incentive Account for MEDICAID WORKS" url="workworld/questions/question_established_work_incentive_account_for_medicaid_works.htm" />
+</key>
+<key name="Question - Estimated Medical Expenses with Medicaid" >
+  <topic name="Question - Estimated Medical Expenses with Medicaid" url="workworld/questions/question_estimated_medical_expenses_with_medicaid.htm" />
+</key>
+<key name="Question - Estimated Medical Expenses without Medicaid" >
+  <topic name="Question - Estimated Medical Expenses without Medicaid" url="workworld/questions/question_estimated_medical_expenses_without_medicaid.htm" />
+</key>
+<key name="Question - Estimated Other Expenses" >
+  <topic name="Question - Estimated Other Expenses" url="workworld/questions/question_estimated_other_expenses.htm" />
+</key>
+<key name="Question - Estimated Taxes on Earnings" >
+  <topic name="Question - Estimated Taxes on Earnings" url="workworld/questions/question_estimated_taxes_on_earnings.htm" />
+</key>
+<key name="Question - Excess Resources Plus Spouse Resources Exceed Medicaid Limit" >
+  <topic name="Question - Excess Resources Plus Spouse Resources Exceed Medicaid Limit" url="workworld/questions/question_excess_resources_plus_spouse_resources_exceed_medicaid_limit.htm" />
+</key>
+<key name="Question - Facility Charges for Room Board and Services" >
+  <topic name="Question - Facility Charges for Room, Board, and Services" url="workworld/questions/question_facility_charges_for_room_board_and_services.htm" />
+</key>
+<key name="Question - Final Determination Letter" >
+  <topic name="Question - Final Determination Letter" url="workworld/questions/question_final_determination_letter.htm" />
+</key>
+<key name="Question - Home Equity Value Exceeds LTC Limit" >
+  <topic name="Question - Home Equity Value Exceeds LTC Limit" url="workworld/questions/question_home_equity_value_exceeds_ltc_limit.htm" />
+</key>
+<key name="Question - Home Occupied by Spouse Child Under 21 or Disabled Child" >
+  <topic name="Question - Home Occupied by Spouse, Child Under 21, or Disabled Child" url="workworld/questions/question_home_occupied_by_spouse_child_under_21_or_disabled_child.htm" />
+</key>
+<key name="Question - In-Kind Support With Presumed Maximum Value [PMV]" >
+  <topic name="Question - In-Kind Support With Presumed Maximum Value (PMV)" url="workworld/questions/question_in_kind_support_with_presumed_maximum_value_pmv_.htm" />
+</key>
+<key name="Question - In-Kind Support With Value of One-Third Reduction [VTR]" >
+  <topic name="Question - In-Kind Support With Value of One-Third Reduction (VTR)" url="workworld/questions/question_in_kind_support_with_value_of_one_third_reduction_vtr_.htm" />
+</key>
+<key name="Question - Income Based On Need [IBON]" >
+  <topic name="Question - Income Based On Need (IBON)" url="workworld/questions/question_income_based_on_need_ibon_.htm" />
+</key>
+<key name="Question - Individualized Earnings Threshold" >
+  <topic name="Question - Individualized Earnings Threshold" url="workworld/questions/question_individualized_earnings_threshold.htm" />
+</key>
+<key name="Question - Individualized Earnings Threshold Amount" >
+  <topic name="Question - Individualized Earnings Threshold Amount" url="workworld/questions/question_individualized_earnings_threshold_amount.htm" />
+</key>
+<key name="Question - Infrequent or Irregular Unearned Income Amount" >
+  <topic name="Question - Infrequent or Irregular Unearned Income Amount" url="workworld/questions/question_infrequent_or_irregular_unearned_income_amount.htm" />
+</key>
+<key name="Question - Infrequent or Irregular Wages Salary Self-Employment Received Amount" >
+  <topic name="Question - Infrequent or Irregular Wages, Salary, Self-Employment Received Amount" url="workworld/questions/question_infrequent_or_irregular_wages_salary_self_employment_received_amount.htm" />
+</key>
+<key name="Question - IRWE for SSI Benefit Amount or Medicaid Eligibility" >
+  <topic name="Question - IRWE for SSI Benefit Amount or Medicaid Eligibility" url="workworld/questions/question_irwe_for_ssi_benefit_amount_or_medicaid_eligibility.htm" />
+</key>
+<key name="Question - IRWE to Determine Substantial Gainful Activity [SGA]" >
+  <topic name="Question - IRWE to Determine Substantial Gainful Activity (SGA)" url="workworld/questions/question_irwe_to_determine_substantial_gainful_activity_sga_.htm" />
+</key>
+<key name="Question - Living Alone" >
+  <topic name="Question - Living Alone" url="workworld/questions/question_living_alone.htm" />
+</key>
+<key name="Question - Living in Facility" >
+  <topic name="Question - Living in Facility" url="workworld/questions/question_living_in_facility.htm" />
+</key>
+<key name="Question - Living in Facility Supported by Auxiliary Grant" >
+  <topic name="Question - Living in Facility Supported by Auxiliary Grant" url="workworld/questions/question_living_in_facility_supported_by_auxiliary_grant.htm" />
+</key>
+<key name="Question - Living with Other Adults" >
+  <topic name="Question - Living with Other Adults" url="workworld/questions/question_living_with_other_adults.htm" />
+</key>
+<key name="Question - Living with Parents" >
+  <topic name="Question - Living with Parents" url="workworld/questions/question_living_with_parents.htm" />
+</key>
+<key name="Question - Living with Spouse" >
+  <topic name="Question - Living with Spouse" url="workworld/questions/question_living_with_spouse.htm" />
+</key>
+<key name="Question - Living with Spouse and Other Adults" >
+  <topic name="Question - Living with Spouse and Other Adults" url="workworld/questions/question_living_with_spouse_and_other_adults.htm" />
+</key>
+<key name="Question - Living with Spouse and Own Parents" >
+  <topic name="Question - Living with Spouse and Own Parents" url="workworld/questions/question_living_with_spouse_and_own_parents.htm" />
+</key>
+<key name="Question - Living with Spouse and Parents of Spouse" >
+  <topic name="Question - Living with Spouse and Parents of Spouse" url="workworld/questions/question_living_with_spouse_and_parents_of_spouse.htm" />
+</key>
+<key name="Question - Living with Spouse in Facility" >
+  <topic name="Question - Living with Spouse in Facility" url="workworld/questions/question_living_with_spouse_in_facility.htm" />
+</key>
+<key name="Question - Living with Spouse in Facility Supported by Aux Grant" >
+  <topic name="Question - Living with Spouse in Facility Supported by Aux Grant" url="workworld/questions/question_living_with_spouse_in_facility_supported_by_aux_grant.htm" />
+</key>
+<key name="Question - Locality" >
+  <topic name="Question - Locality" url="workworld/questions/question_locality.htm" />
+</key>
+<key name="Question - Lost Competitive Job in Last 6 Months" >
+  <topic name="Question - Lost Competitive Job in Last 6 Months" url="workworld/questions/question_lost_competitive_job_in_last_6_months.htm" />
+</key>
+<key name="Question - Married" >
+  <topic name="Question - Married" url="workworld/questions/question_married.htm" />
+</key>
+<key name="Question - Medicaid as Protected Adult Disabled Child" >
+  <topic name="Question - Medicaid as Protected Adult Disabled Child" url="workworld/questions/question_medicaid_as_protected_adult_disabled_child.htm" />
+</key>
+<key name="Question - Medicaid Coverage" >
+  <topic name="Question - Medicaid Coverage" url="workworld/questions/question_medicaid_coverage.htm" />
+</key>
+<key name="Question - Medicaid Coverage of Spouse" >
+  <topic name="Question - Medicaid Coverage of Spouse" url="workworld/questions/question_medicaid_coverage_of_spouse.htm" />
+</key>
+<key name="Question - Medicaid Covered Group" >
+  <topic name="Question - Medicaid Covered Group" url="workworld/questions/question_medicaid_covered_group.htm" />
+</key>
+<key name="Question - Medicaid Covered Group of Spouse" >
+  <topic name="Question - Medicaid Covered Group of Spouse" url="workworld/questions/question_medicaid_covered_group_of_spouse.htm" />
+</key>
+<key name="Question - MEDICAID WORKS Premium Amount" >
+  <topic name="Question - MEDICAID WORKS Premium Amount" url="workworld/questions/question_medicaid_works_premium_amount.htm" />
+</key>
+<key name="Question - Medicare Part A" >
+  <topic name="Question - Medicare Part A" url="workworld/questions/question_medicare_part_a.htm" />
+</key>
+<key name="Question - Medicare Part B" >
+  <topic name="Question - Medicare Part B" url="workworld/questions/question_medicare_part_b.htm" />
+</key>
+<key name="Question - Medicare Part B Premium" >
+  <topic name="Question - Medicare Part B Premium" url="workworld/questions/question_medicare_part_b_premium.htm" />
+</key>
+<key name="Question - Medicare Part B Premium Deduction" >
+  <topic name="Question - Medicare Part B Premium Deduction" url="workworld/questions/question_medicare_part_b_premium_deduction.htm" />
+</key>
+<key name="Question - Medicare Part B Premium Paid Out-Of-Pocket" >
+  <topic name="Question - Medicare Part B Premium Paid Out-Of-Pocket" url="workworld/questions/question_medicare_part_b_premium_paid_out_of_pocket.htm" />
+</key>
+<key name="Question - Onset Date of Blindness" >
+  <topic name="Question - Onset Date of Blindness" url="workworld/questions/question_onset_date_of_blindness.htm" />
+</key>
+<key name="Question - Other Unearned Income Amount" >
+  <topic name="Question - Other Unearned Income Amount" url="workworld/questions/question_other_unearned_income_amount.htm" />
+</key>
+<key name="Question - Other Work Expenses" >
+  <topic name="Question - Other Work Expenses" url="workworld/questions/question_other_work_expenses.htm" />
+</key>
+<key name="Question - Parental Income Deemed to You and Spouse for Medicaid Purposes" >
+  <topic name="Question - Parental Income Deemed to You and Spouse for Medicaid Purposes" url="workworld/questions/question_parental_income_deemed_to_you_and_spouse_for_medicaid_purposes.htm" />
+</key>
+<key name="Question - Parental Income Deemed to You for Medicaid Purposes" >
+  <topic name="Question - Parental Income Deemed to You for Medicaid Purposes" url="workworld/questions/question_parental_income_deemed_to_you_for_medicaid_purposes.htm" />
+</key>
+<key name="Question - Parental Income Deemed to You for SSI Purposes" >
+  <topic name="Question - Parental Income Deemed to You for SSI Purposes" url="workworld/questions/question_parental_income_deemed_to_you_for_ssi_purposes.htm" />
+</key>
+<key name="Question - Plan for Achieving Self-Support [PASS] Amount" >
+  <topic name="Question - Plan for Achieving Self-Support (PASS) Amount" url="workworld/questions/question_plan_for_achieving_self_support_pass_amount.htm" />
+</key>
+<key name="Question - Receive Home and Community Based Care [HBC]" >
+  <topic name="Question - Receive Home and Community Based Care [HBC]" url="workworld/questions/question_receive_home_and_community_based_care_hbc_.htm" />
+</key>
+<key name="Question - Receive In-Kind Support" >
+  <topic name="Question - Receive In-Kind Support" url="workworld/questions/question_receive_in_kind_support.htm" />
+</key>
+<key name="Question - Receive Institutional Care Medicaid Services" >
+  <topic name="Question - Receive Institutional Care Medicaid Services" url="workworld/questions/question_receive_institutional_care_medicaid_services.htm" />
+</key>
+<key name="Question - Receive Social Security Disability Insurance [SSDI]" >
+  <topic name="Question - Receive Social Security Disability Insurance [SSDI]" url="workworld/questions/question_receive_social_security_disability_insurance_ssdi_.htm" />
+</key>
+<key name="Question - Receive Supplemental Security Income [SSI]" >
+  <topic name="Question - Receive Supplemental Security Income [SSI]" url="workworld/questions/question_receive_supplemental_security_income_ssi_.htm" />
+</key>
+<key name="Question - Reduced Work Duties Subsidy" >
+  <topic name="Question - Reduced Work Duties Subsidy" url="workworld/questions/question_reduced_work_duties_subsidy.htm" />
+</key>
+<key name="Question - Self-Employed" >
+  <topic name="Question - Self-Employed" url="workworld/questions/question_self_employed.htm" />
+</key>
+<key name="Question - Situation Date" >
+  <topic name="Question - Situation Date" url="workworld/questions/question_situation_date.htm" />
+</key>
+<key name="Question - Situation Name" >
+  <topic name="Question - Situation Name" url="workworld/questions/question_situation_name.htm" />
+</key>
+<key name="Question - Skills and Abilities Different Than Before Age 55" >
+  <topic name="Question - Skills and Abilities Different Than Before Age 55" url="workworld/questions/question_skills_and_abilities_different_than_before_age_55.htm" />
+</key>
+<key name="Question - Skills and Abilities DifferentThan Before Onset" >
+  <topic name="Question - Skills and Abilities Different Than Before Onset" url="workworld/questions/question_skills_and_abilities_different_than_before_onset_.htm" />
+</key>
+<key name="Question - Spouse Actual Monthly SSDI Payment" >
+  <topic name="Question - Spouse Actual Monthly SSDI Payment" url="workworld/questions/question_spouse_actual_monthly_ssdi_payment.htm" />
+</key>
+<key name="Question - Spouse Actual Monthly SSI Payment" >
+  <topic name="Question - Spouse Actual Monthly SSI Payment" url="workworld/questions/question_spouse_actual_monthly_ssi_payment.htm" />
+</key>
+<key name="Question - Spouse Additional Supervision or Special Conditions Subsidy" >
+  <topic name="Question - Spouse Additional Supervision or Special Conditions Subsidy" url="workworld/questions/question_spouse_additional_supervision_or_special_conditions_subsidy.htm" />
+</key>
+<key name="Question - Spouse Applying for Home and Community Based Care [HBC]" >
+  <topic name="Question - Spouse Applying for Home and Community Based Care [HBC]" url="workworld/questions/question_spouse_applying_for_home_and_community_based_care_hbc_.htm" />
+</key>
+<key name="Question - Spouse Applying for Institutional Care Medicaid Services" >
+  <topic name="Question - Spouse Applying for Institutional Care Medicaid Services" url="workworld/questions/question_spouse_applying_for_institutional_care_medicaid_services.htm" />
+</key>
+<key name="Question - Spouse Applying for Medicaid" >
+  <topic name="Question - Spouse Applying for Medicaid" url="workworld/questions/question_spouse_applying_for_medicaid.htm" />
+</key>
+<key name="Question - Spouse Applying for Medicaid Covered Group" >
+  <topic name="Question - Spouse Applying for Medicaid Covered Group" url="workworld/questions/question_spouse_applying_for_medicaid_covered_group.htm" />
+</key>
+<key name="Question - Spouse Applying for MEDICAID WORKS" >
+  <topic name="Question - Spouse Applying for MEDICAID WORKS" url="workworld/questions/question_spouse_applying_for_medicaid_works.htm" />
+</key>
+<key name="Question - Spouse Assistance Based On Need [ABON]" >
+  <topic name="Question - Spouse Assistance Based On Need (ABON)" url="workworld/questions/question_spouse_assistance_based_on_need_abon_.htm" />
+</key>
+<key name="Question - Spouse Birthdate" >
+  <topic name="Question - Spouse Birthdate" url="workworld/questions/question_spouse_birthdate.htm" />
+</key>
+<key name="Question - Spouse Blind" >
+  <topic name="Question - Spouse Blind" url="workworld/questions/question_spouse_blind.htm" />
+</key>
+<key name="Question - Spouse Blind Work Expenses [BWE]" >
+  <topic name="Question - Spouse Blind Work Expenses (BWE)" url="workworld/questions/question_spouse_blind_work_expenses_bwe_.htm" />
+</key>
+<key name="Question - Spouse Competitively Employed" >
+  <topic name="Question - Spouse Competitively Employed" url="workworld/questions/question_spouse_competitively_employed.htm" />
+</key>
+<key name="Question - Spouse Considered to be Community Spouse" >
+  <topic name="Question - Spouse Considered to be Community Spouse" url="workworld/questions/question_spouse_considered_to_be_community_spouse.htm" />
+</key>
+<key name="Question - Spouse Countable Resources Exceed Protected Resource Amount" >
+  <topic name="Question - Spouse Countable Resources Exceed Protected Resource Amount" url="workworld/questions/question_spouse_countable_resources_exceed_protected_resource_amount.htm" />
+</key>
+<key name="Question - Spouse Countable Resources in WIN Account Exceed MEDICAID WORKS Limit" >
+  <topic name="Question - Spouse Countable Resources in WIN Account Exceed MEDICAID WORKS Limit" url="workworld/questions/question_spouse_countable_resources_in_win_account_exceed_medicaid_works_limit.htm" />
+</key>
+<key name="Question - Spouse Countable Resources Not in WIN Account Exceed MEDICAID WORKS Limit" >
+  <topic name="Question - Spouse Countable Resources Not in WIN Account Exceed MEDICAID WORKS Limit" url="workworld/questions/question_spouse_countable_resources_not_in_win_account_exceed_medicaid_works_limit.htm" />
+</key>
+<key name="Question - Spouse Disability" >
+  <topic name="Question - Spouse Disability" url="workworld/questions/question_spouse_disability.htm" />
+</key>
+<key name="Question - Spouse Disability-Related Work Expenses" >
+  <topic name="Question - Spouse Disability-Related Work Expenses" url="workworld/questions/question_spouse_disability_related_work_expenses.htm" />
+</key>
+<key name="Question - Spouse Earned Income" >
+  <topic name="Question - Spouse Earned Income" url="workworld/questions/question_spouse_earned_income.htm" />
+</key>
+<key name="Question - Spouse Earned Income Deemed for Medicaid Purposes" >
+  <topic name="Question - Spouse Earned Income Deemed for Medicaid Purposes" url="workworld/questions/question_spouse_earned_income_deemed_for_medicaid_purposes.htm" />
+</key>
+<key name="Question - Spouse Earned Income Deemed for SSI Purposes" >
+  <topic name="Question - Spouse Earned Income Deemed for SSI Purposes" url="workworld/questions/question_spouse_earned_income_deemed_for_ssi_purposes.htm" />
+</key>
+<key name="Question - Spouse Eligibility Countable Resources Exceed Couple Medicaid Limit" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Couple Medicaid Limit" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit.htm" />
+</key>
+<key name="Question - Spouse Eligibility Countable Resources Exceed Couple Medicaid Limit for 80% FPL" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Couple Medicaid Limit for 80% FPL" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_80_fpl.htm" />
+</key>
+<key name="Question - Spouse Eligibility Countable Resources Exceed Couple Medicaid Limit for QDWI" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Couple Medicaid Limit for QDWI" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_qdwi.htm" />
+</key>
+<key name="Question - Spouse Eligibility Countable Resources Exceed Couple Medicaid Limit for QMB SLMB or QI" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Couple Medicaid Limit for QMB, SLMB, or QI" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_qmb_slmb_or_qi.htm" />
+</key>
+<key name="Question - Spouse Eligibility Countable Resources Exceed Medicaid Limit for 300% SSI" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Medicaid Limit for 300% SSI" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_medicaid_limit_for_300_ssi.htm" />
+</key>
+<key name="Question - Spouse Employability Investments" >
+  <topic name="Question - Spouse Employability Investments" url="workworld/questions/question_spouse_employability_investments.htm" />
+</key>
+<key name="Question - Spouse Established Work Incentive Account for MEDICAID WORKS" >
+  <topic name="Question - Spouse Established Work Incentive Account for MEDICAID WORKS" url="workworld/questions/question_spouse_established_work_incentive_account_for_medicaid_works.htm" />
+</key>
+<key name="Question - Spouse Estimated Medical Expenses with Medicaid" >
+  <topic name="Question - Spouse Estimated Medical Expenses with Medicaid" url="workworld/questions/question_spouse_estimated_medical_expenses_with_medicaid.htm" />
+</key>
+<key name="Question - Spouse Estimated Medical Expenses without Medicaid" >
+  <topic name="Question - Spouse Estimated Medical Expenses without Medicaid" url="workworld/questions/question_spouse_estimated_medical_expenses_without_medicaid.htm" />
+</key>
+<key name="Question - Spouse Estimated Other Expenses" >
+  <topic name="Question - Spouse Estimated Other Expenses" url="workworld/questions/question_spouse_estimated_other_expenses.htm" />
+</key>
+<key name="Question - Spouse Estimated Taxes on Earnings" >
+  <topic name="Question - Spouse Estimated Taxes on Earnings" url="workworld/questions/question_spouse_estimated_taxes_on_earnings.htm" />
+</key>
+<key name="Question - Spouse Excess Resources Plus Own Resources Exceed Medicaid Limit" >
+  <topic name="Question - Spouse Excess Resources Plus Own Resources Exceed Medicaid Limit" url="workworld/questions/question_spouse_excess_resources_plus_own_resources_exceed_medicaid_limit.htm" />
+</key>
+<key name="Question - Spouse Income Based On Need [IBON]" >
+  <topic name="Question - Spouse Income Based On Need (IBON)" url="workworld/questions/question_spouse_income_based_on_need_ibon_.htm" />
+</key>
+<key name="Question - Spouse Income Deemed for Medicaid Purposes" >
+  <topic name="Question - Spouse Income Deemed for Medicaid Purposes" url="workworld/questions/question_spouse_income_deemed_for_medicaid_purposes.htm" />
+</key>
+<key name="Question - Spouse Income or Resources Deemed for SSI Purposes" >
+  <topic name="Question - Spouse Income or Resources Deemed for SSI Purposes" url="workworld/questions/question_spouse_income_or_resources_deemed_for_ssi_purposes.htm" />
+</key>
+<key name="Question - Spouse Individualized Earnings Threshold" >
+  <topic name="Question - Spouse Individualized Earnings Threshold" url="workworld/questions/question_spouse_individualized_earnings_threshold.htm" />
+</key>
+<key name="Question - Spouse Individualized Earnings Threshold Amount" >
+  <topic name="Question - Spouse Individualized Earnings Threshold Amount" url="workworld/questions/question_spouse_individualized_earnings_threshold_amount.htm" />
+</key>
+<key name="Question - Spouse Infrequent or Irregular Unearned Income Amount" >
+  <topic name="Question - Spouse Infrequent or Irregular Unearned Income Amount" url="workworld/questions/question_spouse_infrequent_or_irregular_unearned_income_amount.htm" />
+</key>
+<key name="Question - Spouse Infrequent or Irregular Wages Salary Self-Employment Received Amount" >
+  <topic name="Question - Spouse Infrequent or Irregular Wages, Salary, Self-Employment Received Amount" url="workworld/questions/question_spouse_infrequent_or_irregular_wages_salary_self_employment_received_amount.htm" />
+</key>
+<key name="Question - Spouse IRWE for SSI Benefit Amount or Medicaid Eligibility" >
+  <topic name="Question - Spouse IRWE for SSI Benefit Amount or Medicaid Eligibility" url="workworld/questions/question_spouse_irwe_for_ssi_benefit_amount_or_medicaid_eligibility.htm" />
+</key>
+<key name="Question - Spouse IRWE to Determine Substantial Gainful Activity [SGA]" >
+  <topic name="Question - Spouse IRWE to Determine Substantial Gainful Activity (SGA)" url="workworld/questions/question_spouse_irwe_to_determine_substantial_gainful_activity_sga_.htm" />
+</key>
+<key name="Question - Spouse is Disabled Adult Child" >
+  <topic name="Question - Spouse is Disabled Adult Child" url="workworld/questions/question_spouse_is_disabled_adult_child.htm" />
+</key>
+<key name="Question - Spouse Living in Facility" >
+  <topic name="Question - Spouse Living in Facility" url="workworld/questions/question_spouse_living_in_facility.htm" />
+</key>
+<key name="Question - Spouse Living in Facility Supported by Auxiliary Grant" >
+  <topic name="Question - Spouse Living in Facility Supported by Auxiliary Grant" url="workworld/questions/question_spouse_living_in_facility_supported_by_auxiliary_grant.htm" />
+</key>
+<key name="Question - Spouse Lost Competitive Job in Last 6 Months" >
+  <topic name="Question - Spouse Lost Competitive Job in Last 6 Months" url="workworld/questions/question_spouse_lost_competitive_job_in_last_6_months.htm" />
+</key>
+<key name="Question - Spouse Medicaid as Protected Adult Disabled Child" >
+  <topic name="Question - Spouse Medicaid as Protected Adult Disabled Child" url="workworld/questions/question_spouse_medicaid_as_protected_adult_disabled_child.htm" />
+</key>
+<key name="Question - Spouse MEDICAID WORKS Premium Amount" >
+  <topic name="Question - Spouse MEDICAID WORKS Premium Amount" url="workworld/questions/question_spouse_medicaid_works_premium_amount.htm" />
+</key>
+<key name="Question - Spouse Medicare Part A" >
+  <topic name="Question - Spouse Medicare Part A" url="workworld/questions/question_spouse_medicare_part_a.htm" />
+</key>
+<key name="Question - Spouse Medicare Part B" >
+  <topic name="Question - Spouse Medicare Part B" url="workworld/questions/question_spouse_medicare_part_b.htm" />
+</key>
+<key name="Question - Spouse Medicare Part B Premium" >
+  <topic name="Question - Spouse Medicare Part B Premium" url="workworld/questions/question_spouse_medicare_part_b_premium.htm" />
+</key>
+<key name="Question - Spouse Medicare Part B Premium Deduction" >
+  <topic name="Question - Spouse Medicare Part B Premium Deduction" url="workworld/questions/question_spouse_medicare_part_b_premium_deduction.htm" />
+</key>
+<key name="Question - Spouse Medicare Part B Premium Paid Out-Of-Pocket" >
+  <topic name="Question - Spouse Medicare Part B Premium Paid Out-Of-Pocket" url="workworld/questions/question_spouse_medicare_part_b_premium_paid_out_of_pocket.htm" />
+</key>
+<key name="Question - Spouse Onset Date of Blindness" >
+  <topic name="Question - Spouse Onset Date of Blindness" url="workworld/questions/question_spouse_onset_date_of_blindness.htm" />
+</key>
+<key name="Question - Spouse Other Unearned Income Amount" >
+  <topic name="Question - Spouse Other Unearned Income Amount" url="workworld/questions/question_spouse_other_unearned_income_amount.htm" />
+</key>
+<key name="Question - Spouse Other Work Expenses" >
+  <topic name="Question - Spouse Other Work Expenses" url="workworld/questions/question_spouse_other_work_expenses.htm" />
+</key>
+<key name="Question - Spouse Plan for Achieving Self-Support [PASS] Amount" >
+  <topic name="Question - Spouse Plan for Achieving Self-Support (PASS) Amount" url="workworld/questions/question_spouse_plan_for_achieving_self_support_pass_amount.htm" />
+</key>
+<key name="Question - Spouse Receives Home and Community Based Care [HBC]" >
+  <topic name="Question - Spouse Receives Home and Community Based Care [HBC]" url="workworld/questions/question_spouse_receives_home_and_community_based_care_hbc_.htm" />
+</key>
+<key name="Question - Spouse Receives Institutional Care Medicaid Services" >
+  <topic name="Question - Spouse Receives Institutional Care Medicaid Services" url="workworld/questions/question_spouse_receives_institutional_care_medicaid_services.htm" />
+</key>
+<key name="Question - Spouse Receives SSDI" >
+  <topic name="Question - Spouse Receives SSDI" url="workworld/questions/question_spouse_receives_ssdi.htm" />
+</key>
+<key name="Question - Spouse Receives SSI" >
+  <topic name="Question - Spouse Receives SSI" url="workworld/questions/question_spouse_receives_ssi.htm" />
+</key>
+<key name="Question - Spouse Reduced Work Duties Subsidy" >
+  <topic name="Question - Spouse Reduced Work Duties Subsidy" url="workworld/questions/question_spouse_reduced_work_duties_subsidy.htm" />
+</key>
+<key name="Question - Spouse Self-Employed" >
+  <topic name="Question - Spouse Self-Employed" url="workworld/questions/question_spouse_self_employed.htm" />
+</key>
+<key name="Question - Spouse Skills and Abilities Different Than Before Age 55" >
+  <topic name="Question - Spouse Skills and Abilities Different Than Before Age 55" url="workworld/questions/question_spouse_skills_and_abilities_different_than_before_age_55.htm" />
+</key>
+<key name="Question - Spouse Skills and Abilities Different Than Before Onset" >
+  <topic name="Question - Spouse Skills and Abilities Different Than Before Onset" url="workworld/questions/question_spouse_skills_and_abilities_different_than_before_onset.htm" />
+</key>
+<key name="Question - Spouse SSDI Benefits Based on Own Earnings Record" >
+  <topic name="Question - Spouse SSDI Benefits Based on Own Earnings Record" url="workworld/questions/question_spouse_ssdi_benefits_based_on_own_earnings_record.htm" />
+</key>
+<key name="Question - Spouse SSDI Monthly Benefit Amount" >
+  <topic name="Question - Spouse SSDI Monthly Benefit Amount" url="workworld/questions/question_spouse_ssdi_monthly_benefit_amount.htm" />
+</key>
+<key name="Question - Spouse SSDI Primary Insurance Amount [PIA]" >
+  <topic name="Question - Spouse SSDI Primary Insurance Amount (PIA)" url="workworld/questions/question_spouse_ssdi_primary_insurance_amount_pia_.htm" />
+</key>
+<key name="Question - Spouse Start Date for Competitive Job" >
+  <topic name="Question - Spouse Start Date for Competitive Job" url="workworld/questions/question_spouse_start_date_for_competitive_job.htm" />
+</key>
+<key name="Question - Spouse Student" >
+  <topic name="Question - Spouse Student" url="workworld/questions/question_spouse_student.htm" />
+</key>
+<key name="Question - Spouse Student Earned Income Exclusion [SEIE] Amount" >
+  <topic name="Question - Spouse Student Earned Income Exclusion (SEIE) Amount" url="workworld/questions/question_spouse_student_earned_income_exclusion_seie_amount.htm" />
+</key>
+<key name="Question - Spouse Student Earned Income Exclusion [SEIE] Less Than Earnings" >
+  <topic name="Question - Spouse Student Earned Income Exclusion (SEIE) Less Than Earnings" url="workworld/questions/question_spouse_student_earned_income_exclusion_seie_less_than_earnings.htm" />
+</key>
+<key name="Question - Spouse Student Earned Income Exclusion [SEIE] Less Than Monthly Maximum" >
+  <topic name="Question - Spouse Student Earned Income Exclusion (SEIE) Less Than Monthly Maximum" url="workworld/questions/question_spouse_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm" />
+</key>
+<key name="Question - Spouse Student Earned Income Exclusion [SEIE] Not Excluded" >
+  <topic name="Question - Spouse Student Earned Income Exclusion (SEIE) Not Excluded" url="workworld/questions/question_spouse_student_earned_income_exclusion_seie_not_excluded.htm" />
+</key>
+<key name="Question - Spouse Trial Work and Grace Period" >
+  <topic name="Question - Spouse Trial Work and Grace Period" url="workworld/questions/question_spouse_trial_work_and_grace_period.htm" />
+</key>
+<key name="Question - Spouse Unearned Income Deemed for Medicaid Purposes" >
+  <topic name="Question - Spouse Unearned Income Deemed for Medicaid Purposes" url="workworld/questions/question_spouse_unearned_income_deemed_for_medicaid_purposes.htm" />
+</key>
+<key name="Question - Spouse Unearned Income Deemed for SSI Purposes" >
+  <topic name="Question - Spouse Unearned Income Deemed for SSI Purposes" url="workworld/questions/question_spouse_unearned_income_deemed_for_ssi_purposes.htm" />
+</key>
+<key name="Question - Spouse Wages Salary Self-Employment Earned Amount" >
+  <topic name="Question - Spouse Wages, Salary, Self-Employment Earned Amount" url="workworld/questions/question_spouse_wages_salary_self_employment_earned_amount.htm" />
+</key>
+<key name="Question - Spouse Wages Salary Self-Employment Received Amount" >
+  <topic name="Question - Spouse Wages, Salary, Self-Employment Received Amount" url="workworld/questions/question_spouse_wages_salary_self_employment_received_amount.htm" />
+</key>
+<key name="Question - SSDI Benefits Based on Own Earnings Record" >
+  <topic name="Question - SSDI Benefits Based on Own Earnings Record" url="workworld/questions/question_ssdi_benefits_based_on_own_earnings_record.htm" />
+</key>
+<key name="Question - SSDI Monthly Benefit Amount" >
+  <topic name="Question - SSDI Monthly Benefit Amount" url="workworld/questions/question_ssdi_monthly_benefit_amount.htm" />
+</key>
+<key name="Question - SSDI Primary Insurance Amount [PIA]" >
+  <topic name="Question - SSDI Primary Insurance Amount (PIA)" url="workworld/questions/question_ssdi_primary_insurance_amount_pia_.htm" />
+</key>
+<key name="Question - Start Date for Competitive Job" >
+  <topic name="Question - Start Date for Competitive Job" url="workworld/questions/question_start_date_for_competitive_job.htm" />
+</key>
+<key name="Question - State" >
+  <topic name="Question - State" url="workworld/questions/question_state.htm" />
+</key>
+<key name="Question - Student" >
+  <topic name="Question - Student" url="workworld/questions/question_student.htm" />
+</key>
+<key name="Question - Student Earned Income Exclusion [SEIE] Amount" >
+  <topic name="Question - Student Earned Income Exclusion (SEIE) Amount" url="workworld/questions/question_student_earned_income_exclusion_seie_amount.htm" />
+</key>
+<key name="Question - Student Earned Income Exclusion [SEIE] Less Than Earnings" >
+  <topic name="Question - Student Earned Income Exclusion (SEIE) Less Than Earnings" url="workworld/questions/question_student_earned_income_exclusion_seie_less_than_earnings.htm" />
+</key>
+<key name="Question - Student Earned Income Exclusion [SEIE] Less Than Monthly Maximum" >
+  <topic name="Question - Student Earned Income Exclusion (SEIE) Less Than Monthly Maximum" url="workworld/questions/question_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm" />
+</key>
+<key name="Question - Student Earned Income Exclusion [SEIE] Not Excluded" >
+  <topic name="Question - Student Earned Income Exclusion (SEIE) Not Excluded" url="workworld/questions/question_student_earned_income_exclusion_seie_not_excluded.htm" />
+</key>
+<key name="Question - Trial Work and Grace Period" >
+  <topic name="Question - Trial Work and Grace Period" url="workworld/questions/question_trial_work_and_grace_period.htm" />
+</key>
+<key name="Question - Wages Salary Self-Employment Earned Amount" >
+  <topic name="Question - Wages, Salary, Self-Employment Earned Amount" url="workworld/questions/question_wages_salary_self_employment_earned_amount.htm" />
+</key>
+<key name="Question - Wages Salary Self-Employment Received Amount" >
+  <topic name="Question - Wages, Salary, Self-Employment Received Amount" url="workworld/questions/question_wages_salary_self_employment_received_amount.htm" />
+</key>
+<key name="Question – Couple SSI Adjustment Due to Previous Overpayment" >
+  <topic name="Question – Couple SSI Adjustment Due to Previous Overpayment" url="workworld/questions/question_couple_ssi_adjustment_due_to_previous_overpayment.htm" />
+</key>
+<key name="Question – Couple SSI Adjustment Due to Previous Underpayment" >
+  <topic name="Question – Couple SSI Adjustment Due to Previous Underpayment" url="workworld/questions/question_couple_ssi_adjustment_due_to_previous_underpayment.htm" />
+</key>
+<key name="Question – Spouse SSDI Adjustment Due to Previous Overpayment" >
+  <topic name="Question – Spouse SSDI Adjustment Due to Previous Overpayment" url="workworld/questions/question_spouse_ssdi_adjustment_due_to_previous_overpayment.htm" />
+</key>
+<key name="Question – Spouse SSDI Adjustment Due to Previous Underpayment" >
+  <topic name="Question – Spouse SSDI Adjustment Due to Previous Underpayment" url="workworld/questions/question_spouse_ssdi_adjustment_due_to_previous_underpayment.htm" />
+</key>
+<key name="Question – Spouse SSDI Adjustment Due to Workers Compensation or Public Disability Benefit" >
+  <topic name="Question – Spouse SSDI Adjustment Due to Workers Compensation or Public Disability Benefit" url="workworld/questions/question_spouse_ssdi_adjustment_due_to_workers_compensation_or_public_disability_benefit.htm" />
+</key>
+<key name="Question – Spouse SSI Decreased Due to SSDI Overpayment" >
+  <topic name="Question – Spouse SSI Decreased Due to SSDI Overpayment" url="workworld/questions/question_spouse_ssi_decreased_due_to_ssdi_overpayment.htm" />
+</key>
+<key name="Question – Spouse SSI Increased Due to SSDI Underpayment" >
+  <topic name="Question – Spouse SSI Increased Due to SSDI Underpayment" url="workworld/questions/question_spouse_ssi_increased_due_to_ssdi_underpayment.htm" />
+</key>
+<key name="Question – SSDI Adjustment Due to Previous Overpayment" >
+  <topic name="Question – SSDI Adjustment Due to Previous Overpayment" url="workworld/questions/question_ssdi_adjustment_due_to_previous_overpayment.htm" />
+</key>
+<key name="Question – SSDI Adjustment Due to Previous Underpayment" >
+  <topic name="Question – SSDI Adjustment Due to Previous Underpayment" url="workworld/questions/question_ssdi_adjustment_due_to_previous_underpayment.htm" />
+</key>
+<key name="Question – SSDI Adjustment Due to Workers Compensation or Public Disability Benefit" >
+  <topic name="Question – SSDI Adjustment Due to Workers Compensation or Public Disability Benefit" url="workworld/questions/question_ssdi_adjustment_due_to_workers_compensation_or_public_disability_benefit.htm" />
+</key>
+<key name="Question – SSI Adjustment Due to Previous Overpayment" >
+  <topic name="Question – SSI Adjustment Due to Previous Overpayment" url="workworld/questions/question_ssi_adjustment_due_to_previous_overpayment.htm" />
+</key>
+<key name="Question – SSI Adjustment Due to Previous Underpayment" >
+  <topic name="Question – SSI Adjustment Due to Previous Underpayment" url="workworld/questions/question_ssi_adjustment_due_to_previous_underpayment.htm" />
+</key>
+<key name="Question – SSI Decreased Due to SSDI Overpayment" >
+  <topic name="Question – SSI Decreased Due to SSDI Overpayment" url="workworld/questions/question_ssi_decreased_due_to_ssdi_overpayment.htm" />
+</key>
+<key name="Question – SSI Increased Due to SSDI Underpayment" >
+  <topic name="Question – SSI Increased Due to SSDI Underpayment" url="workworld/questions/question_ssi_increased_due_to_ssdi_underpayment.htm" />
+</key>
+<key name="Receive Home and Community Based Care [HBC] - Question" >
+  <topic name="Question - Receive Home and Community Based Care [HBC]" url="workworld/questions/question_receive_home_and_community_based_care_hbc_.htm" />
+</key>
+<key name="Receive In-Kind Support - Question" >
+  <topic name="Question - Receive In-Kind Support" url="workworld/questions/question_receive_in_kind_support.htm" />
+</key>
+<key name="Receive Institutional Care Medicaid Services - Question" >
+  <topic name="Question - Receive Institutional Care Medicaid Services" url="workworld/questions/question_receive_institutional_care_medicaid_services.htm" />
+</key>
+<key name="Receive Social Security Disability Insurance [SSDI] - Question" >
+  <topic name="Question - Receive Social Security Disability Insurance [SSDI]" url="workworld/questions/question_receive_social_security_disability_insurance_ssdi_.htm" />
+</key>
+<key name="Receive Supplemental Security Income [SSI] - Question" >
+  <topic name="Question - Receive Supplemental Security Income [SSI]" url="workworld/questions/question_receive_supplemental_security_income_ssi_.htm" />
+</key>
+<key name="Reduced Work Duties Subsidy - Question" >
+  <topic name="Question - Reduced Work Duties Subsidy" url="workworld/questions/question_reduced_work_duties_subsidy.htm" />
+</key>
+<key name="Self-Employed - Question" >
+  <topic name="Question - Self-Employed" url="workworld/questions/question_self_employed.htm" />
+</key>
+<key name="Sharing Files" >
+  <topic name="File Sharing" url="workworld/file_sharing.htm" />
+</key>
+<key name="Situation Date - Question" >
+  <topic name="Question - Situation Date" url="workworld/questions/question_situation_date.htm" />
+</key>
+<key name="Situation Name - Question" >
+  <topic name="Question - Situation Name" url="workworld/questions/question_situation_name.htm" />
+</key>
+<key name="Skills and Abilities Different Than Before Age 55 - Question" >
+  <topic name="Question - Skills and Abilities Different Than Before Age 55" url="workworld/questions/question_skills_and_abilities_different_than_before_age_55.htm" />
+</key>
+<key name="Skills and Abilities DifferentThan Before Onset- Question" >
+  <topic name="Question - Skills and Abilities Different Than Before Onset" url="workworld/questions/question_skills_and_abilities_different_than_before_onset_.htm" />
+</key>
+<key name="Spouse Actual Monthly SSDI Payment - Question" >
+  <topic name="Question - Spouse Actual Monthly SSDI Payment" url="workworld/questions/question_spouse_actual_monthly_ssdi_payment.htm" />
+</key>
+<key name="Spouse Actual Monthly SSI Payment - Question" >
+  <topic name="Question - Spouse Actual Monthly SSI Payment" url="workworld/questions/question_spouse_actual_monthly_ssi_payment.htm" />
+</key>
+<key name="Spouse Additional Supervision or Special Conditions Subsidy - Question" >
+  <topic name="Question - Spouse Additional Supervision or Special Conditions Subsidy" url="workworld/questions/question_spouse_additional_supervision_or_special_conditions_subsidy.htm" />
+</key>
+<key name="Spouse Applying for Home and Community Based Care [HBC] - Question" >
+  <topic name="Question - Spouse Applying for Home and Community Based Care [HBC]" url="workworld/questions/question_spouse_applying_for_home_and_community_based_care_hbc_.htm" />
+</key>
+<key name="Spouse Applying for Institutional Care Medicaid Services - Question" >
+  <topic name="Question - Spouse Applying for Institutional Care Medicaid Services" url="workworld/questions/question_spouse_applying_for_institutional_care_medicaid_services.htm" />
+</key>
+<key name="Spouse Applying for Medicaid - Question" >
+  <topic name="Question - Spouse Applying for Medicaid" url="workworld/questions/question_spouse_applying_for_medicaid.htm" />
+</key>
+<key name="Spouse Applying for Medicaid Covered Group - Question" >
+  <topic name="Question - Spouse Applying for Medicaid Covered Group" url="workworld/questions/question_spouse_applying_for_medicaid_covered_group.htm" />
+</key>
+<key name="Spouse Applying for MEDICAID WORKS - Question" >
+  <topic name="Question - Spouse Applying for MEDICAID WORKS" url="workworld/questions/question_spouse_applying_for_medicaid_works.htm" />
+</key>
+<key name="Spouse Assistance Based On Need [ABON] - Question" >
+  <topic name="Question - Spouse Assistance Based On Need (ABON)" url="workworld/questions/question_spouse_assistance_based_on_need_abon_.htm" />
+</key>
+<key name="Spouse Birthdate - Question" >
+  <topic name="Question - Spouse Birthdate" url="workworld/questions/question_spouse_birthdate.htm" />
+</key>
+<key name="Spouse Blind - Question" >
+  <topic name="Question - Spouse Blind" url="workworld/questions/question_spouse_blind.htm" />
+</key>
+<key name="Spouse Blind Work Expenses [BWE] - Question" >
+  <topic name="Question - Spouse Blind Work Expenses (BWE)" url="workworld/questions/question_spouse_blind_work_expenses_bwe_.htm" />
+</key>
+<key name="Spouse Competitively Employed - Question" >
+  <topic name="Question - Spouse Competitively Employed" url="workworld/questions/question_spouse_competitively_employed.htm" />
+</key>
+<key name="Spouse Considered to be Community Spouse - Question" >
+  <topic name="Question - Spouse Considered to be Community Spouse" url="workworld/questions/question_spouse_considered_to_be_community_spouse.htm" />
+</key>
+<key name="Spouse Countable Resources Exceed Protected Resource Amount - Question" >
+  <topic name="Question - Spouse Countable Resources Exceed Protected Resource Amount" url="workworld/questions/question_spouse_countable_resources_exceed_protected_resource_amount.htm" />
+</key>
+<key name="Spouse Countable Resources in WIN Account Exceed MEDICAID WORKS Limit - Question" >
+  <topic name="Question - Spouse Countable Resources in WIN Account Exceed MEDICAID WORKS Limit" url="workworld/questions/question_spouse_countable_resources_in_win_account_exceed_medicaid_works_limit.htm" />
+</key>
+<key name="Spouse Countable Resources Not in WIN Account Exceed MEDICAID WORKS Limit - Question" >
+  <topic name="Question - Spouse Countable Resources Not in WIN Account Exceed MEDICAID WORKS Limit" url="workworld/questions/question_spouse_countable_resources_not_in_win_account_exceed_medicaid_works_limit.htm" />
+</key>
+<key name="Spouse Disability - Question" >
+  <topic name="Question - Spouse Disability" url="workworld/questions/question_spouse_disability.htm" />
+</key>
+<key name="Spouse Disability-Related Work Expenses - Question" >
+  <topic name="Question - Spouse Disability-Related Work Expenses" url="workworld/questions/question_spouse_disability_related_work_expenses.htm" />
+</key>
+<key name="Spouse Earned Income - Question" >
+  <topic name="Question - Spouse Earned Income" url="workworld/questions/question_spouse_earned_income.htm" />
+</key>
+<key name="Spouse Earned Income Deemed for Medicaid Purposes - Question" >
+  <topic name="Question - Spouse Earned Income Deemed for Medicaid Purposes" url="workworld/questions/question_spouse_earned_income_deemed_for_medicaid_purposes.htm" />
+</key>
+<key name="Spouse Earned Income Deemed for SSI Purposes - Question" >
+  <topic name="Question - Spouse Earned Income Deemed for SSI Purposes" url="workworld/questions/question_spouse_earned_income_deemed_for_ssi_purposes.htm" />
+</key>
+<key name="Spouse Eligibility Countable Resources Exceed Couple Medicaid Limit - Question" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Couple Medicaid Limit" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit.htm" />
+</key>
+<key name="Spouse Eligibility Countable Resources Exceed Couple Medicaid Limit for 80% FPL - Question" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Couple Medicaid Limit for 80% FPL" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_80_fpl.htm" />
+</key>
+<key name="Spouse Eligibility Countable Resources Exceed Couple Medicaid Limit for QDWI - Question" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Couple Medicaid Limit for QDWI" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_qdwi.htm" />
+</key>
+<key name="Spouse Eligibility Countable Resources Exceed Couple Medicaid Limit for QMB SLMB or QI - Question" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Couple Medicaid Limit for QMB, SLMB, or QI" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_qmb_slmb_or_qi.htm" />
+</key>
+<key name="Spouse Eligibility Countable Resources Exceed Medicaid Limit for 300% SSI - Question" >
+  <topic name="Question - Spouse Eligibility: Countable Resources Exceed Medicaid Limit for 300% SSI" url="workworld/questions/question_spouse_eligibility_countable_resources_exceed_medicaid_limit_for_300_ssi.htm" />
+</key>
+<key name="Spouse Employability Investments - Question" >
+  <topic name="Question - Spouse Employability Investments" url="workworld/questions/question_spouse_employability_investments.htm" />
+</key>
+<key name="Spouse Established Work Incentive Account for MEDICAID WORKS - Question" >
+  <topic name="Question - Spouse Established Work Incentive Account for MEDICAID WORKS" url="workworld/questions/question_spouse_established_work_incentive_account_for_medicaid_works.htm" />
+</key>
+<key name="Spouse Estimated Medical Expenses with Medicaid - Question" >
+  <topic name="Question - Spouse Estimated Medical Expenses with Medicaid" url="workworld/questions/question_spouse_estimated_medical_expenses_with_medicaid.htm" />
+</key>
+<key name="Spouse Estimated Medical Expenses without Medicaid - Question" >
+  <topic name="Question - Spouse Estimated Medical Expenses without Medicaid" url="workworld/questions/question_spouse_estimated_medical_expenses_without_medicaid.htm" />
+</key>
+<key name="Spouse Estimated Other Expenses - Question" >
+  <topic name="Question - Spouse Estimated Other Expenses" url="workworld/questions/question_spouse_estimated_other_expenses.htm" />
+</key>
+<key name="Spouse Estimated Taxes on Earnings - Question" >
+  <topic name="Question - Spouse Estimated Taxes on Earnings" url="workworld/questions/question_spouse_estimated_taxes_on_earnings.htm" />
+</key>
+<key name="Spouse Excess Resources Plus Own Resources Exceed Medicaid Limi - Question" >
+  <topic name="Question - Spouse Excess Resources Plus Own Resources Exceed Medicaid Limit" url="workworld/questions/question_spouse_excess_resources_plus_own_resources_exceed_medicaid_limit.htm" />
+</key>
+<key name="Spouse Income Based On Need [IBON] - Question" >
+  <topic name="Question - Spouse Income Based On Need (IBON)" url="workworld/questions/question_spouse_income_based_on_need_ibon_.htm" />
+</key>
+<key name="Spouse Income Deemed for Medicaid Purposes - Question" >
+  <topic name="Question - Spouse Income Deemed for Medicaid Purposes" url="workworld/questions/question_spouse_income_deemed_for_medicaid_purposes.htm" />
+</key>
+<key name="Spouse Income or Resources Deemed for SSI Purposes - Question" >
+  <topic name="Question - Spouse Income or Resources Deemed for SSI Purposes" url="workworld/questions/question_spouse_income_or_resources_deemed_for_ssi_purposes.htm" />
+</key>
+<key name="Spouse Individualized Earnings Threshold - Question" >
+  <topic name="Question - Spouse Individualized Earnings Threshold" url="workworld/questions/question_spouse_individualized_earnings_threshold.htm" />
+</key>
+<key name="Spouse Individualized Earnings Threshold Amount - Question" >
+  <topic name="Question - Spouse Individualized Earnings Threshold Amount" url="workworld/questions/question_spouse_individualized_earnings_threshold_amount.htm" />
+</key>
+<key name="Spouse Infrequent or Irregular Unearned Income Amount - Question" >
+  <topic name="Question - Spouse Infrequent or Irregular Unearned Income Amount" url="workworld/questions/question_spouse_infrequent_or_irregular_unearned_income_amount.htm" />
+</key>
+<key name="Spouse Infrequent or Irregular Wages Salary Self-Employment Received Amount - Question" >
+  <topic name="Question - Spouse Infrequent or Irregular Wages, Salary, Self-Employment Received Amount" url="workworld/questions/question_spouse_infrequent_or_irregular_wages_salary_self_employment_received_amount.htm" />
+</key>
+<key name="Spouse IRWE for SSI Benefit Amount or Medicaid Eligibility - Question" >
+  <topic name="Question - Spouse IRWE for SSI Benefit Amount or Medicaid Eligibility" url="workworld/questions/question_spouse_irwe_for_ssi_benefit_amount_or_medicaid_eligibility.htm" />
+</key>
+<key name="Spouse IRWE to Determine Substantial Gainful Activity [SGA] - Question" >
+  <topic name="Question - Spouse IRWE to Determine Substantial Gainful Activity (SGA)" url="workworld/questions/question_spouse_irwe_to_determine_substantial_gainful_activity_sga_.htm" />
+</key>
+<key name="Spouse is Disabled Adult Child - Question" >
+  <topic name="Question - Spouse is Disabled Adult Child" url="workworld/questions/question_spouse_is_disabled_adult_child.htm" />
+</key>
+<key name="Spouse Living in Facility - Question" >
+  <topic name="Question - Spouse Living in Facility" url="workworld/questions/question_spouse_living_in_facility.htm" />
+</key>
+<key name="Spouse Living in Facility Supported by Auxiliary Grant - Question" >
+  <topic name="Question - Spouse Living in Facility Supported by Auxiliary Grant" url="workworld/questions/question_spouse_living_in_facility_supported_by_auxiliary_grant.htm" />
+</key>
+<key name="Spouse Lost Competitive Job in Last 6 Months - Question" >
+  <topic name="Question - Spouse Lost Competitive Job in Last 6 Months" url="workworld/questions/question_spouse_lost_competitive_job_in_last_6_months.htm" />
+</key>
+<key name="Spouse Medicaid as Protected Adult Disabled Child - Question" >
+  <topic name="Question - Spouse Medicaid as Protected Adult Disabled Child" url="workworld/questions/question_spouse_medicaid_as_protected_adult_disabled_child.htm" />
+</key>
+<key name="Spouse MEDICAID WORKS Premium Amount - Question" >
+  <topic name="Question - Spouse MEDICAID WORKS Premium Amount" url="workworld/questions/question_spouse_medicaid_works_premium_amount.htm" />
+</key>
+<key name="Spouse Medicare Part A - Question" >
+  <topic name="Question - Spouse Medicare Part A" url="workworld/questions/question_spouse_medicare_part_a.htm" />
+</key>
+<key name="Spouse Medicare Part B - Question" >
+  <topic name="Question - Spouse Medicare Part B" url="workworld/questions/question_spouse_medicare_part_b.htm" />
+</key>
+<key name="Spouse Medicare Part B Premium - Question" >
+  <topic name="Question - Spouse Medicare Part B Premium" url="workworld/questions/question_spouse_medicare_part_b_premium.htm" />
+</key>
+<key name="Spouse Medicare Part B Premium Deduction - Question" >
+  <topic name="Question - Spouse Medicare Part B Premium Deduction" url="workworld/questions/question_spouse_medicare_part_b_premium_deduction.htm" />
+</key>
+<key name="Spouse Medicare Part B Premium Paid Out-Of-Pocket - Question" >
+  <topic name="Question - Spouse Medicare Part B Premium Paid Out-Of-Pocket" url="workworld/questions/question_spouse_medicare_part_b_premium_paid_out_of_pocket.htm" />
+</key>
+<key name="Spouse Onset Date of Blindness - Question" >
+  <topic name="Question - Spouse Onset Date of Blindness" url="workworld/questions/question_spouse_onset_date_of_blindness.htm" />
+</key>
+<key name="Spouse Other Unearned Income Amount - Question" >
+  <topic name="Question - Spouse Other Unearned Income Amount" url="workworld/questions/question_spouse_other_unearned_income_amount.htm" />
+</key>
+<key name="Spouse Other Work Expenses - Question" >
+  <topic name="Question - Spouse Other Work Expenses" url="workworld/questions/question_spouse_other_work_expenses.htm" />
+</key>
+<key name="Spouse Plan for Achieving Self-Support [PASS] Amount - Question" >
+  <topic name="Question - Spouse Plan for Achieving Self-Support (PASS) Amount" url="workworld/questions/question_spouse_plan_for_achieving_self_support_pass_amount.htm" />
+</key>
+<key name="Spouse Receives Home and Community Based Care [HBC] - Question" >
+  <topic name="Question - Spouse Receives Home and Community Based Care [HBC]" url="workworld/questions/question_spouse_receives_home_and_community_based_care_hbc_.htm" />
+</key>
+<key name="Spouse Receives Institutional Care Medicaid Services - Question" >
+  <topic name="Question - Spouse Receives Institutional Care Medicaid Services" url="workworld/questions/question_spouse_receives_institutional_care_medicaid_services.htm" />
+</key>
+<key name="Spouse Receives SSDI - Question" >
+  <topic name="Question - Spouse Receives SSDI" url="workworld/questions/question_spouse_receives_ssdi.htm" />
+</key>
+<key name="Spouse Receives SSI - Question" >
+  <topic name="Question - Spouse Receives SSI" url="workworld/questions/question_spouse_receives_ssi.htm" />
+</key>
+<key name="Spouse Reduced Work Duties Subsidy - Question" >
+  <topic name="Question - Spouse Reduced Work Duties Subsidy" url="workworld/questions/question_spouse_reduced_work_duties_subsidy.htm" />
+</key>
+<key name="Spouse Self-Employed - Question" >
+  <topic name="Question - Spouse Self-Employed" url="workworld/questions/question_spouse_self_employed.htm" />
+</key>
+<key name="Spouse Skills and Abilities Different Than Before Age 55 - Question" >
+  <topic name="Question - Spouse Skills and Abilities Different Than Before Age 55" url="workworld/questions/question_spouse_skills_and_abilities_different_than_before_age_55.htm" />
+</key>
+<key name="Spouse Skills and Abilities Different Than Before Onset - Question" >
+  <topic name="Question - Spouse Skills and Abilities Different Than Before Onset" url="workworld/questions/question_spouse_skills_and_abilities_different_than_before_onset.htm" />
+</key>
+<key name="Spouse SSDI Adjustment Due to Previous Overpayment - Question" >
+  <topic name="Question – Spouse SSDI Adjustment Due to Previous Overpayment" url="workworld/questions/question_spouse_ssdi_adjustment_due_to_previous_overpayment.htm" />
+</key>
+<key name="Spouse SSDI Adjustment Due to Previous Underpayment - Question" >
+  <topic name="Question – Spouse SSDI Adjustment Due to Previous Underpayment" url="workworld/questions/question_spouse_ssdi_adjustment_due_to_previous_underpayment.htm" />
+</key>
+<key name="Spouse SSDI Adjustment Due to Workers Compensation or Public Disability Benefit - Question" >
+  <topic name="Question – Spouse SSDI Adjustment Due to Workers Compensation or Public Disability Benefit" url="workworld/questions/question_spouse_ssdi_adjustment_due_to_workers_compensation_or_public_disability_benefit.htm" />
+</key>
+<key name="Spouse SSDI Benefits Based on Own Earnings Record - Question" >
+  <topic name="Question - Spouse SSDI Benefits Based on Own Earnings Record" url="workworld/questions/question_spouse_ssdi_benefits_based_on_own_earnings_record.htm" />
+</key>
+<key name="Spouse SSDI Monthly Benefit Amount - Question" >
+  <topic name="Question - Spouse SSDI Monthly Benefit Amount" url="workworld/questions/question_spouse_ssdi_monthly_benefit_amount.htm" />
+</key>
+<key name="Spouse SSDI Primary Insurance Amount [PIA] - Question" >
+  <topic name="Question - Spouse SSDI Primary Insurance Amount (PIA)" url="workworld/questions/question_spouse_ssdi_primary_insurance_amount_pia_.htm" />
+</key>
+<key name="Spouse SSI Decreased Due to SSDI Overpayment - Question" >
+  <topic name="Question – Spouse SSI Decreased Due to SSDI Overpayment" url="workworld/questions/question_spouse_ssi_decreased_due_to_ssdi_overpayment.htm" />
+</key>
+<key name="Spouse SSI Increased Due to SSDI Underpayment - Question" >
+  <topic name="Question – Spouse SSI Increased Due to SSDI Underpayment" url="workworld/questions/question_spouse_ssi_increased_due_to_ssdi_underpayment.htm" />
+</key>
+<key name="Spouse Start Date for Competitive Job - Question" >
+  <topic name="Question - Spouse Start Date for Competitive Job" url="workworld/questions/question_spouse_start_date_for_competitive_job.htm" />
+</key>
+<key name="Spouse Student - Question" >
+  <topic name="Question - Spouse Student" url="workworld/questions/question_spouse_student.htm" />
+</key>
+<key name="Spouse Student Earned Income Exclusion [SEIE] Amount - Question" >
+  <topic name="Question - Spouse Student Earned Income Exclusion (SEIE) Amount" url="workworld/questions/question_spouse_student_earned_income_exclusion_seie_amount.htm" />
+</key>
+<key name="Spouse Student Earned Income Exclusion [SEIE] Less Than Earnings - Question" >
+  <topic name="Question - Spouse Student Earned Income Exclusion (SEIE) Less Than Earnings" url="workworld/questions/question_spouse_student_earned_income_exclusion_seie_less_than_earnings.htm" />
+</key>
+<key name="Spouse Student Earned Income Exclusion [SEIE] Less Than Monthly Maximum - Question" >
+  <topic name="Question - Spouse Student Earned Income Exclusion (SEIE) Less Than Monthly Maximum" url="workworld/questions/question_spouse_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm" />
+</key>
+<key name="Spouse Student Earned Income Exclusion [SEIE] Not Excluded - Question" >
+  <topic name="Question - Spouse Student Earned Income Exclusion (SEIE) Not Excluded" url="workworld/questions/question_spouse_student_earned_income_exclusion_seie_not_excluded.htm" />
+</key>
+<key name="Spouse Trial Work and Grace Period - Question" >
+  <topic name="Question - Spouse Trial Work and Grace Period" url="workworld/questions/question_spouse_trial_work_and_grace_period.htm" />
+</key>
+<key name="Spouse Unearned Income Deemed for Medicaid Purposes - Question" >
+  <topic name="Question - Spouse Unearned Income Deemed for Medicaid Purposes" url="workworld/questions/question_spouse_unearned_income_deemed_for_medicaid_purposes.htm" />
+</key>
+<key name="Spouse Unearned Income Deemed for SSI Purpose - Question" >
+  <topic name="Question - Spouse Unearned Income Deemed for SSI Purposes" url="workworld/questions/question_spouse_unearned_income_deemed_for_ssi_purposes.htm" />
+</key>
+<key name="Spouse Wages Salary Self-Employment Earned Amount - Question" >
+  <topic name="Question - Spouse Wages, Salary, Self-Employment Earned Amount" url="workworld/questions/question_spouse_wages_salary_self_employment_earned_amount.htm" />
+</key>
+<key name="Spouse Wages Salary Self-Employment Received Amount - Question" >
+  <topic name="Question - Spouse Wages, Salary, Self-Employment Received Amount" url="workworld/questions/question_spouse_wages_salary_self_employment_received_amount.htm" />
+</key>
+<key name="SSDI Adjustment Due to Previous Overpayment - Question" >
+  <topic name="Question – SSDI Adjustment Due to Previous Overpayment" url="workworld/questions/question_ssdi_adjustment_due_to_previous_overpayment.htm" />
+</key>
+<key name="SSDI Adjustment Due to Previous Underpayment - Question" >
+  <topic name="Question – SSDI Adjustment Due to Previous Underpayment" url="workworld/questions/question_ssdi_adjustment_due_to_previous_underpayment.htm" />
+</key>
+<key name="SSDI Adjustment Due to Workers Compensation or Public Disability Benefit - Question" >
+  <topic name="Question – SSDI Adjustment Due to Workers Compensation or Public Disability Benefit" url="workworld/questions/question_ssdi_adjustment_due_to_workers_compensation_or_public_disability_benefit.htm" />
+</key>
+<key name="SSDI Benefits Based on Own Earnings Record - Question" >
+  <topic name="Question - SSDI Benefits Based on Own Earnings Record" url="workworld/questions/question_ssdi_benefits_based_on_own_earnings_record.htm" />
+</key>
+<key name="SSDI Monthly Benefit Amount - Question" >
+  <topic name="Question - SSDI Monthly Benefit Amount" url="workworld/questions/question_ssdi_monthly_benefit_amount.htm" />
+</key>
+<key name="SSDI Primary Insurance Amount [PIA] - Question" >
+  <topic name="Question - SSDI Primary Insurance Amount (PIA)" url="workworld/questions/question_ssdi_primary_insurance_amount_pia_.htm" />
+</key>
+<key name="SSI Adjustment Due to Previous Overpayment - Question" >
+  <topic name="Question – SSI Adjustment Due to Previous Overpayment" url="workworld/questions/question_ssi_adjustment_due_to_previous_overpayment.htm" />
+</key>
+<key name="SSI Adjustment Due to Previous Underpayment - Question" >
+  <topic name="Question – SSI Adjustment Due to Previous Underpayment" url="workworld/questions/question_ssi_adjustment_due_to_previous_underpayment.htm" />
+</key>
+<key name="SSI Decreased Due to SSDI Overpayment - Question" >
+  <topic name="Question – SSI Decreased Due to SSDI Overpayment" url="workworld/questions/question_ssi_decreased_due_to_ssdi_overpayment.htm" />
+</key>
+<key name="SSI Increased Due to SSDI Underpayment - Question" >
+  <topic name="Question – SSI Increased Due to SSDI Underpayment" url="workworld/questions/question_ssi_increased_due_to_ssdi_underpayment.htm" />
+</key>
+<key name="Start Date for Competitive Job - Question" >
+  <topic name="Question - Start Date for Competitive Job" url="workworld/questions/question_start_date_for_competitive_job.htm" />
+</key>
+<key name="State - Question" >
+  <topic name="Question - State" url="workworld/questions/question_state.htm" />
+</key>
+<key name="Student - Question" >
+  <topic name="Question - Student" url="workworld/questions/question_student.htm" />
+</key>
+<key name="Student Earned Income Exclusion [SEIE] Amount - Question" >
+  <topic name="Question - Student Earned Income Exclusion (SEIE) Amount" url="workworld/questions/question_student_earned_income_exclusion_seie_amount.htm" />
+</key>
+<key name="Student Earned Income Exclusion [SEIE] Less Than Earnings - Question" >
+  <topic name="Question - Student Earned Income Exclusion (SEIE) Less Than Earnings" url="workworld/questions/question_student_earned_income_exclusion_seie_less_than_earnings.htm" />
+</key>
+<key name="Student Earned Income Exclusion [SEIE] Less Than Monthly Maximum - Question" >
+  <topic name="Question - Student Earned Income Exclusion (SEIE) Less Than Monthly Maximum" url="workworld/questions/question_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm" />
+</key>
+<key name="Student Earned Income Exclusion [SEIE] Not Excluded - Question" >
+  <topic name="Question - Student Earned Income Exclusion (SEIE) Not Excluded" url="workworld/questions/question_student_earned_income_exclusion_seie_not_excluded.htm" />
+</key>
+<key name="Trial Work and Grace Period - Question" >
+  <topic name="Question - Trial Work and Grace Period" url="workworld/questions/question_trial_work_and_grace_period.htm" />
+</key>
+<key name="Wages Salary Self-Employment Earned Amount - Question" >
+  <topic name="Question - Wages, Salary, Self-Employment Earned Amount" url="workworld/questions/question_wages_salary_self_employment_earned_amount.htm" />
+</key>
+<key name="Wages Salary Self-Employment Received Amount - Question" >
+  <topic name="Question - Wages, Salary, Self-Employment Received Amount" url="workworld/questions/question_wages_salary_self_employment_received_amount.htm" />
+</key>
+<key name="Welcome" >
+  <topic name="Welcome" url="workworld/welcome.htm" />
+</key>
+<key name="WorkWORLD on the Web - About" >
+  <topic name="About WorkWORLD on the Web" url="workworld/about_workworld_on_the_web.htm" />
+</key>
+
+</indexdata>

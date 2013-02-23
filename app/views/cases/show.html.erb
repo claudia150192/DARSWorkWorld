@@ -1,0 +1,19 @@
+<% title h(@case.name) %>
+<p>
+  <b>User:</b>
+  <%= @case.user.login %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @case.name %>
+</p>
+
+<p>
+	<%= link_to 'Open Case', open_case_url(@case) %>
+</p>
+
+<% if can? :manage, @question %> 
+	<%= link_to 'Rename', edit_case_path(@case) %> |
+	<%= link_to 'Back to cases', cases_path %>
+<% end %>

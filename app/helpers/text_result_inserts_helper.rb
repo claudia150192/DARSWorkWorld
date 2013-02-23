@@ -1,0 +1,2 @@
+module TextResultInsertsHelper
+end

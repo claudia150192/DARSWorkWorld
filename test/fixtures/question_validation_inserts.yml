@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  question_id: 1
+  insert_number: 1
+  webcalc_id_to_insert: 1
+  insert_type: MyString
+
+two:
+  question_id: 1
+  insert_number: 1
+  webcalc_id_to_insert: 1
+  insert_type: MyString

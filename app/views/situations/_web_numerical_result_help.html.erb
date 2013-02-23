@@ -1,0 +1,4 @@
+<h3><%= @web_numerical_result.name %></h3>
+<% for tip in @web_numerical_result.web_tips do %>
+	<p><%= tip.text %></p>
+<% end unless @web_numerical_result.web_tips.blank? %>

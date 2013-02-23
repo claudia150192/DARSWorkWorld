@@ -1,0 +1,7 @@
+<% title display_situation_name @situation %>
+<div id="confirm_delete">
+  <strong>You are about to delete this situation permanently, do you wish to proceed?</strong>
+  <%= form_tag(case_situation_path(:case_id=>@situation.case.id, :id=>@situation.id), :method=>"delete", :class=>"form") do %>
+    <%= submit_tag "Delete", :class=>"button" %><%= link_to "Cancel", :back %>
+  <%end%>
+</div>

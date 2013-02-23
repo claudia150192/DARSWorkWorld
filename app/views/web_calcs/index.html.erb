@@ -1,0 +1,22 @@
+<% title "Listing web calcs" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Operation</th>
+  </tr>
+
+<% @web_calcs.each do |web_calc| %>
+  <tr>
+    <td><%=h web_calc.name %></td>
+    <td><%=h web_calc.operation %></td>
+    <td><%= link_to 'Show', web_calc %></td>
+    <td><%= link_to 'Edit', edit_web_calc_path(web_calc) %></td>
+    <td><%= link_to 'Delete', web_calc, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Web Calc', new_web_calc_path %>

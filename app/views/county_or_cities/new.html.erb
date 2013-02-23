@@ -1,0 +1,13 @@
+<% title "New county or city" %>
+
+<% form_for(@county_or_city) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name, :class => "textfield" %>
+  </p>
+  <p>
+    <%= f.submit 'Create', :class => "button" %><%= link_to 'Cancel', :back %>
+  </p>
+<% end %>

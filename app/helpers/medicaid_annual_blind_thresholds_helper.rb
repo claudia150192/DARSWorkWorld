@@ -1,0 +1,2 @@
+module MedicaidAnnualBlindThresholdsHelper
+end

@@ -1,0 +1,11 @@
+<div id="group-main">
+	<h3><%= @group.name %></h3>
+  <p><%= display_mode @situation %></p>
+	<%= render :partial => "group_errors", :locals => { :group => @group } %>
+  <%= render :partial => "questions", :locals => { :group => @group } %>
+  <%= render :partial=> "answers", :locals => { :group => @group, :situation=> @situation } %>
+</div>
+
+<%= render :partial => "group_tips", :locals => { :group => @group, :manager => @manager } %>
+
+<div class="clear"></div>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<fts>
+<chunkinfo url="whfwdata0.xml" first="%" last="cod"/>
+<chunkinfo url="whfwdata1.xml" first="coincidenc" last="fund"/>
+<chunkinfo url="whfwdata2.xml" first="futur" last="money"/>
+<chunkinfo url="whfwdata3.xml" first="month" last="section"/>
+<chunkinfo url="whfwdata4.xml" first="security" last="win"/>
+<chunkinfo url="whfwdata5.xml" first="wish" last="–"/>
+
+<tchunkinfo first="0" last="73" url="whftdata0.xml" />
+<tchunkinfo first="74" last="132" url="whftdata1.xml" />
+<tchunkinfo first="133" last="197" url="whftdata2.xml" />
+<tchunkinfo first="198" last="211" url="whftdata3.xml" />
+
+</fts>

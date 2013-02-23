@@ -1,0 +1,35 @@
+	<% title "Insert Number " + @web_tip_insert.insert_number.to_s + " for " + h(WebTip.find(:first, :conditions => ['id = ?',  @web_tip_insert.web_tip_id]).identifier) %> 
+<p>
+  <b>Web Tip Name:</b>
+
+<%= WebTip.find(:first, :conditions => ['id = ?',  @web_tip_insert.web_tip_id]).identifier  %>
+</p>
+
+<p>
+  <b>Web Tip text with insert marker[s]:</b>
+  <%= WebTip.find(:first, :conditions => ['id = ?',  @web_tip_insert.web_tip_id]).text  %>
+</p>
+<p>
+  <b>Insert Number:</b>
+  <%= @web_tip_insert.insert_number %>
+</p>
+
+<p>
+  <b>WebCalc to Insert:</b>
+  <%= WebCalc.find(:first, :conditions => ['id = ?',  @web_tip_insert.webcalc_id_to_insert]).name  %>
+</p>
+
+<p>
+  <b>Insert Type:</b>
+  <%= @web_tip_insert.insert_type %>
+</p>
+
+<p>
+  <b>Insert Marker:</b>
+  <%= @web_tip_insert.insert_marker %>
+</p>
+
+<% if can? :manage, @web_tip_insert %>
+	<%= link_to 'Edit', edit_text_result_insert_path(@web_tip_insert) %> |
+	<%= link_to 'Back to Web Tip Insertion', web_tip_inserts_path %>
+<% end %>

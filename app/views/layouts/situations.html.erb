@@ -1,0 +1,8 @@
+<% content_for :situations_content do %>
+  <% render :partial => "situations/group_navigation", :locals => { :parents => @parents, :nav_parents=>@nav_parents, :group => @group, :situation=>@situation } %>
+	<%# content_tag :h2, yield(:title) if show_title? %>
+	<%# yield %>
+<% end %>
+
+<%= render :file => 'layouts/application' %>
+

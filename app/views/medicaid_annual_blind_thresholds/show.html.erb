@@ -1,0 +1,15 @@
+<p>
+  <b>Start date:</b>
+  <%= @medicaid_annual_blind_threshold.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%= @medicaid_annual_blind_threshold.end_date %>
+</p>
+
+<%= render :partial => "partials/states_rates_display", :locals => { :rate => @medicaid_annual_blind_threshold } %>
+
+
+<%= link_to 'Edit', edit_medicaid_annual_blind_threshold_path(@medicaid_annual_blind_threshold) %> |
+<%= link_to 'Back to medicaid annual blind thresholds', medicaid_annual_blind_thresholds_path %>

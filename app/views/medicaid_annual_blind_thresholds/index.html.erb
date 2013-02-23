@@ -1,0 +1,124 @@
+<% title "Listing medicaid annual blind thresholds" %>
+
+<table>
+  <tr>
+    <th>Start date</th>
+    <th>End date</th>
+    <th>Alabama             </th>
+    <th>Alaska              </th>
+    <th>Arizona             </th>
+    <th>Arkansas            </th>
+    <th>California          </th>
+    <th>Colorado	          </th>
+    <th>Connecticut         </th>
+    <th>Delaware            </th>
+    <th>District of Columbia</th>
+    <th>Florida	            </th>
+    <th>Georgia	            </th>
+    <th>Hawaii              </th>
+    <th>Idaho               </th>
+    <th>Illinois            </th>
+    <th>Indiana             </th>
+    <th>Iowa                </th>
+    <th>Kansas              </th>
+    <th>Kentucky            </th>
+    <th>Louisiana           </th>
+    <th>Maine               </th>
+    <th>Maryland            </th>
+    <th>Massachusetts       </th>
+    <th>Michigan            </th>
+    <th>Minnesota           </th>
+    <th>Mississippi         </th>
+    <th>Missouri            </th>
+    <th>Montana             </th>
+    <th>Nebraska            </th>
+    <th>Nevada              </th>
+    <th>New Hampshire       </th>
+    <th>New Jersey          </th>
+    <th>New Mexico          </th>
+    <th>New York            </th>
+    <th>North Carolina      </th>
+    <th>North Dakota        </th>
+    <th>Ohio                </th>
+    <th>Oklahoma            </th>
+    <th>Oregon              </th>
+    <th>Pennsylvania        </th>
+    <th>Rhode Island        </th>
+    <th>South Carolina      </th>
+    <th>South Dakota        </th>
+    <th>Tennessee           </th>
+    <th>Texas               </th>
+    <th>Utah                </th>
+    <th>Vermont             </th>
+    <th>Virginia            </th>
+    <th>Washington          </th>
+    <th>West Virginia       </th>
+    <th>Wisconsin           </th>
+    <th>Wyoming             </th>
+  </tr>
+
+<% @medicaid_annual_blind_thresholds.each do |medicaid_annual_blind_threshold| %>
+  <tr>
+    <td><%=h medicaid_annual_blind_threshold.start_date %></td>
+    <td><%=h medicaid_annual_blind_threshold.end_date %></td>
+    <td><%=h medicaid_annual_blind_threshold.alabama              %></td>
+    <td><%=h medicaid_annual_blind_threshold.alaska               %></td>
+    <td><%=h medicaid_annual_blind_threshold.arizona              %></td>
+    <td><%=h medicaid_annual_blind_threshold.arkansas             %></td>
+    <td><%=h medicaid_annual_blind_threshold.california           %></td>
+    <td><%=h medicaid_annual_blind_threshold.colorado	            %></td>
+    <td><%=h medicaid_annual_blind_threshold.connecticut          %></td>
+    <td><%=h medicaid_annual_blind_threshold.delaware             %></td>
+    <td><%=h medicaid_annual_blind_threshold.district_of_columbia %></td>
+    <td><%=h medicaid_annual_blind_threshold.florida	            %></td>
+    <td><%=h medicaid_annual_blind_threshold.georgia	            %></td>
+    <td><%=h medicaid_annual_blind_threshold.hawaii               %></td>
+    <td><%=h medicaid_annual_blind_threshold.idaho                %></td>
+    <td><%=h medicaid_annual_blind_threshold.illinois             %></td>
+    <td><%=h medicaid_annual_blind_threshold.indiana              %></td>
+    <td><%=h medicaid_annual_blind_threshold.iowa                 %></td>
+    <td><%=h medicaid_annual_blind_threshold.kansas               %></td>
+    <td><%=h medicaid_annual_blind_threshold.kentucky             %></td>
+    <td><%=h medicaid_annual_blind_threshold.louisiana            %></td>
+    <td><%=h medicaid_annual_blind_threshold.maine                %></td>
+    <td><%=h medicaid_annual_blind_threshold.maryland             %></td>
+    <td><%=h medicaid_annual_blind_threshold.massachusetts        %></td>
+    <td><%=h medicaid_annual_blind_threshold.michigan             %></td>
+    <td><%=h medicaid_annual_blind_threshold.minnesota            %></td>
+    <td><%=h medicaid_annual_blind_threshold.mississippi          %></td>
+    <td><%=h medicaid_annual_blind_threshold.missouri             %></td>
+    <td><%=h medicaid_annual_blind_threshold.montana              %></td>
+    <td><%=h medicaid_annual_blind_threshold.nebraska             %></td>
+    <td><%=h medicaid_annual_blind_threshold.nevada               %></td>
+    <td><%=h medicaid_annual_blind_threshold.new_hampshire        %></td>
+    <td><%=h medicaid_annual_blind_threshold.new_jersey           %></td>
+    <td><%=h medicaid_annual_blind_threshold.new_mexico           %></td>
+    <td><%=h medicaid_annual_blind_threshold.new_york             %></td>
+    <td><%=h medicaid_annual_blind_threshold.north_carolina       %></td>
+    <td><%=h medicaid_annual_blind_threshold.north_dakota         %></td>
+    <td><%=h medicaid_annual_blind_threshold.ohio                 %></td>
+    <td><%=h medicaid_annual_blind_threshold.oklahoma             %></td>
+    <td><%=h medicaid_annual_blind_threshold.oregon               %></td>
+    <td><%=h medicaid_annual_blind_threshold.pennsylvania         %></td>
+    <td><%=h medicaid_annual_blind_threshold.rhode_island         %></td>
+    <td><%=h medicaid_annual_blind_threshold.south_carolina       %></td>
+    <td><%=h medicaid_annual_blind_threshold.south_dakota         %></td>
+    <td><%=h medicaid_annual_blind_threshold.tennessee            %></td>
+    <td><%=h medicaid_annual_blind_threshold.texas                %></td>
+    <td><%=h medicaid_annual_blind_threshold.utah                 %></td>
+    <td><%=h medicaid_annual_blind_threshold.vermont              %></td>
+    <td><%=h medicaid_annual_blind_threshold.virginia             %></td>
+    <td><%=h medicaid_annual_blind_threshold.washington           %></td>
+    <td><%=h medicaid_annual_blind_threshold.west_virginia        %></td>
+    <td><%=h medicaid_annual_blind_threshold.wisconsin            %></td>
+    <td><%=h medicaid_annual_blind_threshold.wyoming              %></td>
+    <td><%= link_to 'Show', medicaid_annual_blind_threshold %></td>
+    <td><%= link_to 'Edit', edit_medicaid_annual_blind_threshold_path(medicaid_annual_blind_threshold) %></td>
+    <td><%= link_to 'Delete', medicaid_annual_blind_threshold, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New medicaid annual blind threshold', new_medicaid_annual_blind_threshold_path %>

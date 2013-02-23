@@ -1,0 +1,40 @@
+<h1>Listing Medicaid FPL-Based Income Limits</h1>
+
+<table>
+  <tr>
+    <th>80% (unit 1)</th>
+    <th>80% (unit 2)</th>
+    <th>QMB (unit 1)</th>
+    <th>QMB (unit 2)</th>
+    <th>SLMB (unit 1)</th>
+    <th>SLMB (unit 2)</th>
+    <th>QI (unit 1)</th>
+    <th>QI (unit 2)</th>
+    <th>QDWI (unit 1)</th>
+    <th>QDWI (unit 2)</th>
+    <th colspan='3'>Actions</th>
+  </tr>
+
+<% @medicaid_fpl_based_income_limits.each do |mfbil| %>
+  <tr>
+    <td><%= mfbil.caid_80percent_fpl_inc_limit_assist_unit_1 %></td>
+    <td><%= mfbil.caid_80percent_fpl_inc_limit_assist_unit_2 %></td>
+    <td><%= mfbil.caid_80percent_fpl_inc_limit_assist_unit_1 %></td>
+    <td><%= mfbil.caid_qmb_inc_limit_assist_unit_1 %></td>
+    <td><%= mfbil.caid_qmb_inc_limit_assist_unit_2 %></td>
+    <td><%= mfbil.caid_slmb_inc_limit_assist_unit_1 %></td>
+    <td><%= mfbil.caid_slmb_inc_limit_assist_unit_2 %></td>
+    <td><%= mfbil.caid_qi_inc_limit_assist_unit_1 %></td>
+    <td><%= mfbil.caid_qi_inc_limit_assist_unit_2 %></td>
+    <td><%= mfbil.caid_qdwi_works_earn_inc_limit_assist_unit_1 %></td>
+    <td><%= mfbil.caid_qdwi_works_earn_inc_limit_assist_unit_2 %></td>
+    <td><%= link_to 'Show', mfbil %></td>
+    <td><%= link_to 'Edit', edit_medicaid_fpl_based_income_limit_path(mfbil) %></td>
+    <td><%= link_to 'Delete', mfbil, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Medicaid fpl based income limit', new_medicaid_fpl_based_income_limit_path %>

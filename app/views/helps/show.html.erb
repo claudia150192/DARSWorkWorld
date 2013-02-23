@@ -1,0 +1,8 @@
+<div>
+  <%- if @document -%>
+  <h3><%= @document.topic.titleize %></h3>
+  <div><%= @document.body %></div>
+<%- else -%>
+  <p>Sorry, we could not find a help document to match your topic</p>
+<%- end -%>
+</div>

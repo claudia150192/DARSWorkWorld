@@ -1,0 +1,7 @@
+<% title "Editing va max auxiliary grant facility rate" %>
+
+<% form_for(@va_max_auxiliary_grant_facility_rate) do |f| %>
+  <%= f.error_messages %>
+	<%= render :partial => "form", :object => f %>
+  <%= f.submit "Update", :class => "button" %> <%= link_to 'Cancel', :back %>
+<% end %>

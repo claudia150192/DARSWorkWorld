@@ -1,0 +1,10 @@
+<div id='charts'>
+  <q id='chart_no_js_notice' class='alert'>It appears that you do not have javascript enabled, please either enable it or view your results in tabular form on <%= link_to("Numeric Results", numeric_results_path(@case.id))%> </q>
+  <% @charts.each do |chart| %>
+    <%= display_chart(chart) %>
+  <%end%>
+</div>
+
+<%#not sure if this is the best place to put it,but good enough for now.%>
+<%= javascript_include_tag 'highcharts/js/highcharts.js' %>
+<%= javascript_include_tag 'graphs' %>

@@ -1,0 +1,6 @@
+<% title "Create a Help Topic" %>
+<%= form_for @topic do |f| %>
+  <%= f.error_messages %>
+  <%= render :partial => "form", :object => f %>
+  <%= f.submit "Submit", :class => "button" %> <%= link_to 'Cancel', :back %>
+<% end %>

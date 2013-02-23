@@ -1,0 +1,26 @@
+<% title "Listing va medicaid rates" %>
+
+<table>
+  <tr>
+    <th>Start date</th>
+    <th>va_rate_caid_works_resource_limit</th>
+    <th>va_rate_caid_real_estate_resource_limit</th>
+	<th>va_rate_caid_ltc_home_equity_limit</th>
+  </tr>
+
+<% @va_medicaid_rates.each do |va_medicaid_rate| %>
+  <tr>
+    <td><%=h va_medicaid_rate.start_date %></td>
+    <td><%=h va_medicaid_rate.va_rate_caid_works_resource_limit %></td>
+    <td><%=h va_medicaid_rate.va_rate_caid_real_estate_resource_limit %></td>
+    <td><%=h va_medicaid_rate.va_rate_caid_ltc_home_equity_limit %></td>
+    <td><%= link_to 'Show', va_medicaid_rate %></td>
+    <td><%= link_to 'Edit', edit_va_medicaid_rate_path(va_medicaid_rate) %></td>
+    <td><%= link_to 'Delete', va_medicaid_rate, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New va medicaid rate', new_va_medicaid_rate_path %>

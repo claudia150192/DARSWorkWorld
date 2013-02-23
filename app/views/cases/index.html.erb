@@ -1,0 +1,22 @@
+<h1>Listing cases</h1>
+<table>
+  <tr>
+    <th>User</th>
+    <th>Name</th>
+    <th><%= link_to 'Last Saved', cases_path(:dir=>@reverse_sort), :class=>@reverse_sort %></th>
+  </tr>
+
+<% @cases.each do |kase| %>
+  <tr>
+    <td><%=h kase.user.login unless kase.user.blank? %></td>
+    <td><%=h kase.name %></td>
+    <td><%=h kase.updated_at %></td>
+    <td><%= link_to_unless kase.is_a?(SharedCase), 'Show', kase %></td>
+		<td><%= link_to 'Open Case', open_case_url(kase) %></td>
+    <td><%= link_to 'Rename', edit_case_path(kase) %></td>
+    <td><%= link_to_unless kase.is_a?(SharedCase), 'Delete', delete_case_path(kase) %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

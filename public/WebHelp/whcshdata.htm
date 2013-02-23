@@ -1,0 +1,298 @@
+﻿<html>
+<head>
+<title>WorkWORLD</title>
+
+<meta name="generator" content="Adobe RoboHelp - www.adobe.com">
+<meta name="description" content="WebHelp 5.50">
+</head>
+<body>
+<script language="javascript1.2" src="whver.js"></script>
+<script language="javascript1.2" src="whutils.js"></script>
+<script language="JavaScript">
+<!--
+var gaCsh=new Array();
+
+var gaWindow=new Array();
+
+var gaRmtProj=new Array();
+
+var gsProjPath=_getPath(document.location.href);
+
+function CshEntityItem(strAliasId,nTopicNum,strUrl)
+{
+	this.strAliasId=strAliasId;
+	this.nTopicNum=nTopicNum;
+	this.strUrl=strUrl;
+}
+
+function CshWindow(sWName,bBUseDefault,nWBOptions,sWBLeft,sWBTop,sWBWidth,sWBHeight,sWCaption,nWPanes,nWPOptions,sWPButtons,sWPDefBtn)
+{
+	this.sName=sWName;
+	this.bUseDefault=bBUseDefault;
+	if(!this.bUseDefault)
+	{
+		this.nBOptions=nWBOptions;
+		this.sBLeft=sWBLeft;
+		this.sBTop=sWBTop;
+		this.sBWidth=sWBWidth;
+		this.sBHeight=sWBHeight;
+	}
+	this.sCaption=sWCaption;
+	this.nPanes=nWPanes;
+	if(this.nPanes==2)
+	{
+		this.nPOptions=nWPOptions;
+		this.sPButtons=sWPButtons;
+		this.sPDefBtn=sWPDefBtn;
+	}
+}
+
+function addRemoteProject(sPath)
+{
+	if(sPath.length!=0)
+	{
+		if(sPath.lastIndexOf("/")!=sPath.length-1)
+			sPath+="/";
+		gaRmtProj[gaRmtProj.length]=sPath;	
+	}
+}
+
+//Set Context-sensitive help entity...
+function SetCsh(n,strAliasId,nTopicNum,strUrl)
+{
+	gaCsh[n]=new CshEntityItem(strAliasId,nTopicNum,strUrl);
+}
+
+function addWindow(sWName,bBUseDefault,nWBOptions,sWBLeft,sWBTop,sWBWidth,sWBHeight,sWCaption,nWPanes,nWPOptions,sWPButtons,sWPDefBtn)
+{
+	gaWindow[gaWindow.length]=new CshWindow(sWName,bBUseDefault,nWBOptions,sWBLeft,sWBTop,sWBWidth,sWBHeight,sWCaption,nWPanes,nWPOptions,sWPButtons,sWPDefBtn);
+}
+
+SetCsh(0,"Question_Birthdate",100010,"workworld/questions/question_birthdate.htm");
+SetCsh(1,"Question_State",100030,"workworld/questions/question_state.htm");
+SetCsh(2,"Question_Blind",100040,"workworld/questions/question_blind.htm");
+SetCsh(3,"Question_Benefits_Planning_Query_BPQY_",100060,"workworld/questions/question_benefits_planning_query_bpqy_.htm");
+SetCsh(4,"Question_Situation_Name",100070,"workworld/questions/question_situation_name.htm");
+SetCsh(5,"Question_Locality",100080,"workworld/questions/question_locality.htm");
+SetCsh(6,"Question_Married",100090,"workworld/questions/question_married.htm");
+SetCsh(7,"Question_Living_with_Spouse",100100,"workworld/questions/question_living_with_spouse.htm");
+SetCsh(8,"Question_Spouse_Blind",100120,"workworld/questions/question_spouse_blind.htm");
+SetCsh(9,"Question_Disability",100050,"workworld/questions/question_disability.htm");
+SetCsh(10,"Question_Living_with_Spouse_and_Own_Parents",100140,"workworld/questions/question_living_with_spouse_and_own_parents.htm");
+SetCsh(11,"Question_Living_with_Spouse_and_Parents_of_Spouse",100150,"workworld/questions/question_living_with_spouse_and_parents_of_spouse.htm");
+SetCsh(12,"Question_Living_with_Spouse_and_Other_Adults",100160,"workworld/questions/question_living_with_spouse_and_other_adults.htm");
+SetCsh(13,"Question_Living_with_Spouse_in_Facility",100170,"workworld/questions/question_living_with_spouse_in_facility.htm");
+SetCsh(14,"Question_Spouse_Living_in_Facility",100180,"workworld/questions/question_spouse_living_in_facility.htm");
+SetCsh(15,"Question_Living_Alone",100190,"workworld/questions/question_living_alone.htm");
+SetCsh(16,"Question_Living_with_Parents",100200,"workworld/questions/question_living_with_parents.htm");
+SetCsh(17,"Question_Living_with_Other_Adults",100210,"workworld/questions/question_living_with_other_adults.htm");
+SetCsh(18,"Question_Living_in_Facility",100220,"workworld/questions/question_living_in_facility.htm");
+SetCsh(19,"Question_Situation_Date",100020,"workworld/questions/question_situation_date.htm");
+SetCsh(20,"Question_Receive_Supplemental_Security_Income_SSI_",100230,"workworld/questions/question_receive_supplemental_security_income_ssi_.htm");
+SetCsh(21,"Question_Final_Determination_Letter",100240,"workworld/questions/question_final_determination_letter.htm");
+SetCsh(22,"Question_Living_in_Facility_Supported_by_Auxiliary_Grant",100260,"workworld/questions/question_living_in_facility_supported_by_auxiliary_grant.htm");
+SetCsh(23,"Question_Living_with_Spouse_in_Facility_Supported_by_Aux_Grant",100270,"workworld/questions/question_living_with_spouse_in_facility_supported_by_aux_grant.htm");
+SetCsh(24,"Question_Actual_Monthly_SSI_Payment",100280,"workworld/questions/question_actual_monthly_ssi_payment.htm");
+SetCsh(25,"Question_Medicaid_Coverage",100290,"workworld/questions/question_medicaid_coverage.htm");
+SetCsh(26,"Question_Medicaid_Covered_Group",100300,"workworld/questions/question_medicaid_covered_group.htm");
+SetCsh(27,"Question_Receive_Institutional_Care_Medicaid_Services",100310,"workworld/questions/question_receive_institutional_care_medicaid_services.htm");
+SetCsh(28,"Question_Receive_Home_and_Community_Based_Care_HBC_",100320,"workworld/questions/question_receive_home_and_community_based_care_hbc_.htm");
+SetCsh(29,"Question_Applying_for_Medicaid",100330,"workworld/questions/question_applying_for_medicaid.htm");
+SetCsh(30,"Question_Applying_for_Medicaid_Covered_Group",100340,"workworld/questions/question_applying_for_medicaid_covered_group.htm");
+SetCsh(31,"Question_Applying_for_MEDICAID_WORKS",100350,"workworld/questions/question_applying_for_medicaid_works.htm");
+SetCsh(32,"Question_Applying_for_Institutional_Care_Medicaid_Services",100360,"workworld/questions/question_applying_for_institutional_care_medicaid_services.htm");
+SetCsh(33,"Question_Applying_for_Home_and_Community_Based_Care_HBC_",100370,"workworld/questions/question_applying_for_home_and_community_based_care_hbc_.htm");
+SetCsh(34,"Question_12_Months_Since_Onset_for_SSI",100250,"workworld/questions/question_12_months_since_onset_for_ssi.htm");
+SetCsh(35,"Question_Medicaid_as_Protected_Adult_Disabled_Child",100390,"workworld/questions/question_medicaid_as_protected_adult_disabled_child.htm");
+SetCsh(36,"Question_Receive_Social_Security_Disability_Insurance_SSDI_",100400,"workworld/questions/question_receive_social_security_disability_insurance_ssdi_.htm");
+SetCsh(37,"Question_Spouse_Considered_to_be_Community_Spouse",100380,"workworld/questions/question_spouse_considered_to_be_community_spouse.htm");
+SetCsh(38,"Question_SSDI_Benefits_Based_on_Own_Earnings_Record",100420,"workworld/questions/question_ssdi_benefits_based_on_own_earnings_record.htm");
+SetCsh(39,"Question_Dependent_SSDI_Benefits_Based_on_Your_Record",100430,"workworld/questions/question_dependent_ssdi_benefits_based_on_your_record.htm");
+SetCsh(40,"Question_Disabled_Adult_Child",100440,"workworld/questions/question_disabled_adult_child.htm");
+SetCsh(41,"Question_Onset_Date_of_Blindness",100450,"workworld/questions/question_onset_date_of_blindness.htm");
+SetCsh(42,"Question_Skills_and_Abilities_Different_Than_Before_Age_55",100460,"workworld/questions/question_skills_and_abilities_different_than_before_age_55.htm");
+SetCsh(43,"Question_Skills_and_Abilities_Different_Than_Before_Onset_",100470,"workworld/questions/question_skills_and_abilities_different_than_before_onset_.htm");
+SetCsh(44,"Question_Actual_Monthly_SSDI_Payment",100480,"workworld/questions/question_actual_monthly_ssdi_payment.htm");
+SetCsh(45,"Question_Medicare_Part_A",100490,"workworld/questions/question_medicare_part_a.htm");
+SetCsh(46,"Question_Medicare_Part_B",100500,"workworld/questions/question_medicare_part_b.htm");
+SetCsh(47,"Question_Medicare_Part_B_Premium_Deduction",100510,"workworld/questions/question_medicare_part_b_premium_deduction.htm");
+SetCsh(48,"Question_Medicare_Part_B_Premium_Paid_Out_Of_Pocket",100520,"workworld/questions/question_medicare_part_b_premium_paid_out_of_pocket.htm");
+SetCsh(49,"Question_Medicare_Part_B_Premium",100530,"workworld/questions/question_medicare_part_b_premium.htm");
+SetCsh(50,"Question_Spouse_Living_in_Facility_Supported_by_Auxiliary_Grant",100550,"workworld/questions/question_spouse_living_in_facility_supported_by_auxiliary_grant.htm");
+SetCsh(51,"Question_Medicaid_Covered_Group_of_Spouse",100580,"workworld/questions/question_medicaid_covered_group_of_spouse.htm");
+SetCsh(52,"Question_Spouse_Receives_Institutional_Care_Medicaid_Services",100590,"workworld/questions/question_spouse_receives_institutional_care_medicaid_services.htm");
+SetCsh(53,"Question_Spouse_Receives_Home_and_Community_Based_Care_HBC_",100600,"workworld/questions/question_spouse_receives_home_and_community_based_care_hbc_.htm");
+SetCsh(54,"Question_Spouse_Receives_SSI",100540,"workworld/questions/question_spouse_receives_ssi.htm");
+SetCsh(55,"Question_Spouse_Applying_for_Medicaid",100610,"workworld/questions/question_spouse_applying_for_medicaid.htm");
+SetCsh(56,"Question_Spouse_Applying_for_Medicaid_Covered_Group",100620,"workworld/questions/question_spouse_applying_for_medicaid_covered_group.htm");
+SetCsh(57,"Question_Spouse_Applying_for_MEDICAID_WORKS",100630,"workworld/questions/question_spouse_applying_for_medicaid_works.htm");
+SetCsh(58,"Question_Spouse_Applying_for_Institutional_Care_Medicaid_Services",100640,"workworld/questions/question_spouse_applying_for_institutional_care_medicaid_services.htm");
+SetCsh(59,"Question_Spouse_Applying_for_Home_and_Community_Based_Care_HBC_",100650,"workworld/questions/question_spouse_applying_for_home_and_community_based_care_hbc_.htm");
+SetCsh(60,"Question_Considered_to_be_Community_Spouse",100660,"workworld/questions/question_considered_to_be_community_spouse.htm");
+SetCsh(61,"Question_Spouse_Medicaid_as_Protected_Adult_Disabled_Child",100670,"workworld/questions/question_spouse_medicaid_as_protected_adult_disabled_child.htm");
+SetCsh(62,"Question_Medicaid_Coverage_of_Spouse",100570,"workworld/questions/question_medicaid_coverage_of_spouse.htm");
+SetCsh(63,"Question_12_Months_Since_Onset_for_SSDI",100410,"workworld/questions/question_12_months_since_onset_for_ssdi.htm");
+SetCsh(64,"Question_Spouse_Birthdate",100110,"workworld/questions/question_spouse_birthdate.htm");
+SetCsh(65,"Question_Spouse_Disability",100130,"workworld/questions/question_spouse_disability.htm");
+SetCsh(66,"Question_Spouse_Receives_SSDI",100680,"workworld/questions/question_spouse_receives_ssdi.htm");
+SetCsh(67,"Question_Spouse_SSDI_Benefits_Based_on_Own_Earnings_Record",100690,"workworld/questions/question_spouse_ssdi_benefits_based_on_own_earnings_record.htm");
+SetCsh(68,"Question_Spouse_is_Disabled_Adult_Child",100710,"workworld/questions/question_spouse_is_disabled_adult_child.htm");
+SetCsh(69,"Question_Spouse_Onset_Date_of_Blindness",100720,"workworld/questions/question_spouse_onset_date_of_blindness.htm");
+SetCsh(70,"Question_Spouse_Skills_and_Abilities_Different_Than_Before_Onset",100740,"workworld/questions/question_spouse_skills_and_abilities_different_than_before_onset.htm");
+SetCsh(71,"Question_Spouse_Skills_and_Abilities_Different_Than_Before_Age_55",100730,"workworld/questions/question_spouse_skills_and_abilities_different_than_before_age_55.htm");
+SetCsh(72,"Question_Spouse_Actual_Monthly_SSDI_Payment",100750,"workworld/questions/question_spouse_actual_monthly_ssdi_payment.htm");
+SetCsh(73,"Question_Spouse_Actual_Monthly_SSI_Payment",100560,"workworld/questions/question_spouse_actual_monthly_ssi_payment.htm");
+SetCsh(74,"Question_Dependent_SSDI_Benefits_Based_on_Spouse_Record",100700,"workworld/questions/question_dependent_ssdi_benefits_based_on_spouse_record.htm");
+SetCsh(75,"Question_Spouse_Medicare_Part_A",100760,"workworld/questions/question_spouse_medicare_part_a.htm");
+SetCsh(76,"Question_Spouse_Medicare_Part_B",100770,"workworld/questions/question_spouse_medicare_part_b.htm");
+SetCsh(77,"Question_Spouse_Medicare_Part_B_Premium_Deduction",100780,"workworld/questions/question_spouse_medicare_part_b_premium_deduction.htm");
+SetCsh(78,"Question_Spouse_Medicare_Part_B_Premium_Paid_Out_Of_Pocket",100790,"workworld/questions/question_spouse_medicare_part_b_premium_paid_out_of_pocket.htm");
+SetCsh(79,"Question_Spouse_Medicare_Part_B_Premium",100800,"workworld/questions/question_spouse_medicare_part_b_premium.htm");
+SetCsh(80,"Question_Parental_Income_Deemed_to_You_for_SSI_Purposes",100810,"workworld/questions/question_parental_income_deemed_to_you_for_ssi_purposes.htm");
+SetCsh(81,"Question_Parental_Income_Deemed_to_You_for_Medicaid_Purposes",100820,"workworld/questions/question_parental_income_deemed_to_you_for_medicaid_purposes.htm");
+SetCsh(82,"Question_Parental_Income_Deemed_to_You_and_Spouse_for_Medicaid_Purposes",100830,"workworld/questions/question_parental_income_deemed_to_you_and_spouse_for_medicaid_purposes.htm");
+SetCsh(83,"Question_Spouse_Unearned_Income_Deemed_for_SSI_Purposes",100850,"workworld/questions/question_spouse_unearned_income_deemed_for_ssi_purposes.htm");
+SetCsh(84,"Question_Spouse_Income_Deemed_for_Medicaid_Purposes",100860,"workworld/questions/question_spouse_income_deemed_for_medicaid_purposes.htm");
+SetCsh(85,"Question_Spouse_Income_or_Resources_Deemed_for_SSI_Purposes",100840,"workworld/questions/question_spouse_income_or_resources_deemed_for_ssi_purposes.htm");
+SetCsh(86,"Question_Spouse_Unearned_Income_Deemed_for_Medicaid_Purposes",100870,"workworld/questions/question_spouse_unearned_income_deemed_for_medicaid_purposes.htm");
+SetCsh(87,"Question_Spouse_Earned_Income_Deemed_for_SSI_Purposes",100880,"workworld/questions/question_spouse_earned_income_deemed_for_ssi_purposes.htm");
+SetCsh(88,"Question_Spouse_Earned_Income_Deemed_for_Medicaid_Purposes",100890,"workworld/questions/question_spouse_earned_income_deemed_for_medicaid_purposes.htm");
+SetCsh(89,"Question_Countable_Resources_Exceed_Individual_SSI_Limit",100900,"workworld/questions/question_countable_resources_exceed_individual_ssi_limit.htm");
+SetCsh(90,"Question_Countable_Resources_Exceed_Couple_SSI_Limit",100910,"workworld/questions/question_countable_resources_exceed_couple_ssi_limit.htm");
+SetCsh(91,"Question_Countable_Resources_Exceed_Individual_Medicaid_Limit",100920,"workworld/questions/question_countable_resources_exceed_individual_medicaid_limit.htm");
+SetCsh(92,"Question_Countable_Resources_Exceed_Couple_Medicaid_Limit",100930,"workworld/questions/question_countable_resources_exceed_couple_medicaid_limit.htm");
+SetCsh(93,"Question_Countable_Resources_Exceed_Individual_Medicaid_Limit_for_80_FPL",100940,"workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_80_fpl.htm");
+SetCsh(94,"Question_Countable_Resources_Exceed_Couple_Medicaid_Limit_for_80_FPL",100950,"workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_80_fpl.htm");
+SetCsh(95,"Question_Home_Equity_Value_Exceeds_LTC_Limit",100960,"workworld/questions/question_home_equity_value_exceeds_ltc_limit.htm");
+SetCsh(96,"Question_Home_Occupied_by_Spouse_Child_Under_21_or_Disabled_Child",100970,"workworld/questions/question_home_occupied_by_spouse_child_under_21_or_disabled_child.htm");
+SetCsh(97,"Question_Countable_Resources_Exceed_Individual_Medicaid_Limit_for_QDWI",100980,"workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_qdwi.htm");
+SetCsh(98,"Question_Countable_Resources_Exceed_Couple_Medicaid_Limit_for_QDWI",100990,"workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_qdwi.htm");
+SetCsh(99,"Question_Countable_Resources_Exceed_Individual_Medicaid_Limit_for_QMB_SLMB_or_QI",101000,"workworld/questions/question_countable_resources_exceed_individual_medicaid_limit_for_qmb_slmb_or_qi.htm");
+SetCsh(100,"Question_Countable_Resources_Exceed_Couple_Medicaid_Limit_for_QMB_SLMB_or_QI",101010,"workworld/questions/question_countable_resources_exceed_couple_medicaid_limit_for_qmb_slmb_or_qi.htm");
+SetCsh(101,"Question_Spouse_Countable_Resources_Exceed_Protected_Resource_Amount",101020,"workworld/questions/question_spouse_countable_resources_exceed_protected_resource_amount.htm");
+SetCsh(102,"Question_Countable_Resources_Exceed_Medicaid_Limit_for_300_SSI",101040,"workworld/questions/question_countable_resources_exceed_medicaid_limit_for_300_ssi.htm");
+SetCsh(103,"Question_Established_Work_Incentive_Account_for_MEDICAID_WORKS",101050,"workworld/questions/question_established_work_incentive_account_for_medicaid_works.htm");
+SetCsh(104,"Question_Countable_Resources_in_WIN_Account_Exceed_MEDICAID_WORKS_Limit",101060,"workworld/questions/question_countable_resources_in_win_account_exceed_medicaid_works_limit.htm");
+SetCsh(105,"Question_Countable_Resources_Not_in_WIN_Account_Exceed_MEDICAID_WORKS_Limit",101070,"workworld/questions/question_countable_resources_not_in_win_account_exceed_medicaid_works_limit.htm");
+SetCsh(106,"Question_Spouse_Eligibility_Countable_Resources_Exceed_Couple_Medicaid_Limit",101080,"workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit.htm");
+SetCsh(107,"Question_Spouse_Eligibility_Countable_Resources_Exceed_Couple_Medicaid_Limit_for_80_FPL",101090,"workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_80_fpl.htm");
+SetCsh(108,"Question_Spouse_Eligibility_Countable_Resources_Exceed_Medicaid_Limit_for_300_SSI",101100,"workworld/questions/question_spouse_eligibility_countable_resources_exceed_medicaid_limit_for_300_ssi.htm");
+SetCsh(109,"Question_Spouse_Eligibility_Countable_Resources_Exceed_Couple_Medicaid_Limit_for_QDWI",101110,"workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_qdwi.htm");
+SetCsh(110,"Question_Spouse_Eligibility_Countable_Resources_Exceed_Couple_Medicaid_Limit_for_QMB_SLMB_or_QI",101120,"workworld/questions/question_spouse_eligibility_countable_resources_exceed_couple_medicaid_limit_for_qmb_slmb_or_qi.htm");
+SetCsh(111,"Question_Spouse_Excess_Resources_Plus_Own_Resources_Exceed_Medicaid_Limit",101030,"workworld/questions/question_spouse_excess_resources_plus_own_resources_exceed_medicaid_limit.htm");
+SetCsh(112,"Question_Excess_Resources_Plus_Spouse_Resources_Exceed_Medicaid_Limit",101130,"workworld/questions/question_excess_resources_plus_spouse_resources_exceed_medicaid_limit.htm");
+SetCsh(113,"Question_Spouse_Established_Work_Incentive_Account_for_MEDICAID_WORKS",101140,"workworld/questions/question_spouse_established_work_incentive_account_for_medicaid_works.htm");
+SetCsh(114,"Question_Spouse_Countable_Resources_in_WIN_Account_Exceed_MEDICAID_WORKS_Limit",101150,"workworld/questions/question_spouse_countable_resources_in_win_account_exceed_medicaid_works_limit.htm");
+SetCsh(115,"Question_Spouse_Countable_Resources_Not_in_WIN_Account_Exceed_MEDICAID_WORKS_Limit",101160,"workworld/questions/question_spouse_countable_resources_not_in_win_account_exceed_medicaid_works_limit.htm");
+SetCsh(116,"Question_Receive_In_Kind_Support",101170,"workworld/questions/question_receive_in_kind_support.htm");
+SetCsh(117,"Question_In_Kind_Support_With_Value_of_One_Third_Reduction_VTR_",101180,"workworld/questions/question_in_kind_support_with_value_of_one_third_reduction_vtr_.htm");
+SetCsh(118,"Question_In_Kind_Support_With_Presumed_Maximum_Value_PMV_",101190,"workworld/questions/question_in_kind_support_with_presumed_maximum_value_pmv_.htm");
+SetCsh(119,"Question_SSDI_Primary_Insurance_Amount_PIA_",101200,"workworld/questions/question_ssdi_primary_insurance_amount_pia_.htm");
+SetCsh(120,"Question_SSDI_Monthly_Benefit_Amount",101210,"workworld/questions/question_ssdi_monthly_benefit_amount.htm");
+SetCsh(121,"Question_Other_Unearned_Income_Amount",101220,"workworld/questions/question_other_unearned_income_amount.htm");
+SetCsh(122,"Question_Infrequent_or_Irregular_Unearned_Income_Amount",101230,"workworld/questions/question_infrequent_or_irregular_unearned_income_amount.htm");
+SetCsh(123,"Question_Income_Based_On_Need_IBON_",101240,"workworld/questions/question_income_based_on_need_ibon_.htm");
+SetCsh(124,"Question_Assistance_Based_On_Need_ABON_",101250,"workworld/questions/question_assistance_based_on_need_abon_.htm");
+SetCsh(125,"Question_Spouse_SSDI_Primary_Insurance_Amount_PIA_",101260,"workworld/questions/question_spouse_ssdi_primary_insurance_amount_pia_.htm");
+SetCsh(126,"Question_Spouse_SSDI_Monthly_Benefit_Amount",101270,"workworld/questions/question_spouse_ssdi_monthly_benefit_amount.htm");
+SetCsh(127,"Question_Spouse_Other_Unearned_Income_Amount",101280,"workworld/questions/question_spouse_other_unearned_income_amount.htm");
+SetCsh(128,"Question_Spouse_Infrequent_or_Irregular_Unearned_Income_Amount",101290,"workworld/questions/question_spouse_infrequent_or_irregular_unearned_income_amount.htm");
+SetCsh(129,"Question_Spouse_Income_Based_On_Need_IBON_",101300,"workworld/questions/question_spouse_income_based_on_need_ibon_.htm");
+SetCsh(130,"Question_Spouse_Assistance_Based_On_Need_ABON_",101310,"workworld/questions/question_spouse_assistance_based_on_need_abon_.htm");
+SetCsh(131,"Question_Wages_Salary_Self_Employment_Earned_Amount",101320,"workworld/questions/question_wages_salary_self_employment_earned_amount.htm");
+SetCsh(132,"Question_Wages_Salary_Self_Employment_Received_Amount",101330,"workworld/questions/question_wages_salary_self_employment_received_amount.htm");
+SetCsh(133,"Question_Competitively_Employed",101340,"workworld/questions/question_competitively_employed.htm");
+SetCsh(134,"Question_Self_Employed",101350,"workworld/questions/question_self_employed.htm");
+SetCsh(135,"Question_Lost_Competitive_Job_in_Last_6_Months",101360,"workworld/questions/question_lost_competitive_job_in_last_6_months.htm");
+SetCsh(136,"Question_Start_Date_for_Competitive_Job",101370,"workworld/questions/question_start_date_for_competitive_job.htm");
+SetCsh(137,"Question_Infrequent_or_Irregular_Wages_Salary_Self_Employment_Received_Amount",101380,"workworld/questions/question_infrequent_or_irregular_wages_salary_self_employment_received_amount.htm");
+SetCsh(138,"Question_Individualized_Earnings_Threshold",101390,"workworld/questions/question_individualized_earnings_threshold.htm");
+SetCsh(139,"Question_Individualized_Earnings_Threshold_Amount",101400,"workworld/questions/question_individualized_earnings_threshold_amount.htm");
+SetCsh(140,"Question_Spouse_Wages_Salary_Self_Employment_Earned_Amount",101410,"workworld/questions/question_spouse_wages_salary_self_employment_earned_amount.htm");
+SetCsh(141,"Question_Spouse_Wages_Salary_Self_Employment_Received_Amount",101420,"workworld/questions/question_spouse_wages_salary_self_employment_received_amount.htm");
+SetCsh(142,"Question_Spouse_Competitively_Employed",101430,"workworld/questions/question_spouse_competitively_employed.htm");
+SetCsh(143,"Question_Spouse_Self_Employed",101440,"workworld/questions/question_spouse_self_employed.htm");
+SetCsh(144,"Question_Spouse_Lost_Competitive_Job_in_Last_6_Months",101450,"workworld/questions/question_spouse_lost_competitive_job_in_last_6_months.htm");
+SetCsh(145,"Question_Spouse_Start_Date_for_Competitive_Job",101460,"workworld/questions/question_spouse_start_date_for_competitive_job.htm");
+SetCsh(146,"Question_Spouse_Infrequent_or_Irregular_Wages_Salary_Self_Employment_Received_Amount",101470,"workworld/questions/question_spouse_infrequent_or_irregular_wages_salary_self_employment_received_amount.htm");
+SetCsh(147,"Question_Spouse_Individualized_Earnings_Threshold",101480,"workworld/questions/question_spouse_individualized_earnings_threshold.htm");
+SetCsh(148,"Question_Spouse_Individualized_Earnings_Threshold_Amount",101490,"workworld/questions/question_spouse_individualized_earnings_threshold_amount.htm");
+SetCsh(149,"Question_Spouse_Earned_Income",101500,"workworld/questions/question_spouse_earned_income.htm");
+SetCsh(150,"Question_Disability_Related_Work_Expenses",101510,"workworld/questions/question_disability_related_work_expenses.htm");
+SetCsh(151,"Question_Spouse_Disability_Related_Work_Expenses",101520,"workworld/questions/question_spouse_disability_related_work_expenses.htm");
+SetCsh(152,"Question_Estimated_Taxes_on_Earnings",101530,"workworld/questions/question_estimated_taxes_on_earnings.htm");
+SetCsh(153,"Question_Spouse_Estimated_Taxes_on_Earnings",101540,"workworld/questions/question_spouse_estimated_taxes_on_earnings.htm");
+SetCsh(154,"Question_MEDICAID_WORKS_Premium_Amount",101550,"workworld/questions/question_medicaid_works_premium_amount.htm");
+SetCsh(155,"Question_Spouse_MEDICAID_WORKS_Premium_Amount",101560,"workworld/questions/question_spouse_medicaid_works_premium_amount.htm");
+SetCsh(156,"Question_Other_Work_Expenses",101570,"workworld/questions/question_other_work_expenses.htm");
+SetCsh(157,"Question_Spouse_Other_Work_Expenses",101580,"workworld/questions/question_spouse_other_work_expenses.htm");
+SetCsh(158,"Question_Facility_Charges_for_Room_Board_and_Services",101590,"workworld/questions/question_facility_charges_for_room_board_and_services.htm");
+SetCsh(159,"Question_Couple_Facility_Charges_for_Room_Board_and_Services",101600,"workworld/questions/question_couple_facility_charges_for_room_board_and_services.htm");
+SetCsh(160,"Question_Estimated_Medical_Expenses_with_Medicaid",101610,"workworld/questions/question_estimated_medical_expenses_with_medicaid.htm");
+SetCsh(161,"Question_Estimated_Medical_Expenses_without_Medicaid",101620,"workworld/questions/question_estimated_medical_expenses_without_medicaid.htm");
+SetCsh(162,"Question_Spouse_Estimated_Medical_Expenses_with_Medicaid",101630,"workworld/questions/question_spouse_estimated_medical_expenses_with_medicaid.htm");
+SetCsh(163,"Question_Spouse_Estimated_Medical_Expenses_without_Medicaid",101640,"workworld/questions/question_spouse_estimated_medical_expenses_without_medicaid.htm");
+SetCsh(164,"Question_Estimated_Other_Expenses",101650,"workworld/questions/question_estimated_other_expenses.htm");
+SetCsh(165,"Question_Spouse_Estimated_Other_Expenses",101660,"workworld/questions/question_spouse_estimated_other_expenses.htm");
+SetCsh(166,"Question_Employability_Investments",101670,"workworld/questions/question_employability_investments.htm");
+SetCsh(167,"Question_Spouse_Employability_Investments",101680,"workworld/questions/question_spouse_employability_investments.htm");
+SetCsh(168,"Question_Student",101690,"workworld/questions/question_student.htm");
+SetCsh(169,"Question_Student_Earned_Income_Exclusion_SEIE_Amount",101700,"workworld/questions/question_student_earned_income_exclusion_seie_amount.htm");
+SetCsh(170,"Question_Spouse_Student",101710,"workworld/questions/question_spouse_student.htm");
+SetCsh(171,"Question_Spouse_Student_Earned_Income_Exclusion_SEIE_Amount",101720,"workworld/questions/question_spouse_student_earned_income_exclusion_seie_amount.htm");
+SetCsh(172,"Question_Student_Earned_Income_Exclusion_SEIE_Less_Than_Earnings",101730,"workworld/questions/question_student_earned_income_exclusion_seie_less_than_earnings.htm");
+SetCsh(173,"Question_Student_Earned_Income_Exclusion_SEIE_Less_Than_Monthly_Maximum",101740,"workworld/questions/question_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm");
+SetCsh(174,"Question_Student_Earned_Income_Exclusion_SEIE_Not_Excluded",101750,"workworld/questions/question_student_earned_income_exclusion_seie_not_excluded.htm");
+SetCsh(175,"Question_Couple_Student_Earned_Income_Exclusion_SEIE_Less_Than_Earnings",101760,"workworld/questions/question_couple_student_earned_income_exclusion_seie_less_than_earnings.htm");
+SetCsh(176,"Question_Couple_Student_Earned_Income_Exclusion_SEIE_Less_Than_Monthly_Maximum",101770,"workworld/questions/question_couple_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm");
+SetCsh(177,"Question_Couple_Student_Earned_Income_Exclusion_SEIE_Not_Excluded",101780,"workworld/questions/question_couple_student_earned_income_exclusion_seie_not_excluded.htm");
+SetCsh(178,"Question_Spouse_Student_Earned_Income_Exclusion_SEIE_Less_Than_Earnings",101790,"workworld/questions/question_spouse_student_earned_income_exclusion_seie_less_than_earnings.htm");
+SetCsh(179,"Question_Spouse_Student_Earned_Income_Exclusion_SEIE_Less_Than_Monthly_Maximum",101800,"workworld/questions/question_spouse_student_earned_income_exclusion_seie_less_than_monthly_maximum.htm");
+SetCsh(180,"Question_Spouse_Student_Earned_Income_Exclusion_SEIE_Not_Excluded",101810,"workworld/questions/question_spouse_student_earned_income_exclusion_seie_not_excluded.htm");
+SetCsh(181,"Question_IRWE_for_SSI_Benefit_Amount_or_Medicaid_Eligibility",101820,"workworld/questions/question_irwe_for_ssi_benefit_amount_or_medicaid_eligibility.htm");
+SetCsh(182,"Question_Spouse_IRWE_for_SSI_Benefit_Amount_or_Medicaid_Eligibility",101830,"workworld/questions/question_spouse_irwe_for_ssi_benefit_amount_or_medicaid_eligibility.htm");
+SetCsh(183,"Question_IRWE_to_Determine_Substantial_Gainful_Activity_SGA_",101840,"workworld/questions/question_irwe_to_determine_substantial_gainful_activity_sga_.htm");
+SetCsh(184,"Question_Spouse_IRWE_to_Determine_Substantial_Gainful_Activity_SGA_",101850,"workworld/questions/question_spouse_irwe_to_determine_substantial_gainful_activity_sga_.htm");
+SetCsh(185,"Question_Blind_Work_Expenses_BWE_",101860,"workworld/questions/question_blind_work_expenses_bwe_.htm");
+SetCsh(186,"Question_Spouse_Blind_Work_Expenses_BWE_",101870,"workworld/questions/question_spouse_blind_work_expenses_bwe_.htm");
+SetCsh(187,"Question_Plan_for_Achieving_Self_Support_PASS_Amount",101880,"workworld/questions/question_plan_for_achieving_self_support_pass_amount.htm");
+SetCsh(188,"Question_Spouse_Plan_for_Achieving_Self_Support_PASS_Amount",101890,"workworld/questions/question_spouse_plan_for_achieving_self_support_pass_amount.htm");
+SetCsh(189,"Question_Trial_Work_and_Grace_Period",101900,"workworld/questions/question_trial_work_and_grace_period.htm");
+SetCsh(190,"Question_Spouse_Trial_Work_and_Grace_Period",101910,"workworld/questions/question_spouse_trial_work_and_grace_period.htm");
+SetCsh(191,"Question_Additional_Supervision_or_Special_Conditions_Subsidy",101920,"workworld/questions/question_additional_supervision_or_special_conditions_subsidy.htm");
+SetCsh(192,"Question_Reduced_Work_Duties_Subsidy",101930,"workworld/questions/question_reduced_work_duties_subsidy.htm");
+SetCsh(193,"Question_Spouse_Additional_Supervision_or_Special_Conditions_Subsidy",101940,"workworld/questions/question_spouse_additional_supervision_or_special_conditions_subsidy.htm");
+SetCsh(194,"Question_Spouse_Reduced_Work_Duties_Subsidy",101950,"workworld/questions/question_spouse_reduced_work_duties_subsidy.htm");
+SetCsh(195,"Question_SSDI_Adjustment_Due_to_Workers_Compensation_or_Public_Disability_Benefit",101960,"workworld/questions/question_ssdi_adjustment_due_to_workers_compensation_or_public_disability_benefit.htm");
+SetCsh(196,"Question_SSDI_Adjustment_Due_to_Previous_Underpayment",101970,"workworld/questions/question_ssdi_adjustment_due_to_previous_underpayment.htm");
+SetCsh(197,"Question_SSI_Increased_Due_to_SSDI_Underpayment",101980,"workworld/questions/question_ssi_increased_due_to_ssdi_underpayment.htm");
+SetCsh(198,"Question_SSDI_Adjustment_Due_to_Previous_Overpayment",101990,"workworld/questions/question_ssdi_adjustment_due_to_previous_overpayment.htm");
+SetCsh(199,"Question_SSI_Decreased_Due_to_SSDI_Overpayment",102000,"workworld/questions/question_ssi_decreased_due_to_ssdi_overpayment.htm");
+SetCsh(200,"Question_Spouse_SSDI_Adjustment_Due_to_Workers_Compensation_or_Public_Disability_Benefit",102010,"workworld/questions/question_spouse_ssdi_adjustment_due_to_workers_compensation_or_public_disability_benefit.htm");
+SetCsh(201,"Question_Spouse_SSDI_Adjustment_Due_to_Previous_Underpayment",102020,"workworld/questions/question_spouse_ssdi_adjustment_due_to_previous_underpayment.htm");
+SetCsh(202,"Question_Spouse_SSI_Increased_Due_to_SSDI_Underpayment",102030,"workworld/questions/question_spouse_ssi_increased_due_to_ssdi_underpayment.htm");
+SetCsh(203,"Question_Spouse_SSDI_Adjustment_Due_to_Previous_Overpayment",102040,"workworld/questions/question_spouse_ssdi_adjustment_due_to_previous_overpayment.htm");
+SetCsh(204,"Question_Spouse_SSI_Decreased_Due_to_SSDI_Overpayment",102050,"workworld/questions/question_spouse_ssi_decreased_due_to_ssdi_overpayment.htm");
+SetCsh(205,"Question_SSI_Adjustment_Due_to_Previous_Underpayment",102060,"workworld/questions/question_ssi_adjustment_due_to_previous_underpayment.htm");
+SetCsh(206,"Question_SSI_Adjustment_Due_to_Previous_Overpayment",102070,"workworld/questions/question_ssi_adjustment_due_to_previous_overpayment.htm");
+SetCsh(207,"Question_Couple_SSI_Adjustment_Due_to_Previous_Underpayment",102080,"workworld/questions/question_couple_ssi_adjustment_due_to_previous_underpayment.htm");
+SetCsh(208,"Question_Couple_SSI_Adjustment_Due_to_Previous_Overpayment",102090,"workworld/questions/question_couple_ssi_adjustment_due_to_previous_overpayment.htm");
+SetCsh(209,"File_Sharing",10,"workworld/file_sharing.htm");
+SetCsh(210,"About_WorkWORLD_on_the_Web",20,"workworld/about_workworld_on_the_web.htm");
+
+
+
+
+window.onload=window_OnLoad;
+
+function window_OnLoad()
+{
+	if(parent&&parent!=this&&parent.putCshData)
+	{
+		parent.putCshData(gsProjPath,gaCsh,gaWindow,gaRmtProj);
+	}
+}
+//-->
+</script>
+</body>
+</html>

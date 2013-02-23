@@ -1,0 +1,10 @@
+<p>
+  <%= form.label :start_date %><br />
+  <%= form.date_select :start_date, :class => "testfield" %>
+</p>
+<p>
+  <%= form.label :end_date %><br />
+  <%= form.date_select :end_date, :class => "testfield" %>
+</p>
+
+<%= render :partial => "partials/states_rates_form", :locals => { :form => form } %>

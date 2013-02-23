@@ -1,0 +1,8 @@
+production:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: workworld
+  pool: 5
+  username: app
+  password: T0sh!ba

@@ -1,0 +1,10 @@
+<% title @county_or_city.name %>
+<p>
+  <b>Name:</b>
+  <%= @county_or_city.name %>
+</p>
+
+<% if can? :manage, @county_or_city %>
+	<%= link_to 'Edit', edit_county_or_city_path(@county_or_city) %> |
+	<%= link_to 'Back to countries and cities', county_or_cities_path %>
+<% end %>

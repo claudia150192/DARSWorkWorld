@@ -1,0 +1,18 @@
+<% title "Edit Account" %>
+
+<%= form_for @user do |f| %>
+  <%= f.error_messages %>
+  <%= render :partial => "form", :object => f %>
+  <%= f.submit "Update", :class => "button" %> <%= link_to 'Cancel', :back %>
+<% end %>
+<% if !@user.active? && can?(:activate, @user) %>
+  <%= form_tag(activate_user_path(@user), :method=>'post') do  %>
+    <%= submit_tag("Activate User", :class=>"button")%>
+  <%end%>
+<% end %>
+
+
+<% if can? :manage, @user %>
+  <span class='left'><%= link_to 'Back to Users', users_path %></span>
+  <span class='right'><%= link_to 'Delete User', user_confirm_path(@user) %>
+<% end %>

@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Chart type:</b>
+  <%= @chart.chart_type %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @chart.title %>
+</p>
+
+<p>
+  <b>Yaxis label:</b>
+  <%= @chart.yaxis_label %>
+</p>
+
+
+<%= link_to 'Edit', edit_chart_path(@chart) %> |
+<%= link_to 'Back', charts_path %>

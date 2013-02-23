@@ -1,0 +1,8 @@
+<% if can? :manage, @user %>
+<strong>You are about to delete the user '<%= @user.login %>'. Do you wish to proceed?</strong>
+<%= form_for @user, :html => { :method=> 'delete' } do |f| %>
+  <%= f.submit "Delete", :class=>"button" %><%= link_to "Cancel", :back %>
+<%end%>
+<% else %>
+  <strong>Sorry, you may have arrived at this page by mistake</strong>
+<%end%>

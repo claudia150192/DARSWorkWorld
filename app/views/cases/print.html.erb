@@ -1,0 +1,8 @@
+<h1>Print Results</h1>
+<ul>
+  <li><%= link_to 'Input Questions and Answers', cases_all_inputs_path(@case, :format => :pdf), :target=>"_qa" %></li>
+  <li><%= link_to 'Numerical Results', numeric_results_path(@case, :format => :pdf), :target=>"_numeric" %></li>
+  <li><%= link_to 'Text Results', text_results_path(@case, :format => :pdf), :target=>"_text" %></li>
+  <li><%= link_to 'Case Notes', case_notes_path(@case, :format => :pdf), :target=>"_notes" %></li>
+
+</ul>

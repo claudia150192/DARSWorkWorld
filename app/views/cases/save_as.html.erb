@@ -1,0 +1,10 @@
+<h1>Save case as</h1>
+
+<%= form_for(@case, :url=>case_copyto_path(@case),:method=>:post) do |f| %>
+  <%= f.error_messages %>
+
+  <%= render :partial => "form", :object => f %>
+  <p>
+    <%= f.submit 'Save', :class => "button" %> <%= cancel_link %>
+  </p>
+<% end %>

@@ -1,0 +1,30 @@
+<% title "Listing web tips" %>
+
+<table>
+  <tr>
+	<th><%= sortable "text", "Text" %></th>
+    <th><%= sortable "identifier", "Identifier" %></th>
+    <th><%= sortable "display_rules", "Display rules" %></th>
+    <th><%= sortable "group_id", "Group" %></th>
+    <th><%= sortable "group_order", "Group Order" %></th>
+	<th><%= sortable "workbook_order", "Workbook Order" %></th>
+  </tr>
+
+<% @web_tips.each do |web_tip| %>
+  <tr>
+    <td><%=h web_tip.text %></td>
+    <td><%=h web_tip.identifier %></td>
+    <td><%=h web_tip.display_rules %></td>
+    <td><%=h web_tip.group.name unless web_tip.group.blank? %></td>
+    <td><%=h web_tip.group_order %></td>
+	<td><%=h web_tip.workbook_order %></td>
+    <td><%= link_to 'Show', web_tip %></td>
+    <td><%= link_to 'Edit', edit_web_tip_path(web_tip) %></td>
+    <td><%= link_to 'Delete', web_tip, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New web tip', new_web_tip_path %>

@@ -1,0 +1,35 @@
+	<% title "Insert Number " + @text_result_insert.insert_number.to_s + " for " + h(WebTextResult.find(:first, :conditions => ['id = ?',  @text_result_insert.web_text_result_id]).name) %> 
+<p>
+  <b>Text Result Name:</b>
+  <%= @trName1.to_s  %> </b>
+<%= WebTextResult.find(:first, :conditions => ['id = ?',  @text_result_insert.web_text_result_id]).name  %>
+</p>
+
+<p>
+  <b>Tr text before insert:</b>
+  <%= WebTextResult.find(:first, :conditions => ['id = ?',  @text_result_insert.web_text_result_id]).text  %>
+</p>
+<p>
+  <b>Insert Number:</b>
+  <%= @text_result_insert.insert_number %>
+</p>
+
+<p>
+  <b>WebCalc to Insert:</b>
+  <%= WebCalc.find(:first, :conditions => ['id = ?',  @text_result_insert.webcalc_id_to_insert]).name  %>
+</p>
+
+<p>
+  <b>Insert Type:</b>
+  <%= @text_result_insert.insert_type %>
+</p>
+
+<p>
+  <b>Insert Marker:</b>
+  <%= @text_result_insert.insert_marker %>
+</p>
+
+<% if can? :manage, @text_result_insert %>
+	<%= link_to 'Edit', edit_text_result_insert_path(@text_result_insert) %> |
+	<%= link_to 'Back to Text Result Insertion', text_result_inserts_path %>
+<% end %>

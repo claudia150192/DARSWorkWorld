@@ -1,0 +1,2 @@
+module WebTextResultsGroupsHelper
+end

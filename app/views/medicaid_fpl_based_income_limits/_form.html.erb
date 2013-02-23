@@ -1,0 +1,62 @@
+<%= form_for(@medicaid_fpl_based_income_limit) do |f| %>
+  <% if @medicaid_fpl_based_income_limit.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@medicaid_fpl_based_income_limit.errors.count, "error") %> prohibited this medicaid_fpl_based_income_limit from being saved:</h2>
+
+      <ul>
+      <% @medicaid_fpl_based_income_limit.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class='fields'>
+    <p>
+      <%= f.label :start_date %>
+      <%= f.text_field :start_date, :class=>'textfield date_time' %>
+    </p>
+    <p>
+      <%= f.label :caid_80percent_fpl_inc_limit_assist_unit_1 %>
+      <%= f.text_field :caid_80percent_fpl_inc_limit_assist_unit_1, :class=>'textfield' %>
+    </p>
+    <p>
+      <%= f.label :caid_80percent_fpl_inc_limit_assist_unit_2 %>
+      <%= f.text_field :caid_80percent_fpl_inc_limit_assist_unit_2 , :class=>'textfield' %>
+    </p>
+    <p>
+      <%= f.label :caid_qmb_inc_limit_assist_unit_1 %>
+      <%= f.text_field :caid_qmb_inc_limit_assist_unit_1 , :class=>'textfield' %>
+    </p>
+    <p>
+      <%= f.label :caid_qmb_inc_limit_assist_unit_2 %>
+      <%= f.text_field :caid_qmb_inc_limit_assist_unit_2, :class=>'textfield' %>  
+    </p>
+    <p>
+      <%= f.label :caid_slmb_inc_limit_assist_unit_1 %>
+      <%= f.text_field :caid_slmb_inc_limit_assist_unit_1, :class=>'textfield' %>
+    </p>
+    <p>
+      <%= f.label :caid_slmb_inc_limit_assist_unit_2 %>
+      <%= f.text_field :caid_slmb_inc_limit_assist_unit_2, :class=>'textfield' %>
+    </p>
+    <p>
+      <%= f.label :caid_qi_inc_limit_assist_unit_1 %>
+      <%= f.text_field :caid_qi_inc_limit_assist_unit_1, :class=>'textfield' %>
+    </p>
+    <p>
+      <%= f.label :caid_qi_inc_limit_assist_unit_2 %>
+      <%= f.text_field :caid_qi_inc_limit_assist_unit_2, :class=>'textfield' %>
+    </p>
+    <p>
+      <%= f.label :caid_qdwi_works_earn_inc_limit_assist_unit_1 %>
+      <%= f.text_field :caid_qdwi_works_earn_inc_limit_assist_unit_1, :class=>'textfield' %>
+    </p>
+    <p>
+      <%= f.label :caid_qdwi_works_earn_inc_limit_assist_unit_2 %>
+      <%= f.text_field :caid_qdwi_works_earn_inc_limit_assist_unit_2, :class=>'textfield' %>
+    </p>
+  </div>
+  <div class="actions">
+    <%= f.submit "Save", :class=>"button"%>
+  </div>
+<% end %>

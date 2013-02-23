@@ -1,0 +1,25 @@
+<%if @case %>
+<% title @case.name %>
+<%= render :partial => "group_navigation", :locals => { :parents => @parents } %>
+<div id='all_inputs'>
+  <table>
+    <tbody>
+      <%= display_allinput_groups(@case,@parents) %>
+    </tbody>
+    <thead>
+      <tr><th rowspan='2'>Questions</td><th colspan='<%= @case.situations.count %>'>Answers</td></tr>
+      <tr>
+        <% @case.situations.each do |s| %>
+          <th class='situation' data-situation='<%= s.id %>'><%= s.name %></th>
+        <%end%>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr><td></td><% @case.situations.each do |s| %>
+          <td><%= render_continue_button(s, @parents) %></td>
+        <%end%>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+<%end%>

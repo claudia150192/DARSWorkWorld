@@ -1,0 +1,31 @@
+<p>
+  <b>Text:</b>
+  <%= @web_tip.text %>
+</p>
+
+<p>
+  <b>Identifier:</b>
+  <%= @web_tip.identifier %>
+</p>
+
+<p>
+  <b>Display rules:</b>
+  <%= @web_tip.display_rules %>
+</p>
+
+<p>
+  <b>Group:</b>
+  <%= @web_tip.group.name unless @web_tip.group.blank? %>
+</p>
+<p>
+  <b>Group Order:</b>
+  <%= @web_tip.group_order %>
+</p>
+<p>
+  <b>Workbook Order:</b>
+  <%= @web_tip.workbook_order unless @web_tip.workbook_order.blank? %>
+</p>
+<% if can? :manage, @web_tip %>
+	<%= link_to 'Edit', edit_web_tip_path(@web_tip) %> |
+	<%= link_to 'Back to web tips', web_tips_path %>
+<% end %>

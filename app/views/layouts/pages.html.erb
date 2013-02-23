@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+		<meta charset="utf-8" />
+    <title><%= show_title? ? h("WW-Web | " + yield(:title)) : "WW-Web" %></title>
+    <%= stylesheet_link_tag 'application' %>
+    <%= stylesheet_link_tag 'home' %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+    <div id="container">
+			<div id='header'>
+				<h1><%= link_to "WorkWORLD on the Web", root_url%></h1>
+			</div>
+      <%- flash.each do |name, msg| -%>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <%- end -%>
+      
+      <div id="content">
+	      <%= yield %>
+      </div>
+			<div class="clear"></div>
+			<%= render :partial => "partials/footer" %>
+    </div>
+  </body>
+</html>

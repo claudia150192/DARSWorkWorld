@@ -1,0 +1,28 @@
+<% title "Listing Question Validation Message Inserts" %>
+
+<table>	
+  	<tr>
+  		<th>Question</th>
+  		<th>Insert Number</th>
+  		<th>WebCalc to Insert</th>
+  		<th>Insert Type</th>
+  		<th>Insert Marker</th>
+   </tr>
+
+<% @question_validation_inserts.each do |question_validation_insert| %>
+  <tr>
+	<td><%=h Question.find(:first, :conditions => ['id = ?',  question_validation_insert.question_id]).name %> </td>
+	<td><%=h question_validation_insert.insert_number %></td>
+	<td><%=h WebCalc.find(:first, :conditions => ['id = ?', question_validation_insert.webcalc_id_to_insert]).name  %> </td>
+    <td><%=h question_validation_insert.insert_type %></td>
+	<td><%=h question_validation_insert.insert_marker %></td>
+    <td><%= link_to 'Show', question_validation_insert %></td>
+    <td><%= link_to 'Edit', edit_question_validation_insert_path(question_validation_insert) %></td>
+    <td><%= link_to 'Delete', question_validation_insert, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New question_validation_insert', new_question_validation_insert_path %>

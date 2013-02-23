@@ -1,0 +1,28 @@
+<% title "Listing Text Result Inserts" %>
+
+<table>	
+  	<tr>
+  		<th>Text Result</th>
+  		<th>Insert Number</th>
+  		<th>WebCalc to Insert</th>
+  		<th>Insert Type</th>
+  		<th>Insert Marker</th>
+   </tr>
+
+<% @text_result_inserts.each do |text_result_insert| %>
+  <tr>
+	<td><%=h WebTextResult.find(:first, :conditions => ['id = ?',  text_result_insert.web_text_result_id]).name %> </td>
+	<td><%=h text_result_insert.insert_number %></td>
+	<td><%=h WebCalc.find(:first, :conditions => ['id = ?', text_result_insert.webcalc_id_to_insert]).name  %> </td>
+    <td><%=h text_result_insert.insert_type %></td>
+	<td><%=h text_result_insert.insert_marker %></td>
+    <td><%= link_to 'Show', text_result_insert %></td>
+    <td><%= link_to 'Edit', edit_text_result_insert_path(text_result_insert) %></td>
+    <td><%= link_to 'Delete', text_result_insert, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New text_result_insert', new_text_result_insert_path %>

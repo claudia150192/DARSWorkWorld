@@ -1,0 +1,8 @@
+<% tips = @manager.get_all_tips @group %>
+<div id="tips">
+  <h3>Tips</h3>
+  <ul class='web_tips'>
+  <% tips.each do |tip| %>
+    <li class="tip#{tip.new ? 'new' : ''}"><%=calculate(tip[:text], session[:situation]) %></li>
+  <% end unless tips.blank? %>
+</div>

@@ -1,0 +1,28 @@
+<% title "Listing va medically needy monthly income limits" %>
+
+<table>
+  <tr>
+    <th>Start date</th>
+    <th>Assist/Family size</th>
+    <th>Group 1</th>
+    <th>Group 2</th>
+    <th>Group 3</th>
+  </tr>
+
+<% @va_medically_needy_monthly_income_limits.each do |va_medically_needy_monthly_income_limit| %>
+  <tr>
+    <td><%=h va_medically_needy_monthly_income_limit.start_date %></td>
+    <td><%=h va_medically_needy_monthly_income_limit.assist_size %></td>
+    <td><%=h va_medically_needy_monthly_income_limit.group1 %></td>
+    <td><%=h va_medically_needy_monthly_income_limit.group2 %></td>
+    <td><%=h va_medically_needy_monthly_income_limit.group3 %></td>
+    <td><%= link_to 'Show', va_medically_needy_monthly_income_limit %></td>
+    <td><%= link_to 'Edit', edit_va_medically_needy_monthly_income_limit_path(va_medically_needy_monthly_income_limit) %></td>
+    <td><%= link_to 'Delete', va_medically_needy_monthly_income_limit, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to ' New va medically needy monthly income limits', new_va_medically_needy_monthly_income_limit_path %>

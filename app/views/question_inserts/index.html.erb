@@ -1,0 +1,28 @@
+<% title "Listing Question Inserts" %>
+
+<table>	
+  	<tr>
+  		<th>Question</th>
+  		<th>Insert Number</th>
+  		<th>WebCalc to Insert</th>
+  		<th>Insert Type</th>
+  		<th>Insert Marker</th>
+   </tr>
+
+<% @question_inserts.each do |question_insert| %>
+  <tr>
+	<td><%=h Question.find(:first, :conditions => ['id = ?',  question_insert.question_id]).name unless Question.find(:first, :conditions => ['id = ?',  question_insert.question_id]).blank? %> </td>
+	<td><%=h question_insert.insert_number  unless question_insert.insert_number.blank? %></td>
+	<td><%=h WebCalc.find(:first, :conditions => ['id = ?', question_insert.webcalc_id_to_insert]).name unless WebCalc.find(:first, :conditions => ['id = ?', question_insert.webcalc_id_to_insert]).blank?  %> </td>
+    <td><%=h question_insert.insert_type  unless question_insert.blank?  %></td>
+	<td><%=h question_insert.insert_marker unless question_insert.blank? %></td>
+    <td><%= link_to 'Show', question_insert %></td>
+    <td><%= link_to 'Edit', edit_question_insert_path(question_insert) %></td>
+    <td><%= link_to 'Delete', question_insert, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New question_insert', new_question_insert_path %>

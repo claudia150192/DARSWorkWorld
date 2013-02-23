@@ -1,0 +1,22 @@
+<p>
+  <b>Start date:</b>
+  <%= @va_medicaid_rate.start_date %>
+</p>
+
+<p>
+  <b>va_rate_caid_works_resource_limit:</b>
+  <%= @va_medicaid_rate.va_rate_caid_works_resource_limit %>
+</p>
+
+<p>
+  <b>va_rate_caid_real_estate_resource_limit:</b>
+  <%= @va_medicaid_rate.va_rate_caid_real_estate_resource_limit %>
+</p>
+
+<p>
+  <b>va_rate_caid_ltc_home_equity_limit:</b>
+  <%= @va_medicaid_rate.va_rate_caid_ltc_home_equity_limit %>
+</p>
+
+<%= link_to 'Edit', edit_va_medicaid_rate_path(@va_medicaid_rate) %> |
+<%= link_to 'Back to va medicaid rates', va_medicaid_rates_path %>

@@ -1,0 +1,65 @@
+<p>
+  <%= form.label :name %><br />
+  <%= form.text_field :name, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :text %><br />
+  <%= form.text_field :text, :class => "textfield wide calculable" %>
+</p>
+<p>
+  <%= form.label :all_inputs_text %><br />
+  <%= form.text_field :all_inputs_text, :class => " textfield wide calculable", "data-bind-default-element"=>'question_text' %>
+  </p>
+  <em>Note that question text fields can include webcalcs by typing T{webcalc_name} or C{webcalc_name} in the question. the former will insert as text, the latter will attempt to format as currency.</em>
+<p>
+  <%= form.label :display_rules %><br />
+  <%= evaluable_field form, :display_rules %>
+</p>
+<p>
+  <%= form.label :reference_id %><br />
+  <%= form.text_field :reference_id, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :group_id %><br />
+  <%= form.select :group_id, QuestionGroup.all.collect {|p| [ p.name, p.id ] }, {:prompt => 'Select Group'}, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :question_order %><br />
+  <%= form.select :question_order, (1..100).collect { |number| number }, {:prompt => 'Select Order'}, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :question_type %><br />
+  <%= form.select :question_type, %w[text_field text_area select checkboxes radio_buttons hidden_field date_time not_question], {:prompt => 'Select Type'}, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :answer_choices %><br />
+  <%= form.text_area :answer_choices, :class => "textarea" %><br />
+	<span class="help">To use the list of US states enter: "states" or "States".<br /></span>
+	<span class="help">To use the list of VA counties and cities enter: "cities" or "Cities" or "Counties" or "counties" or "counties and cities" or "Counties and Cities".<br /></span>
+	<span class="help">To enter a list of choices user a comma separated list with a space after the comma: "answer 1, answer 2, answer 3".</span>
+  </p>
+  <p>
+  <%= form.label "Always use this default answer?" %>
+  <%= form.check_box :force_default %>
+  <div class="help">Checking this will prevent what-if situations from taking the default answer to this question from the previous situations answer</div>
+  </p>
+<p>
+  <%= form.label :default_answer %><br />
+  <%= evaluable_default_answer form %>
+</p>
+<p>
+  <%= form.label :validation_rules %><br />
+	<%= evaluable_field form, :validation_rules %>
+</p>
+<p>
+  <%= form.label :validation_message %><br />
+  <%= form.text_field :validation_message, :class => "textfield calculable" %>
+</p>
+<p>
+  <%= form.label :help_id %><br />
+  <%= form.text_field :help_id, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :workbook_order %><br />
+  <%= form.text_field :workbook_order, :class => "textfield" %>
+</p>

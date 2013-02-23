@@ -1,0 +1,28 @@
+<% title "Listing question groups" %>
+
+<table class='arrows'>
+  <tr>
+    <th><%= sortable "name", "Name" %></th>
+	<th><%= sortable "parent_id", "Parent Group" %></th>
+	<th><%= sortable "next_group_id", "Next Group" %></th>
+	<th>Previous Group</th>
+	<th><%= sortable "workbook_order", "Workbook Order" %></th>
+  </tr>
+
+<% @question_groups.each do |question_group| %>
+  <tr>
+    <td><%=h question_group.name %></td>
+		<td><%=h question_group.parent.name unless question_group.parent.blank? %></td>
+		<td><%=h question_group.next_group.name unless question_group.next_group.blank? %></td>
+		<td><%=h question_group.previous_group.name unless question_group.previous_group.blank? %></td>
+		<td><%=h question_group.workbook_order unless question_group.workbook_order.blank? %></td>
+    <td><%= link_to 'Show', question_group %></td>
+    <td><%= link_to 'Edit', edit_question_group_path(question_group) %></td>
+    <td><%= link_to 'Delete', question_group, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New question group', new_question_group_path %>

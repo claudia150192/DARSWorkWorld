@@ -1,0 +1,27 @@
+<h1>Listing chart_results</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Web Calc</th>
+    <th>Chart</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @chart_results.each do |chart_result| %>
+  <tr>
+    <td><%= chart_result.name %></td>
+    <td><%= chart_result.web_calc.name %></td>
+    <td><%= chart_result.chart.title %></td>
+    <td><%= link_to 'Show', chart_result %></td>
+    <td><%= link_to 'Edit', edit_chart_result_path(chart_result) %></td>
+    <td><%= link_to 'Delete', chart_result, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Chart result', new_chart_result_path %>

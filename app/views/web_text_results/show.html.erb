@@ -1,0 +1,38 @@
+<% title h(@web_text_result.name) %>
+
+<p>
+  <b>Name:</b>
+  <%= @web_text_result.identifier %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%= @web_text_result.text %>
+</p>
+
+<p>
+  <b>Display rules:</b>
+  <%= @web_text_result.display_rules %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @web_text_result.comment %>
+</p>
+
+<p>
+<b>Help Id:</b>
+  <%= @web_text_result.help_id %>
+</p>
+<p>
+  <b>Order:</b>
+  <%= @web_text_result.workbook_order %>
+</p>
+
+<p>
+  <b>Group:</b>
+  <%= @web_text_result.group.name unless @web_text_result.group.blank? %>
+</p>
+
+<%= link_to 'Edit', edit_web_text_result_path(@web_text_result) %> |
+<%= link_to 'Back to web text results', web_text_results_path %>

@@ -1,0 +1,9 @@
+<% title "Edit Web Tip Inserts" %>
+
+<% form_for(@web_tip_insert) do |f| %>
+  <%= f.error_messages %>
+	<%= render :partial => "form", :object => f %>
+  <p>
+    <%= f.submit 'Update', :class => "button" %> <%= link_to 'Cancel', :back %>
+  </p>
+<% end %>

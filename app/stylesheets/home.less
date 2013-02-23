@@ -1,0 +1,87 @@
+@import "_base";
+
+/* Classes */
+.full-width-container {
+	width: 900px;
+	margin: auto;
+	clear: both;
+}
+.half-width-container {
+	width: 442px;
+	height: 100%;
+}
+/* End Classes*/
+/* Home Page Intro */
+#banner {
+	.full-width-container;
+	height: 200px;
+	margin-bottom: 10px;
+	
+	#features,
+	#info {
+		.half-width-container;
+		padding: 5px 2px;
+	}
+ 	#features {
+		float: left;
+	}
+	#info {
+		float: right;
+	}
+	ul {
+		margin: 10px 10px 10px 15px;
+		list-style: none;
+	}
+}
+/* End Home Page Intro */
+/* Log In and Register Action Buttons */
+#call-to-action {
+	.full-width-container;
+	height: 150px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+	display: block;
+	clear: both;
+ 	
+	#buttons {
+		width: 100%;
+		display: block;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+	}
+	ul {
+		display: block;
+		list-style: none;
+		width: 100%;
+		margin: 5px auto;
+	}
+	li {
+		.half-width-container;
+		display: inline;
+		background-color: @dark_blue;
+		color: white;
+		border: 2px @light_blue solid;
+		text-align: center;
+		line-height: 2em;
+		margin-bottom: 5px;
+	}
+	li:hover {
+		background-color: @light_blue;
+		color: black;
+		border: 2px @light_blue solid;
+	}
+	li a,
+	li a:visited,
+	li a:active {
+		text-decoration: none;
+		color: inherit;
+		width: 100%;
+	}
+	li a:hover {
+		text-decoration: none;
+		color: inherit;
+		width: 100%;
+	}
+}
+/* End Log In and Register Action Buttons */

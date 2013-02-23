@@ -1,0 +1,5 @@
+# display rule to validate that the current user is an admin.  
+!defined?(@current_user).nil? && @current_user.admin?
+
+# display rule to validate that the situation is not a what_if situation
+!manager.situation.what_if?

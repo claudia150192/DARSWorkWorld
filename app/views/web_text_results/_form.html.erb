@@ -1,0 +1,31 @@
+<p>
+  <%= form.label :name %><br />
+  <%= form.text_field :name, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :text %><br />
+  <%= form.text_area :text, :class => "textfield" %>
+</p>
+
+<p>
+  <%= form.label :comment %><br />
+  <%= form.text_area :comment, :class => "textarea" %>
+</p>
+<p>
+  <%= form.label :display_rules %><br />
+  <%= evaluable_field form, :display_rules %>
+</p>
+
+<p>
+  <%= form.label :help_id %><br />
+  <%= form.text_field :help_id, :class => "textfield" %>
+</p>
+<p>
+  <%= form.label :order %><br />
+  <%= form.select :order, (1..100).collect { |number| number }, {:prompt => 'Select Order'}, :class => "textfield" %>
+</p> 
+
+<p>
+  <%= form.label :group_id %><br />
+  <%= form.select :group_id, WebTextResultsGroup.all.collect {|p| [ p.name, p.id ] }, {:prompt => 'Select Group'}, :class => "textfield" %>
+</p>

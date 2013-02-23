@@ -1,0 +1,5 @@
+<h3>Are you certain that you want to delete the case '<%= @case.name %>' ?</h3>
+<% form_for(:case, :url => case_path(@case), :html => {:method => :delete}) do  %>
+  <%= submit_tag "Confirm", :class=>"button" %>
+<% end %>
+

@@ -1,0 +1,54 @@
+<% title "Listing federal poverty levels" %>
+
+<table>
+  <tr>
+    <th>Start date</th>
+    <th>End date</th>
+    <th>Family size 1</th>
+    <th>Family size 2</th>
+    <th>Family size 3</th>
+    <th>Family size 4</th>
+    <th>Family size 5</th>
+    <th>Family size 6</th>
+    <th>Family size 7</th>
+    <th>Family size 8</th>
+    <th>Family size 9</th>
+    <th>Family size 10</th>
+    <th>Family size 11</th>
+    <th>Family size 12</th>
+    <th>Family size 13</th>
+    <th>Family size 14</th>
+    <th>Family size 15</th>
+    <th>Additional</th>
+  </tr>
+
+<% @federal_poverty_levels.each do |federal_poverty_level| %>
+  <tr>
+    <td><%=h federal_poverty_level.start_date %></td>
+    <td><%=h federal_poverty_level.end_date %></td>
+    <td><%=h federal_poverty_level.family_size_1 %></td>
+    <td><%=h federal_poverty_level.family_size_2 %></td>
+    <td><%=h federal_poverty_level.family_size_3 %></td>
+    <td><%=h federal_poverty_level.family_size_4 %></td>
+    <td><%=h federal_poverty_level.family_size_5 %></td>
+    <td><%=h federal_poverty_level.family_size_6 %></td>
+    <td><%=h federal_poverty_level.family_size_7 %></td>
+    <td><%=h federal_poverty_level.family_size_8 %></td>
+    <td><%=h federal_poverty_level.family_size_9 %></td>
+    <td><%=h federal_poverty_level.family_size_10 %></td>
+    <td><%=h federal_poverty_level.family_size_11 %></td>
+    <td><%=h federal_poverty_level.family_size_12 %></td>
+    <td><%=h federal_poverty_level.family_size_13 %></td>
+    <td><%=h federal_poverty_level.family_size_14 %></td>
+    <td><%=h federal_poverty_level.family_size_15 %></td>
+    <td><%=h federal_poverty_level.additional %></td>
+    <td><%= link_to 'Show', federal_poverty_level %></td>
+    <td><%= link_to 'Edit', edit_federal_poverty_level_path(federal_poverty_level) %></td>
+    <td><%= link_to 'Delete', federal_poverty_level, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New federal poverty level', new_federal_poverty_level_path %>

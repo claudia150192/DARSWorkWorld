@@ -1,0 +1,15 @@
+<% title display_situation_name session[:situation] %>
+<table>
+	<tr>
+		<th>Group/Question</th>
+		<th><%= display_situation_name session[:situation] %></th>
+	</tr>
+	<% @parents.each do |parent| %>
+		<%= display_group_answers parent, session[:situation] %>
+	<% end unless session[:situation].blank? || session[:situation][:groups].blank? %>
+</table>
+
+<p>
+	<%= link_to "Show Numerical Results", :action => "snooki" %>
+	<%= link_to "Show Text Results", :action => "showtext" %>
+</p>

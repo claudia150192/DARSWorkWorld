@@ -1,0 +1,22 @@
+<% title "Listing web numerical results groups" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Order</th>
+  </tr>
+
+<% @web_numerical_results_groups.each do |web_numerical_results_group| %>
+  <tr>
+    <td><%=h web_numerical_results_group.name %></td>
+    <td><%=h web_numerical_results_group.order %></td>
+    <td><%= link_to 'Show', web_numerical_results_group %></td>
+    <td><%= link_to 'Edit', edit_web_numerical_results_group_path(web_numerical_results_group) %></td>
+    <td><%= link_to 'Delete', web_numerical_results_group, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New web numerical results group', new_web_numerical_results_group_path %>
