@@ -1,7 +1,9 @@
 <h1>Save case as</h1>
 
 <%= form_for(@case, :url=>case_copyto_path(@case),:method=>:post) do |f| %>
-  <%= f.error_messages %>
+  <% @case.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
 
   <%= render :partial => "form", :object => f %>
   <p>

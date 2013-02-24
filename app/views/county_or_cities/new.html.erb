@@ -1,7 +1,9 @@
 <% title "New county or city" %>
 
 <% form_for(@county_or_city) do |f| %>
-  <%= f.error_messages %>
+  <% @county_or_city.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
 
   <p>
     <%= f.label :name %><br />

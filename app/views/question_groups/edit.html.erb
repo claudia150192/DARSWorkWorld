@@ -1,7 +1,9 @@
 <% title "Edit question group" %>
 
 <%= form_for(@question_group) do |f| %>
-  <%= f.error_messages %>
+  <% @question_group.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
 	<%= render :partial => "form", :object => f %>
   <p>
     <%= f.submit 'Update', :class => "button" %> <%= link_to 'Cancel', :back %>

@@ -1,7 +1,9 @@
 <% title "Editing medicaid annual blind threshold" %>
 
 <% form_for(@medicaid_annual_blind_threshold) do |f| %>
-  <%= f.error_messages %>
+  <% @medicaid_annual_blind_threshold.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
 	<%= render :partial => "form", :object => f %>
   <%= f.submit "Update", :class => "button" %> <%= link_to 'Cancel', :back %>
 <% end %>

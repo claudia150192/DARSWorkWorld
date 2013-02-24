@@ -1,7 +1,9 @@
 <h1>Edit Case Notes</h1>
 
 <%= form_for(@case) do |f| %>
-  <%= f.error_messages %>
+  <% @case.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
 
   <%= render :partial => "form", :object => f %>
   <p>

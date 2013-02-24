@@ -1,7 +1,9 @@
 <% title "New medicaid_annual_threshold" %>
 
 <% form_for(@medicaid_annual_threshold) do |f| %>
-  <%= f.error_messages %>
+  <% @medicaid_annual_threshold.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
 	<%= render :partial => "form", :object => f %>
   <%= f.submit "Create", :class => "button" %> <%= link_to 'Cancel', :back %>
 <% end %>

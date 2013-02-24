@@ -1,7 +1,9 @@
 <% title "Edit Question Validation Message Inserts" %>
 
 <% form_for(@question_validation_insert) do |f| %>
-  <%= f.error_messages %>
+  <% (@question_validation_insert.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
 	<%= render :partial => "form", :object => f %>
   <p>
     <%= f.submit 'Update', :class => "button" %> <%= link_to 'Cancel', :back %>

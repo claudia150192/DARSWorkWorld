@@ -1,7 +1,9 @@
 <h1>Editing county or city</h1>
 
 <% form_for(@county_or_city) do |f| %>
-  <%= f.error_messages %>
+  <% @county_or_city.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
 
   <p>
     <%= f.label :name %>  
