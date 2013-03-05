@@ -22,7 +22,7 @@ class UsersController < ApplicationController
         flash[:notice] = "Account created.  Please check your email for activation instructions!"
       end
       
-      @user.activate! #TODO: Remove this once email confirmations are working
+      #@user.activate! #TODO: Remove this once email confirmations are working
       
       redirect_to :registration_confirmation
     else
