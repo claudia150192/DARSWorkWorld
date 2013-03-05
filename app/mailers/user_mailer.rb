@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default :from => "WorkWorld@vcu.edu"
+  default :from => "asime@opensourceconnections.com"
   def welcome_email(user)
     @user = user
     @url = login_url
