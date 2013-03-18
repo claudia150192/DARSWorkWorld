@@ -62,7 +62,7 @@ class Case < ActiveRecord::Base
 
   def build_what_if(parent)
     unless parent.blank?
-      what_if = parent.clone(:include=>:answers, :except=>:parent_id)
+      what_if = parent.dup(:include=>:answers, :except=>:parent_id)
       what_if.parent = parent
       name_q = Question.find_by_name 'sitName'
       name_answer = what_if.answers.to_a.find{|a| a.question_id == name_q.id}

@@ -156,7 +156,7 @@ class SituationsController < ApplicationController
   
   # Display numerical results
   def numeric_results
-    @groups = WebNumericalResultsGroup.all :order => "web_numerical_results_groups.order ASC"
+    @groups = WebNumericalResultsGroup.all # :order => "web_numerical_results_groups.order ASC"
     respond_to do |format|
       format.html
       format.pdf do
@@ -172,7 +172,7 @@ class SituationsController < ApplicationController
 
  # show text results
   def text_results
-    @groups = WebTextResultsGroup.all :order => "web_text_results_groups.order ASC"
+    @groups = WebTextResultsGroup.all # :order => "web_text_results_groups.order ASC"
     respond_to do |format|
       format.html
       format.pdf do
