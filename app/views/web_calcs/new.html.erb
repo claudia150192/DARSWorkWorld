@@ -1,7 +1,9 @@
 <% title "New web calc" %>
 
 <%= form_for(@web_calc) do |f| %>
-  <%= f.error_messages %>
+  <% @web_calc.errors.full_messages.each do |msg| %>
+	<p><%= msg %></p>
+<% end %>
 	<%= render :partial => "form", :object => f %>
   <p>
     <%= f.submit 'Create', :class => "button" %> <%= link_to "Cancel", :back %>

@@ -1,7 +1,9 @@
 <% title "New va max auxiliary grant facility rate" %>
 
 <% form_for(@va_max_auxiliary_grant_facility_rate) do |f| %>
-  <%= f.error_messages %>
+  <% @va_max_auxiliary_grant_facility_rate.errors.full_messages.each do |msg| %>
+	<p><%= msg %></p>
+<% end %>
 	<%= render :partial => "form", :object => f %>
   <%= f.submit "Create", :class => "button" %> <%= link_to 'Cancel', :back %>
 <% end %>

@@ -1,7 +1,9 @@
 <% title "New web numerical result" %>
 
 <%= form_for(@web_numerical_result) do |f| %>
-  <%= f.error_messages %>
+  <% @web_numerical_result.errors.full_messages.each do |msg| %>
+	<p><%= msg %></p>
+  <% end %>
 	<%= render :partial => "form", :object => f %>
   <p>
     <%= f.submit 'Create', :class => "button" %> <%= link_to 'Cancel', :back %>

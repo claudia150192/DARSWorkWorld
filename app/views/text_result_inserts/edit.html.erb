@@ -1,7 +1,9 @@
 <% title "Edit Text Result Inserts" %>
 
 <% form_for(@text_result_insert) do |f| %>
-  <%= f.error_messages %>
+  <% @text_result_insert.errors.full_messages.each do |msg| %>
+	<p><%= msg %></p>
+  <% end %>
 	<%= render :partial => "form", :object => f %>
   <p>
     <%= f.submit 'Update', :class => "button" %> <%= link_to 'Cancel', :back %>
