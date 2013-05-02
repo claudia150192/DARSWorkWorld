@@ -1,0 +1,163 @@
+// Mixins
+.animation(@properties: .25s){
+  -webkit-animation: @properties;
+  -moz-animation:    @properties;
+  -o-animation:      @properties;
+  animation:         @properties;
+}
+.border-radius(@radius: 3px){
+  -webkit-border-radius: @radius;
+  -moz-border-radius:    @radius;
+  border-radius:         @radius;
+}
+.border-radius-top(@radius: 3px){
+  -webkit-border-top-left-radius: @radius;
+  -webkit-border-top-right-radius: @radius;
+  -moz-border-radius-topleft: @radius;
+  -moz-border-radius-topright: @radius;
+  border-top-left-radius: @radius;
+  border-top-right-radius: @radius;
+}
+.border-radius-topRight(@radius: 3px){
+  -webkit-border-top-right-radius: @radius;
+  -moz-border-radius-topright: @radius;
+  border-top-right-radius: @radius;
+}
+.border-radius-topLeft(@radius: 3px){
+  -webkit-border-top-left-radius: @radius;
+  -moz-border-radius-topleft: @radius;
+  border-top-left-radius: @radius;
+}
+.border-radius-bottom(@radius: 3px){
+  -webkit-border-bottom-left-radius: @radius;
+  -webkit-border-bottom-right-radius: @radius;
+  -moz-border-radius-bottomleft: @radius;
+  -moz-border-radius-bottomright: @radius;
+  border-bottom-left-radius: @radius;
+  border-bottom-right-radius: @radius;
+}
+.border-radius-bottomRight(@radius: 3px){
+  -webkit-border-bottom-right-radius: @radius;
+  -moz-border-radius-bottomright: @radius;
+  border-bottom-right-radius: @radius;
+}
+.border-radius-bottomLeft(@radius: 3px){
+  -webkit-border-bottom-left-radius: @radius;
+  -moz-border-radius-bottomleft: @radius;
+  border-bottom-left-radius: @radius;
+}
+.border-radius-left(@radius: 3px){
+-webkit-border-top-left-radius: @radius;
+-webkit-border-bottom-left-radius: @radius;
+-moz-border-radius-topleft: @radius;
+-moz-border-radius-bottomleft: @radius;
+border-top-left-radius: @radius;
+border-bottom-left-radius: @radius;
+}
+.border-radius-right(@radius: 3px){
+-webkit-border-top-right-radius: @radius;
+-webkit-border-bottom-right-radius: @radius;
+-moz-border-radius-topright: @radius;
+-moz-border-radius-bottomright: @radius;
+border-top-right-radius: @radius;
+border-bottom-right-radius: @radius;
+}
+.box-sizing{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  // *behavior: url('../js/boxsizing.htc');
+}
+.box-shadow(@properties: none){
+  -webkit-box-shadow: @properties;
+  -moz-box-shadow:    @properties;
+  box-shadow:         @properties;
+}
+.inline-block{
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.opacity(@value:0.4, @msValue:0.4*100){
+  opacity: @value;
+  filter: alpha(opacity=@msValue);
+  zoom: 1;
+}
+.placeholder-color(@color: @placeholder){
+  &:-moz-placeholder{
+    color: @color;
+    }
+  &::-webkit-input-placeholder{
+    color: @color;
+    }
+  &.placeholder{
+    color: @color;
+    }
+}
+.transition(@properties: .25s){
+  -webkit-transition: @properties;
+  -moz-transition:    @properties;
+  -o-transition:      @properties;
+  transition:         @properties;
+  -webkit-backface-visibility: hidden;
+}
+.transform(@properties){
+  -webkit-transform: @properties;
+  -moz-transform:    @properties;
+  -ms-transform:     @properties;
+  -o-transform:      @properties;
+  transform:         @properties;
+}
+.vertical-gradient(@from, @to){
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, @from), color-stop(100%, @to));
+  background: -webkit-linear-gradient(top, @from, @to);
+  background:    -moz-linear-gradient(top, @from, @to);
+  background:     -ms-linear-gradient(top, @from, @to);
+  background:      -o-linear-gradient(top, @from, @to);
+  background:         linear-gradient(to bottom, @from, @to);
+}
+.selection(@color){
+  &::selection{
+    background: @color;
+  }
+  &::-moz-selection{
+    background: @color;
+  }
+}
+.floatClear{
+  width: 100%;
+  height: 1px;
+  display: block;
+  clear: both;
+  float: none;
+  margin-top: -1px;
+}
+.clearfix{
+  *zoom: 1;
+  &:before,
+  &:after{
+    display: table;
+    content: "";
+  }
+  &:after{
+    clear: both;
+  }
+}
+.dropdown-arrow(@color: @base, @top: 5px, @left: 15px, @size: 9px){
+  &:before{
+    content:"";
+    border-style: solid;
+    border-width: 0 @size @size @size;
+    border-color: transparent transparent @color transparent;
+    height: 0px;
+    position: absolute;
+    left: @left;
+    top: @top;
+    width: 0px;
+    // Make corners smooth
+    -webkit-transform: rotate(360deg);
+    }
+}
+.drop-ie-gradient{
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='false');
+}

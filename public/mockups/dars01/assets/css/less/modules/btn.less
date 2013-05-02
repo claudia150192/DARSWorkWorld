@@ -1,0 +1,48 @@
+.btn{
+  border: none;
+  background: url("../img/gradientSprite.png") 0 -150px #e0e0e0;
+  color: @wwBlue;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: none;
+  .box-shadow(none);
+  .border-radius();
+  .transition(none);
+  
+  &:hover,
+  &:focus{
+    background: url("../img/gradientSprite.png") 0 -150px #e0e0e0;
+    color: @wwBlue + #222;
+    .transition(none);
+  }
+  
+  &:active,
+  &.active{
+    background-color:  @wwBlue - #222;
+    color: @wwBlue;
+    .box-shadow();
+  }
+  
+  &.disabled,
+  &[disabled]{
+    background-color: @gray - #222;
+    color: @base;
+  }
+  
+  // Sizes -----------------------
+  &.btn-large{
+    font-size: 18px;
+    line-height: 18px;
+    .border-radius(4px);
+    border: 1px solid #dedede;
+    .box-shadow(0px 1px 1px #7e7e7e);
+    
+    &:hover{
+      background: url("../img/gradientSprite.png") 0 -195px #e0e0e0;
+    }
+  }
+
+  // Colors -----------------------
+
+}

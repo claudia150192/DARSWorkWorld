@@ -1,0 +1,164 @@
+//Tables
+@tbRadious: 3px;
+@tbBorder: @lightgray;
+
+table{
+  .border-radius(@tbRadious);
+  border-collapse:separate;
+  text-align: center;
+  
+  tr td{
+    border-left: 1px solid @tbBorder;
+    padding: 5px;
+    vertical-align: middle;
+  }
+
+  tr td:last-child{
+    border-right: 1px solid @tbBorder;
+  }
+    
+  thead{
+    background: @tbMain;
+    .border-radius-top(@tbRadious);
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+
+    tr:first-child td{
+      border-top: 1px solid @tbBorder;
+    }   
+     
+    tr td:last-child{
+      .border-radius-topRight(@tbRadious);
+    }
+    
+    tr td:first-child{
+      .border-radius-topLeft(@tbRadious);
+    }
+
+  }
+  
+  tbody{
+    background: @tbMain + #888;
+    .border-radius-bottom(@tbRadious);
+    font-size: 90%;
+    
+    tr:nth-child(even){
+      background: @lightBlue;
+    }
+
+    tr:last-child td{
+      border-bottom: 1px solid @tbBorder;
+    } 
+
+    tr:last-child td:last-child{
+    .border-radius-bottomRight(@tbRadious);
+    }
+    
+    tr:last-child td:first-child{
+    .border-radius-bottomLeft(@tbRadious);
+    }
+
+    tr td:first-child{
+      text-align: left;
+    }
+    a{
+      margin: 0 3px;
+    }
+    tr td a:first-child{
+      margin: 0 3px 0 0;
+    }
+    tr td a:last-child{
+      margin: 0 0 0 3px;
+    }
+
+  }
+  
+  &.tbWarning{
+    color: @tsWarningDark - #666;
+    thead{
+      background: @tsWarningDark;
+    }
+    
+    tbody{
+      background: @tsWarning + #888;
+    }  
+    
+    tr:nth-child(even){
+      background: @tsWarning;
+    }
+    
+  }
+
+  &.tbSuccess{
+    color: @tsSuccessDark - #666;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    thead{
+      background: @tsSuccessDark;
+    }
+    
+    tbody{
+      background: @tsSuccess + #888;
+    }  
+    
+    tr:nth-child(even){
+      background: @tsSuccess;
+    }
+
+  }
+  
+  //Alert Row    
+  tr.alertRow{
+   
+    background: @tsAlert  !important;
+    color: @tsAlertDark;
+    td:first-child{
+      position: relative;
+      
+      .alertIcon{
+        position: relative;
+        width: 0px;
+        height: 26px;
+        overflow: hidden;
+        margin-left: -5px;
+        
+        &:before{
+          content: "";
+          position: absolute;
+          top: -5px;
+          left: -40px;
+          display: block;
+          width: 40px;
+          height: 30px;
+          background: @mainSprite -54px -150px;
+          cursor: pointer;
+        }
+        .tooltip{
+          display:none;
+          position: absolute;
+          top:-78px;
+          left: -38px;
+          &.top{
+            padding-bottom: 9px;
+            .tooltip-arrow{
+              bottom: 0;
+              left: 6px;
+              margin-left: 0;
+            }
+          }
+          .tooltip-inner{
+            max-width: 250px;
+            width: 250px;
+            a{
+              color: @tsAlertDark - #666;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

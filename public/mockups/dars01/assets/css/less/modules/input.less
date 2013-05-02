@@ -1,0 +1,82 @@
+.input-states(@color){
+  border-color: @color;
+  color: @color;
+  .box-shadow(none);
+  &:focus{
+    .box-shadow(none);
+  }
+}
+// Text fields
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input{
+  border: 1px solid #cacaca;
+  color: @base;
+  background: #e7e5e5;
+  font-family: @base-font-family;
+  font-size: @base-font-size;
+  padding: 6px 0 7px 10px;
+  text-indent: 1px;
+  .border-radius(4px);
+  .box-shadow(inset 0 1px 1px #7e7e7e);
+  .placeholder-color();
+
+  &:focus{
+    border-color: @wwBlue;
+    background: #f8f8f8;
+  }
+  .control-group.error &{
+    .input-states(@danger - #444);
+    background: @danger;
+  }
+  .control-group.success &{
+    .input-states(@success -#4444);
+    background: @success;
+  }
+  .control-group.warning &{
+    .input-states(@warning);
+  }
+  .control-group.info &{
+    .input-states(@info);
+  }
+}
+
+// Disabled state -----------------
+input[disabled],
+input[readonly],
+textarea[disabled],
+textarea[readonly]{
+  background-color: @gray - #222;
+  color: @base + #333;
+  border-color: @gray;
+  cursor: default;
+}
+
+// Text field grids -----------------
+input,
+textarea,
+.uneditable-input{
+  width: 192px;
+}
+
+.span3{
+  input,
+  textarea,
+  .uneditable-input{
+    width: 208px;
+  }
+}
+

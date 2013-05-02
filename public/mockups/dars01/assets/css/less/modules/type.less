@@ -1,0 +1,53 @@
+// Typography
+
+@base-font-family: 'Lato', sans-serif;
+@base-font-size:   14px;
+
+body{
+  color: @base;
+  font: @base-font-size 'PT Sans', sans-serif;
+  line-height: 1.4;
+}
+a{
+  color: @wwOrange;
+  text-decoration: underline;
+  .transition();
+  &:hover{
+    color: @wwOrange - #222;
+    text-decoration: none;
+  }
+}
+h1, h2, h3, h4 ,h5, h6{
+  line-height: 1.1;
+}
+h1{
+  font-size: 24px;
+  font-weight: 900;
+}
+h2{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+h3{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+h4{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+h5{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h6{
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
